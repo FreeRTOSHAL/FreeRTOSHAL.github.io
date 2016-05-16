@@ -1,0 +1,4 @@
+<map id="SPI Subsystem" name="SPI Subsystem">
+<area shape="rect" id="node1" href="$group__SPI__SLAVE.html" title="SPI Slave Subsystem" alt="" coords="364,13,515,39"/>
+<area shape="rect" id="node2" href="$group__HAL.html" title="Hardware Abstraction\l Layer for FreeRTOS" alt="" coords="5,5,153,47"/>
+</map>

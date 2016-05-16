@@ -1,0 +1,28 @@
+<map id="driver/include/hal.h" name="driver/include/hal.h">
+<area shape="rect" id="node2" href="$accel_8h.html" title="driver/include/accel.h" alt="" coords="327,87,473,114"/>
+<area shape="rect" id="node4" href="$accel__prv_8h.html" title="driver/include/accel\l_prv.h" alt="" coords="169,80,303,121"/>
+<area shape="rect" id="node5" href="$adc_8h.html" title="driver/include/adc.h" alt="" coords="2633,87,2767,114"/>
+<area shape="rect" id="node7" href="$adc__prv_8h.html" title="driver/include/adc\l_prv.h" alt="" coords="497,80,621,121"/>
+<area shape="rect" id="node8" href="$capture_8h.html" title="driver/include/capture.h" alt="" coords="645,87,803,114"/>
+<area shape="rect" id="node9" href="$capture__prv_8h.html" title="driver/include/capture\l_prv.h" alt="" coords="827,80,973,121"/>
+<area shape="rect" id="node10" href="$example_8h.html" title="driver/include/example.h" alt="" coords="997,87,1160,114"/>
+<area shape="rect" id="node11" href="$example__prv_8h.html" title="driver/include/example\l_prv.h" alt="" coords="1184,80,1336,121"/>
+<area shape="rect" id="node12" href="$gpio_8h.html" title="driver/include/gpio.h" alt="" coords="1360,87,1499,114"/>
+<area shape="rect" id="node13" href="$gpio__prv_8h.html" title="driver/include/gpio\l_prv.h" alt="" coords="1523,80,1650,121"/>
+<area shape="rect" id="node14" href="$gyro_8h.html" title="driver/include/gyro.h" alt="" coords="5,87,144,114"/>
+<area shape="rect" id="node15" href="$gyro__prv_8h.html" title="driver/include/gyro\l_prv.h" alt="" coords="1829,80,1957,121"/>
+<area shape="rect" id="node16" href="$pwm_8h.html" title="driver/include/pwm.h" alt="" coords="1982,87,2125,114"/>
+<area shape="rect" id="node17" href="$pwm__prv_8h.html" title="driver/include/pwm\l_prv.h" alt="" coords="2148,80,2279,121"/>
+<area shape="rect" id="node18" href="$sd_8h.html" title="driver/include/sd.h" alt="" coords="2303,87,2431,114"/>
+<area shape="rect" id="node19" href="$sd__prv_8h.html" title="driver/include/sd_prv.h" alt="" coords="2455,87,2609,114"/>
+<area shape="rect" id="node20" href="$spi_8h.html" title="driver/include/spi.h" alt="" coords="1675,87,1805,114"/>
+<area shape="rect" id="node21" href="$spi__prv_8h.html" title="driver/include/spi\l_prv.h" alt="" coords="2792,80,2912,121"/>
+<area shape="rect" id="node22" href="$timer_8h.html" title="driver/include/timer.h" alt="" coords="2937,87,3079,114"/>
+<area shape="rect" id="node23" href="$timer__prv_8h.html" title="driver/include/timer\l_prv.h" alt="" coords="3103,80,3235,121"/>
+<area shape="rect" id="node24" href="$uart_8h.html" title="driver/include/uart.h" alt="" coords="3260,87,3396,114"/>
+<area shape="rect" id="node27" href="$uart__prv_8h.html" title="driver/include/uart\l_prv.h" alt="" coords="3420,80,3545,121"/>
+<area shape="rect" id="node3" href="$mpu9250_8h.html" title="driver/include/mpu9250.h" alt="" coords="317,177,483,203"/>
+<area shape="rect" id="node6" href="$tps65381_8h.html" title="driver/include/tps65381.h" alt="" coords="2137,177,2303,203"/>
+<area shape="rect" id="node25" href="$newlib__stub_8h.html" title="driver/include/newlib\l_stub.h" alt="" coords="3178,169,3318,211"/>
+<area shape="rect" id="node26" href="$nlibc__stub_8h.html" title="driver/include/nlibc\l_stub.h" alt="" coords="3343,169,3473,211"/>
+</map>

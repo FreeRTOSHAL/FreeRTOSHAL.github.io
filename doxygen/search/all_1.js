@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['bautrate',['bautrate',['../structspi__opt.html#a07d6a7002f64dcd9c05d9d414e323343',1,'spi_opt']]],
+  ['bit',['BIT',['../group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae',1,'system.h']]],
+  ['bss_5fdefault',['BSS_DEFAULT',['../group__LINKER.html#gaf2b2483c34e9cd8f099d90f01c89f52a',1,'linker.h']]],
+  ['bss_5ffreertos',['BSS_FREERTOS',['../group__LINKER.html#gaa9a55098eac7cd6af4d111d3e5a42a9b',1,'linker.h']]],
+  ['bss_5fstart',['BSS_START',['../group__LINKER.html#gaaa4cac0bc6572368838af44d9cd914a0',1,'linker.h']]],
+  ['bss_5fstop',['BSS_STOP',['../group__LINKER.html#gaad722a767f7625efa71f0fba0debd810',1,'linker.h']]],
+  ['buffer_2eh',['buffer.h',['../buffer_8h.html',1,'']]],
+  ['buffer_5fdeinit',['buffer_deinit',['../group__BUFFER.html#gaae7df5fe450c6fe853a0aee0419c2e7c',1,'buffer.h']]],
+  ['buffer_5feinval',['BUFFER_EINVAL',['../group__BUFFER.html#ga0975564dca523d5f2efe31836fd25c25',1,'buffer.h']]],
+  ['buffer_5fempty',['buffer_empty',['../group__BUFFER.html#gad14eddd9926027149a921d4a5b93830b',1,'buffer.h']]],
+  ['buffer_5finit',['buffer_init',['../group__BUFFER.html#ga250d7e5fbaa4582275c441050bed35d3',1,'buffer.h']]],
+  ['buffer_5fis_5ffull',['buffer_is_full',['../group__BUFFER.html#gaa11cdd6f9d287e0cb267c50ea0b095b1',1,'buffer.h']]],
+  ['buffer_5fno_5fspace_5fleft',['BUFFER_NO_SPACE_LEFT',['../group__BUFFER.html#ga2829c69d381c2c13d55f237e62879a2b',1,'buffer.h']]],
+  ['buffer_5foperation_5fnot_5fsupported',['BUFFER_OPERATION_NOT_SUPPORTED',['../group__BUFFER.html#gad2c2d72ab9f0d9f6fed3d80b01e9979a',1,'buffer.h']]],
+  ['buffer_5fprv_2eh',['buffer_prv.h',['../buffer__prv_8h.html',1,'']]],
+  ['buffer_5fread',['buffer_read',['../group__BUFFER.html#gab67c8dc1cbceafe7c3ed0f10ce50ad59',1,'buffer.h']]],
+  ['buffer_5fwrite',['buffer_write',['../group__BUFFER.html#ga011d4dd9d468b86dc49c26da3cc00b11',1,'buffer.h']]]
+];

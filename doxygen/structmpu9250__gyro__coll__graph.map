@@ -1,0 +1,9 @@
+<map id="mpu9250_gyro" name="mpu9250_gyro">
+<area shape="rect" id="node2" href="$structmpu9250.html" title="mpu9250" alt="" coords="140,184,215,211"/>
+<area shape="rect" id="node4" href="$structmpu9250__accel.html" title="mpu9250_accel" alt="" coords="114,273,227,300"/>
+<area shape="rect" id="node3" href="$structspi__opt.html" title="spi_opt" alt="" coords="205,95,269,121"/>
+<area shape="rect" id="node5" href="$structvector.html" title="vector" alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node6" href="$structaccel__generic.html" title="accel_generic" alt="" coords="239,184,342,211"/>
+<area shape="rect" id="node7" href="$structhal.html" title="hal" alt="" coords="294,95,333,121"/>
+<area shape="rect" id="node8" href="$structgyro__generic.html" title="gyro_generic" alt="" coords="107,5,203,32"/>
+</map>
