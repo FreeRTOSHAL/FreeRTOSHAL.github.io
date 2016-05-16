@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Release 1.1"
+date:   2016-05-17 00:00:00 +0200
+categories: Release FreeRTOSHAL FreeRTOS HAL
+---
+
+FreeRTOS HAL is Released at 2016-05-17. The Docu is available at [this][docu] page.
+
+Following tools are needed: gcc gdb make autotools-dev automake libtool git gcc-arm-none-eabi libnewlib-arm-none-eabi libncurses5-dev
+
+For simple initialize a script was created. This can be download [here][script]. Run this command to create a new project. A Git repo will be created automatically.
+
+{% highlight bash %}
+mkdir <projekt dir>
+cd <project dir>
+<script location>/createProcect.sh <projectname> 1.1
+{% endhighlight %}
+
+After the creation small sample files will be created at this location plus submodules linkt to the project files at github.
+
+The Build System use Kbuild. A graphical Interface to configure the project is installed. Use this commands to configure the project:
+
+{% highlight bash %}
+make menuconfig
+{% endhighlight %}
+
+[docu]: /doxygen
+[script]: https://github.com/FreeRTOSHAL/fhal-buildsystem/blob/master/createProject.sh
