@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: FreeROTS Hardware Abstraction Layer
-email: hs@andy89.org
+title: FreeRTOS Hardware Abstraction Layer
+email: kernel@andy89.org
 description: > # this means to ignore newlines until "baseurl:"
   FreeRTOS Hardware Abstraction Layer, a simple and fast HAL for multiply 
   Architecture.
