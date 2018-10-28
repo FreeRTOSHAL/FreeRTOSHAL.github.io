@@ -1,4 +1,5 @@
 <map id="driver/include/pwm.h" name="driver/include/pwm.h">
-<area shape="rect" id="node5" href="$system_8h.html" title="system.h" alt="" coords="325,155,401,181"/>
-<area shape="rect" id="node6" href="$hal_8h.html" title="hal.h" alt="" coords="200,80,251,107"/>
+<area shape="rect" id="node5" href="$system_8h.html" title="system.h" alt="" coords="325,229,401,256"/>
+<area shape="rect" id="node6" href="$hal_8h.html" title="hal.h" alt="" coords="199,80,249,107"/>
+<area shape="rect" id="node8" href="$os_8h.html" title="os.h" alt="" coords="201,155,247,181"/>
 </map>

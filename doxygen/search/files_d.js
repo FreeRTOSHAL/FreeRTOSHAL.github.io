@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['timer_2eh',['timer.h',['../timer_8h.html',1,'']]],
-  ['timer_5fprv_2eh',['timer_prv.h',['../timer__prv_8h.html',1,'']]],
-  ['tps65381_2eh',['tps65381.h',['../tps65381_8h.html',1,'']]]
+  ['pwm_2eh',['pwm.h',['../pwm_8h.html',1,'']]],
+  ['pwm_5fprv_2eh',['pwm_prv.h',['../pwm__prv_8h.html',1,'']]],
+  ['pwm_5fsoftware_2eh',['pwm_software.h',['../pwm__software_8h.html',1,'']]]
 ];

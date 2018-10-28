@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['tps_5fdiag',['tps_diag',['../group__TPS65381.html#gae321ef8860c237df8d56b17e9def25f5',1,'tps65381.h']]]
+  ['gpio_5fdirection',['gpio_direction',['../group__GPIO__PIN.html#gaccc7d029df9e5a96151a68e64f4be7e2',1,'gpio.h']]],
+  ['gpio_5finterrupt',['gpio_interrupt',['../group__GPIO__PIN.html#ga194663b70bf60614a93c48cd64de6386',1,'gpio.h']]],
+  ['gpio_5fsetting',['gpio_setting',['../group__GPIO__PIN.html#ga032609f1d4935a99eb012c7b017df9f1',1,'gpio.h']]]
 ];

@@ -1,16 +1,17 @@
 var searchData=
 [
-  ['timer_5fdeinit',['timer_deinit',['../group__TIMER.html#ga3845e662005c08abf20295f1a05f30c6',1,'timer.h']]],
-  ['timer_5fgeneric_5finit',['timer_generic_init',['../timer__prv_8h.html#aa561b324683649f50a2ab109313274af',1,'timer_prv.h']]],
-  ['timer_5fgettime',['timer_getTime',['../group__TIMER.html#gad76047e7fa9e988657a61e5682daef52',1,'timer.h']]],
-  ['timer_5finit',['timer_init',['../group__TIMER.html#ga17100175c1ebfdc8dc564a2ea90d1fd3',1,'timer.h']]],
-  ['timer_5foneshot',['timer_oneshot',['../group__TIMER.html#ga17b0e468516fa60a9c4a1103a0e292ed',1,'timer.h']]],
-  ['timer_5fperiodic',['timer_periodic',['../group__TIMER.html#gaa2eb62fecfdd249aee1fc6572f10f115',1,'timer.h']]],
-  ['timer_5fsetoverflowcallback',['timer_setOverflowCallback',['../group__TIMER.html#gac35a9b4107292f2e397ddffcd1ce00c8',1,'timer.h']]],
-  ['timer_5fstart',['timer_start',['../group__TIMER.html#gab8f66b3d7ec0c74d55ee68c6aa22ac38',1,'timer.h']]],
-  ['timer_5fstop',['timer_stop',['../group__TIMER.html#gad97a4eb1c7829e40ac522050298210e0',1,'timer.h']]],
-  ['tps_5fdeinit',['tps_deinit',['../group__TPS65381.html#ga940b0d05ea0e54e9c13ceda3868a86f4',1,'tps65381.h']]],
-  ['tps_5fdiag',['tps_diag',['../group__TPS65381.html#ga864e9274415a76088e6d9a4fe4ce675c',1,'tps65381.h']]],
-  ['tps_5finit',['tps_init',['../group__TPS65381.html#gad408ed95a9f892d14dfc169405ec2cea',1,'tps65381.h']]],
-  ['tps_5fmux',['tps_mux',['../group__TPS65381.html#ga249524c28f0b6443bf1bee4720c27434',1,'tps65381.h']]]
+  ['rproc_5fdeinit',['rproc_deinit',['../group__Remoteproc.html#ga6f733ea42a434e5cd9a4200ae53ebda4',1,'remoteproc.h']]],
+  ['rproc_5finit',['rproc_init',['../group__Remoteproc.html#gabf554463053f376f5aa9274a7e7d9ddc',1,'remoteproc.h']]],
+  ['rproc_5fisr',['rproc_isr',['../group__Remoteproc.html#ga797f4f9956e25cc6dcd966f43ba2d73b',1,'remoteproc.h']]],
+  ['rproc_5fnotify',['rproc_notify',['../group__Remoteproc.html#ga5bbf08581fcb16169b9a95db6b0b27fe',1,'remoteproc.h']]],
+  ['rtc_5fadjust',['rtc_adjust',['../group__rtc__driver.html#ga6994f3d690594438de4fab3720857699',1,'rtc.h']]],
+  ['rtc_5fadjustisr',['rtc_adjustISR',['../group__rtc__driver.html#ga25b672a7683562179be30851ba8ce424',1,'rtc.h']]],
+  ['rtc_5fdeinit',['rtc_deinit',['../group__rtc__driver.html#ga804fb089356e684edd1208ca23305581',1,'rtc.h']]],
+  ['rtc_5fgenericinit',['rtc_genericInit',['../rtc__prv_8h.html#a9d97cf90ef583d570d7f155ff422adef',1,'rtc_prv.h']]],
+  ['rtc_5fgettime',['rtc_getTime',['../group__rtc__driver.html#ga64cdbc579af74a479c116a54ac6827eb',1,'rtc.h']]],
+  ['rtc_5fgettimeisr',['rtc_getTimeISR',['../group__rtc__driver.html#ga7d879f4506c58d1a55b2b989c8b1942d',1,'rtc.h']]],
+  ['rtc_5finit',['rtc_init',['../group__rtc__driver.html#ga78b186890f8f1ffab5170ddf21b5dfd7',1,'rtc.h']]],
+  ['rtc_5fsettime',['rtc_setTime',['../group__rtc__driver.html#gad521ed82154e47cd5d8affad655cdfd4',1,'rtc.h']]],
+  ['rtc_5fsettimeisr',['rtc_setTimeISR',['../group__rtc__driver.html#ga29179522f7f1bb7d5fd1752fdcb049b5',1,'rtc.h']]],
+  ['rtc_5fsoftware_5fconnect',['rtc_software_connect',['../rtc__software_8h.html#a5f4e0c47e92b296f4dbb8a5ca60c48cc',1,'rtc_software.h']]]
 ];

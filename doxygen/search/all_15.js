@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['z',['z',['../structmpu9250__vector.html#a4ea65e5e60c33bb345cee096468ee52c',1,'mpu9250_vector::z()'],['../structvector.html#ae22ddef032f70f27dad04b443548aeb7',1,'vector::z()']]]
+  ['wdelay',['wdelay',['../structspi__opt.html#a55925511a1b64fdce95d0a0fa33a3953',1,'spi_opt']]],
+  ['weak',['WEAK',['../group__SYSTEM.html#gad1480e9557edcc543498ca259cee6c7d',1,'system.h']]],
+  ['wide',['wide',['../structsd__setting.html#afa62d016a632285845e10c68fb88f843',1,'sd_setting']]]
 ];

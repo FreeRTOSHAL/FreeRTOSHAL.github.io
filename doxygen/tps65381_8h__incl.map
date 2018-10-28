@@ -1,6 +1,7 @@
 <map id="driver/include/tps65381.h" name="driver/include/tps65381.h">
-<area shape="rect" id="node4" href="$spi_8h.html" title="spi.h" alt="" coords="113,80,164,107"/>
-<area shape="rect" id="node9" href="$adc_8h.html" title="adc.h" alt="" coords="315,80,370,107"/>
-<area shape="rect" id="node6" href="$system_8h.html" title="system.h" alt="" coords="304,229,380,256"/>
-<area shape="rect" id="node8" href="$hal_8h.html" title="hal.h" alt="" coords="317,155,368,181"/>
+<area shape="rect" id="node4" href="$spi_8h.html" title="spi.h" alt="" coords="152,80,203,107"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="adc.h" alt="" coords="302,80,357,107"/>
+<area shape="rect" id="node6" href="$system_8h.html" title="system.h" alt="" coords="567,304,643,331"/>
+<area shape="rect" id="node8" href="$hal_8h.html" title="hal.h" alt="" coords="367,155,417,181"/>
+<area shape="rect" id="node9" href="$os_8h.html" title="os.h" alt="" coords="369,229,415,256"/>
 </map>

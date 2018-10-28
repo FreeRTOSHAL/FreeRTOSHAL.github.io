@@ -1,0 +1,5 @@
+<map id="vdev_generic" name="vdev_generic">
+<area shape="rect" id="node2" href="$structvdev__config.html" title="vdev_config" alt="" coords="5,95,97,121"/>
+<area shape="rect" id="node3" href="$structvring__config.html" title="vring_config" alt="" coords="5,5,97,32"/>
+<area shape="rect" id="node4" href="$structvdev__ops.html" title="vdev_ops" alt="" coords="121,95,200,121"/>
+</map>

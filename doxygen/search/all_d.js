@@ -1,6 +1,18 @@
 var searchData=
 [
-  ['rodata_5fdefault',['RODATA_DEFAULT',['../group__LINKER.html#gac94f7c7c30e15bf8ec0d856302791d94',1,'linker.h']]],
-  ['rodata_5fstart',['RODATA_START',['../group__LINKER.html#ga83111cc041c74ca5b19df3e2579c933f',1,'linker.h']]],
-  ['rodata_5fstop',['RODATA_STOP',['../group__LINKER.html#gaaa7ca3747c6d20264d8ecf69d24a1611',1,'linker.h']]]
+  ['naked',['NAKED',['../group__SYSTEM.html#ga7a18c4884994b9b520ae535b6d9579d3',1,'system.h']]],
+  ['name',['name',['../structfw__rsc__carveout.html#a0950c13486b9ebfeb1530f6991f0a73b',1,'fw_rsc_carveout::name()'],['../structfw__rsc__devmem.html#a55671ae5422f7e2af7b6825259031794',1,'fw_rsc_devmem::name()'],['../structfw__rsc__trace.html#aebe64dd92b8bf8ed371c80ebd6b05afa',1,'fw_rsc_trace::name()']]],
+  ['nd6_5fstats',['ND6_STATS',['../lwipopts_8h.html#a753161114df60299a28d51c092c756cf',1,'lwipopts.h']]],
+  ['newlib_20function',['Newlib Function',['../group__Newlib.html',1,'']]],
+  ['newlib_5finit',['newlib_init',['../group__Newlib.html#gaeb17ff18d0a796d6dd95804c934609bf',1,'newlib_stub.h']]],
+  ['newlib_5fstub_2eh',['newlib_stub.h',['../newlib__stub_8h.html',1,'']]],
+  ['nlibc_5finit',['nlibc_init',['../group__Newlib.html#ga7acb8d9b8f1b101e1c15dc757b56d50e',1,'nlibc_stub.h']]],
+  ['nlibc_5fstub_2eh',['nlibc_stub.h',['../nlibc__stub_8h.html',1,'']]],
+  ['no_5freorder',['NO_REORDER',['../group__SYSTEM.html#ga981d727c769c9516175fef643b82477d',1,'system.h']]],
+  ['notify',['notify',['../structrproc__ops.html#a9579c99c65ed37250a033ea740c45971',1,'rproc_ops']]],
+  ['notifyid',['notifyid',['../structfw__rsc__vdev__vring.html#afceb8cfa37d66c23527badf4bec62387',1,'fw_rsc_vdev_vring::notifyid()'],['../structfw__rsc__vdev.html#a4ac391fc5e56801643f2556c6f1a9b12',1,'fw_rsc_vdev::notifyid()'],['../structvdev__config.html#a1b72b7d231c8145e655267edb39bf1dd',1,'vdev_config::notifyid()'],['../structvring__config.html#ab4853d616ff7083afa315b768d7acd42',1,'vring_config::notifyid()']]],
+  ['nsec_5fper_5fsec',['NSEC_PER_SEC',['../group__SYSTEM.html#ga0501e82515b2bdf36453c4cc80f5e0cc',1,'system.h']]],
+  ['num',['num',['../structresource__table.html#af94658ac6b26386ca97ff7dd7cdd4192',1,'resource_table::num()'],['../structfw__rsc__vdev__vring.html#ad92d0bc67ef3aabdea994fe820f0b738',1,'fw_rsc_vdev_vring::num()']]],
+  ['num_5fof_5fvrings',['num_of_vrings',['../structfw__rsc__vdev.html#af792053c833de5467b05ccb98cec6278',1,'fw_rsc_vdev']]],
+  ['numofvrings',['numOfVrings',['../structvdev__config.html#a8d121f267e0016f2128b1ef3337f06ec',1,'vdev_config']]]
 ];

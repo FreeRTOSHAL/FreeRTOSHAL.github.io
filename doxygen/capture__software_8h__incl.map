@@ -1,0 +1,8 @@
+<map id="driver/include/capture_software.h" name="driver/include/capture_software.h">
+<area shape="rect" id="node2" href="$gpio_8h.html" title="gpio.h" alt="" coords="88,95,146,121"/>
+<area shape="rect" id="node11" href="$rtc_8h.html" title="rtc.h" alt="" coords="265,95,313,121"/>
+<area shape="rect" id="node5" href="$mux_8h.html" title="mux.h" alt="" coords="21,169,80,196"/>
+<area shape="rect" id="node7" href="$hal_8h.html" title="hal.h" alt="" coords="326,169,377,196"/>
+<area shape="rect" id="node6" href="$system_8h.html" title="system.h" alt="" coords="267,319,343,345"/>
+<area shape="rect" id="node10" href="$os_8h.html" title="os.h" alt="" coords="378,244,424,271"/>
+</map>

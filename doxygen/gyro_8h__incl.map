@@ -1,5 +1,6 @@
 <map id="driver/include/gyro.h" name="driver/include/gyro.h">
-<area shape="rect" id="node4" href="$system_8h.html" title="system.h" alt="" coords="195,155,271,181"/>
-<area shape="rect" id="node7" href="$hal_8h.html" title="hal.h" alt="" coords="247,80,298,107"/>
-<area shape="rect" id="node8" href="$vec_8h.html" title="vec.h" alt="" coords="11,80,65,107"/>
+<area shape="rect" id="node4" href="$system_8h.html" title="system.h" alt="" coords="168,229,244,256"/>
+<area shape="rect" id="node7" href="$hal_8h.html" title="hal.h" alt="" coords="306,80,357,107"/>
+<area shape="rect" id="node9" href="$vec_8h.html" title="vec.h" alt="" coords="5,80,60,107"/>
+<area shape="rect" id="node8" href="$os_8h.html" title="os.h" alt="" coords="339,155,385,181"/>
 </map>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['useful_20macros',['Useful Macros',['../group__SYSTEM.html',1,'']]],
-  ['uart_20subsystem',['UART Subsystem',['../group__UART.html',1,'']]]
+  ['timer_20subsystem',['Timer Subsystem',['../group__TIMER.html',1,'']]],
+  ['tps65381_20driver',['TPS65381 driver',['../group__TPS65381.html',1,'']]]
 ];

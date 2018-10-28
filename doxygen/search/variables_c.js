@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../structmpu9250__vector.html#a686fb4d6bb4a164390bd7c24e8f7dc9a',1,'mpu9250_vector::x()'],['../structvector.html#a81cc8756c4b9b46a67ce6f135350258f',1,'vector::x()']]]
+  ['offset',['offset',['../structresource__table.html#a450ecd15b1e836a2ce52d45ddd476508',1,'resource_table']]],
+  ['ops',['ops',['../structexample__generic.html#a234ea65259ff8e18263918807f8b0204',1,'example_generic::ops()'],['../structvdev__generic.html#a6d8e138535d305cb2601809668298f0a',1,'vdev_generic::ops()']]],
+  ['opt',['opt',['../structmpu9250.html#af82a0022ead28afc30d033ae760afeb9',1,'mpu9250']]]
 ];

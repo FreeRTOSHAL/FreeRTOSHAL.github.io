@@ -1,4 +1,5 @@
 <map id="driver/include/sd_prv.h" name="driver/include/sd_prv.h">
-<area shape="rect" id="node6" href="$hal_8h.html" title="hal.h" alt="" coords="201,80,252,107"/>
-<area shape="rect" id="node7" href="$system_8h.html" title="system.h" alt="" coords="226,155,302,181"/>
+<area shape="rect" id="node6" href="$hal_8h.html" title="hal.h" alt="" coords="200,80,251,107"/>
+<area shape="rect" id="node7" href="$system_8h.html" title="system.h" alt="" coords="226,229,302,256"/>
+<area shape="rect" id="node8" href="$os_8h.html" title="os.h" alt="" coords="202,155,249,181"/>
 </map>

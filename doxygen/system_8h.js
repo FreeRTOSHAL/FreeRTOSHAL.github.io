@@ -1,14 +1,28 @@
 var system_8h =
 [
+    [ "ALGIN", "group__SYSTEM.html#gaaf5354ecf4b44f4be650a792b68fad62", null ],
     [ "ALIAS", "group__SYSTEM.html#ga8c45dcdbd690d19b7c11745687483874", null ],
     [ "ARRAY_SIZE", "group__SYSTEM.html#ga6242a25f9d996f0cc4f4cdb911218b75", null ],
+    [ "be16_to_cpu", "group__SYSTEM.html#ga704914f1589d068135ab80380a6881ee", null ],
+    [ "be32_to_cpu", "group__SYSTEM.html#gac4679fe8e8af7b9a150195649e67dc10", null ],
     [ "BIT", "group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae", null ],
+    [ "cpu_to_be16", "group__SYSTEM.html#ga61fd4a7a792dc1fe64848f579c701332", null ],
+    [ "cpu_to_be32", "group__SYSTEM.html#ga9d894207be4b384cfce1dcc50865450d", null ],
+    [ "cpu_to_le16", "group__SYSTEM.html#ga58fe9b3d2186e13223b7bb1fa4d72901", null ],
+    [ "cpu_to_le32", "group__SYSTEM.html#ga5dc766058a552851bf762a945ded5c8c", null ],
+    [ "DIV_ROUND_UP", "group__SYSTEM.html#gae664e7492e37d324831caf2321ddda37", null ],
     [ "INTERRUPT", "group__SYSTEM.html#ga09e3c5147c2b8a429ac28d8c36bae99c", null ],
+    [ "le16_to_cpu", "group__SYSTEM.html#ga5e6a402d0baed79a90ec8592443a02b6", null ],
+    [ "le32_to_cpu", "group__SYSTEM.html#gada795ca2251686c318377079640506a0", null ],
+    [ "MAX", "group__SYSTEM.html#gafa99ec4acc4ecb2dc3c2d05da15d0e3f", null ],
+    [ "MIN", "group__SYSTEM.html#ga3acffbd305ee72dcd4593c0d8af64a4f", null ],
     [ "NAKED", "group__SYSTEM.html#ga7a18c4884994b9b520ae535b6d9579d3", null ],
     [ "NO_REORDER", "group__SYSTEM.html#ga981d727c769c9516175fef643b82477d", null ],
     [ "NSEC_PER_SEC", "group__SYSTEM.html#ga0501e82515b2bdf36453c4cc80f5e0cc", null ],
     [ "PACKED", "group__SYSTEM.html#ga36d525cf4d116b2fe4ecc00222b256f1", null ],
     [ "SECTION", "group__SYSTEM.html#ga9982c2dc93e94348913cd6b7b0618973", null ],
+    [ "swap16", "group__SYSTEM.html#gaabd77f9759cd594bef97ee167f79f4fa", null ],
+    [ "swap32", "group__SYSTEM.html#ga67de9fcf8cac405188dc25f1c7d41d7d", null ],
     [ "USED", "group__SYSTEM.html#gabcd0a22ee4346cad5706adb6d2119429", null ],
     [ "WEAK", "group__SYSTEM.html#gad1480e9557edcc543498ca259cee6c7d", null ]
 ];

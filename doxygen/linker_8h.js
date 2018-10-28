@@ -30,6 +30,7 @@ var linker_8h =
     [ "TEXT_FREERTOS", "group__LINKER.html#ga07927c2d6d67e686cf61d859cef34b3e", null ],
     [ "TEXT_START", "group__LINKER.html#gac82702700be45e68eafd74e53ab412be", null ],
     [ "TEXT_STOP", "group__LINKER.html#ga4ad6a1b2a0c87df1dbd2ad281e432655", null ],
+    [ "UNWIND_TABLES", "group__LINKER.html#gad6be33c454a98d00f29c66d974a61766", null ],
     [ "VECTOR_DEFAULT", "group__LINKER.html#gaa18edbf5f28cedd41c5f202806f6c682", null ],
     [ "VECTOR_START", "group__LINKER.html#ga131dd02a9e1e01bfded25338141ca131", null ],
     [ "VECTOR_STOP", "group__LINKER.html#ga0fe468fe5337f2300c74186dd4b11abf", null ]

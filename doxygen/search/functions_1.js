@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['backtrace',['backtrace',['../backtrace_8h.html#a73b6618270491b1d78d378a62a5a52b1',1,'backtrace.h']]],
   ['buffer_5fdeinit',['buffer_deinit',['../group__BUFFER.html#gaae7df5fe450c6fe853a0aee0419c2e7c',1,'buffer.h']]],
   ['buffer_5fempty',['buffer_empty',['../group__BUFFER.html#gad14eddd9926027149a921d4a5b93830b',1,'buffer.h']]],
   ['buffer_5finit',['buffer_init',['../group__BUFFER.html#ga250d7e5fbaa4582275c441050bed35d3',1,'buffer.h']]],

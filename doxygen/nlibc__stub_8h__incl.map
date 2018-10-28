@@ -1,5 +1,6 @@
 <map id="driver/include/nlibc_stub.h" name="driver/include/nlibc_stub.h">
-<area shape="rect" id="node2" href="$uart_8h.html" title="uart.h" alt="" coords="244,95,299,121"/>
-<area shape="rect" id="node7" href="$system_8h.html" title="system.h" alt="" coords="5,244,81,271"/>
-<area shape="rect" id="node8" href="$hal_8h.html" title="hal.h" alt="" coords="183,169,234,196"/>
+<area shape="rect" id="node2" href="$uart_8h.html" title="uart.h" alt="" coords="348,95,403,121"/>
+<area shape="rect" id="node7" href="$system_8h.html" title="system.h" alt="" coords="5,319,81,345"/>
+<area shape="rect" id="node8" href="$hal_8h.html" title="hal.h" alt="" coords="218,169,269,196"/>
+<area shape="rect" id="node9" href="$os_8h.html" title="os.h" alt="" coords="189,244,236,271"/>
 </map>

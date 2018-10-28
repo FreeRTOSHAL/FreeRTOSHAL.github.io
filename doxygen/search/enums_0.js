@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['gpio_5fdirection',['gpio_direction',['../group__GPIO__PIN.html#gaccc7d029df9e5a96151a68e64f4be7e2',1,'gpio.h']]],
-  ['gpio_5finterrupt',['gpio_interrupt',['../group__GPIO__PIN.html#ga194663b70bf60614a93c48cd64de6386',1,'gpio.h']]],
-  ['gpio_5fsetting',['gpio_setting',['../group__GPIO__PIN.html#ga032609f1d4935a99eb012c7b017df9f1',1,'gpio.h']]]
+  ['counter_5fmode',['counter_mode',['../group__counter__driver.html#ga58e18b6b59a2189c19e9aa877ca98ec4',1,'counter.h']]]
 ];
