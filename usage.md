@@ -42,7 +42,7 @@ echo "export PATH=$HOME/gcc-arm-none-eabi/bin:\$PATH" >> ~/.profile # add to PAT
 
 Create Project
 ==============
-For simple initialize a script was created. This can be download [here][script]. Run this command to create a new project. A Git repo will be created automatically.
+For simple initialize a script was created. This can be downloaded [here][script]. Run this command to create a new project. A Git repo will be created automatically.
 
 {% highlight bash %}
 mkdir <projekt dir>
