@@ -1,18 +1,12 @@
 ---
 layout: post
-title:  "Update"
-date:   2019-07-05 00:00:00 +0200
-categories: Release FreeRTOSHAL FreeRTOS HAL
+title:  "Supported Hardware"
+permalink: /hardware/
 ---
 
-FreeRTOS HAL is grown over the years it is correctly used at RheinMain University of Applied Sciences and support much more SOCs since release 1.1.
-The HAL is tested under some student projects.
-One of this project is can be found [here][CaroloCup]. 
-In this project is used for autonomous model car and implement the low-level controller.
-Communication is done by Shared Memory and remote controller.
-The Shared Memmory is used by the Linux side of the AM57xx SOC. 
-
-Nowadays is support:
+Supported Hardware
+==================
+The Hardware supported are:
   * NXP VF610 (Cortex-M4 only)
   * NXP IMX6sx (Cortex-M4 only)
   * NXP S32k
@@ -31,8 +25,3 @@ Driver Support for each core:
 
 
 x=supported, /=not testet, o=only software emulation supported
-
-The CAN Subsystem is correctly under construction, interface is designed but not implement.
-Support for AM57xx will be added soon.
-
-[CaroloCup]: https://gitlab.cs.hs-rm.de/CaroloCup/carolocupFirmware
