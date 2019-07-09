@@ -4,8 +4,6 @@ title:  "Supported Hardware"
 permalink: /hardware/
 ---
 
-Supported Hardware
-==================
 The Hardware supported are:
   * NXP VF610 (Cortex-M4 only)
   * NXP IMX6sx (Cortex-M4 only)
