@@ -22,4 +22,23 @@ Driver Support for each core:
 | AM57xx   |  x   |  x   |  x  |   x   |  x  |    x    | -  |  -  |  -  |    -    |      -     |
 
 
-x=supported, /=not testet, o=only software emulation supported
+x=supported, /=not tested, o=only software emulation supported
+
+Supported external Hardware
+============================
+
+The following external Hardware is supported:
+
+  * TI TPS65381: Automotive 4.5V to 40V, 1.3A Buck Converter with 4 LDOs for Microcontroller over SPI
+  * TI ADCS747x: 12-Bit ADC over SPI
+  * MPU9250: Nine-Axis (Gyro + Accelerometer + Compass) MEMS (Compass not supported) over SPI
+
+
+Software Emulation
+==================
+
+Some Hardware can be Emulated
+
+  * Software Real time clock (Wall time, seconds and nanoseconds after 01/01/1970) using a HW Timer
+  * Software Counter (counts GPIO Interrupts) use GPIO Interface 
+  * Software PWM use a HW timer and GPIO
