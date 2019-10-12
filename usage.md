@@ -34,7 +34,7 @@ Small script for gcc-arm-none-eabi Version 8-2019-q4:
 wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2018q4/gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2?revision=d830f9dd-cd4f-406d-8672-cca9210dd220?product=GNU%20Arm%20Embedded%20Toolchain,64-bit,,Linux,8-2018-q4-major # Download Toolchain
 mv gcc-arm-none-eabi-*-*-*-*-*.tar.bz2* gcc-arm-none-eabi.tar.bz2 # rename File
 tar -xf gcc-arm-none-eabi.tar.bz2 -C ~ # extract archive
-mv gcc-arm-none-eabi-*-*-*-* gcc-arm-none-ebai # rename folder
+mv gcc-arm-none-eabi-*-*-*-* gcc-arm-none-eabi # rename folder
 echo "export PATH=$HOME/gcc-arm-none-eabi/bin:\$PATH" >> ~/.profile # add to PATH
 # New Login needed or source .profile
 {% endhighlight %}
