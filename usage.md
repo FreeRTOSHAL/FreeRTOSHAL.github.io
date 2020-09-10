@@ -13,7 +13,7 @@ Install Ubuntu 18.04 LTS from Store and follow Ubuntu instructions.
 
 Hint: Home folder can be found under: /c/Users/[username]/
 
-Small Linux Terminal how to is found [here][Terminal].
+A small Linux Terminal how to can be found [here][Terminal].
 
 Build under Ubuntu 18.04 LTS 
 ===============================
@@ -26,9 +26,7 @@ sudo apt-get update; sudo apt-get install build-essential libncurses5-dev git;
 Download ARM GNU Toolchain for Linux [here][ARM Toolchain]. Install the arm-none-eabi Toolchain form Repositories is not recommended!
 ARM GCC Version 6 is not supported!
 
-Extract Toolchain in and added to PATH.
-
-Small script for gcc-arm-none-eabi Version 8-2019-q4:
+This small script for gcc-arm-none-eabi Version 8-2019-q4 download, extract and added toolchain to PATH:
 
 {% highlight bash %}
 wget https://developer.arm.com/-/media/Files/downloads/gnu-rm/8-2018q4/gcc-arm-none-eabi-8-2018-q4-major-linux.tar.bz2?revision=d830f9dd-cd4f-406d-8672-cca9210dd220?product=GNU%20Arm%20Embedded%20Toolchain,64-bit,,Linux,8-2018-q4-major # Download Toolchain
@@ -52,7 +50,7 @@ cd <project dir>
 
 After the creation small sample files will be created at this location plus submodules linkt to the project files at github.
 
-The Build System use Kbuild. A graphical Interface to configure the project is installed. Use this commands to configure the project:
+The Build System use Kbuild. To configure the new project with a graphical interface use this command: 
 
 {% highlight bash %}
 make menuconfig
