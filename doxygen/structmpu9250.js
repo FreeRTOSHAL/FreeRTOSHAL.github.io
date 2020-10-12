@@ -1,6 +1,7 @@
 var structmpu9250 =
 [
     [ "accel", "structmpu9250.html#aae8c62ab80a5405374b018397aad88ac", null ],
+    [ "bank", "structmpu9250.html#a136519d53737374ae38b294b5abd3842", null ],
     [ "gen", "structmpu9250.html#ad5d060019f8df9720afe584c78409a18", null ],
     [ "gyro", "structmpu9250.html#ae410f4ae03592509c9eed14568f4e483", null ],
     [ "index", "structmpu9250.html#a4cfbbab0acd39c38241d1452f842f0fa", null ],

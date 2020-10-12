@@ -12,6 +12,7 @@ var group__MPU9250 =
     ] ],
     [ "mpu9250", "structmpu9250.html", [
       [ "accel", "structmpu9250.html#aae8c62ab80a5405374b018397aad88ac", null ],
+      [ "bank", "structmpu9250.html#a136519d53737374ae38b294b5abd3842", null ],
       [ "gen", "structmpu9250.html#ad5d060019f8df9720afe584c78409a18", null ],
       [ "gyro", "structmpu9250.html#ae410f4ae03592509c9eed14568f4e483", null ],
       [ "index", "structmpu9250.html#a4cfbbab0acd39c38241d1452f842f0fa", null ],
@@ -24,11 +25,12 @@ var group__MPU9250 =
       [ "y", "structmpu9250__vector.html#acd490d5d92b333292e94538693f9619f", null ],
       [ "z", "structmpu9250__vector.html#a4ea65e5e60c33bb345cee096468ee52c", null ]
     ] ],
-    [ "MPU9250_ADDDEV", "group__MPU9250.html#ga051be014824084e08edc1d664f8856cc", null ],
+    [ "MPU9250_ADDDEV", "group__MPU9250.html#ga1a60c93499f19b424241892c2bf48a22", null ],
+    [ "MPU9250_ID", "group__MPU9250.html#gad8d3a27742ea7dd71a6df3fc18245eda", null ],
     [ "MPU_GRAVITY", "group__MPU9250.html#ga610f490160110c4d1a744211fa0bbf22", null ],
     [ "mpu9250_deinit", "group__MPU9250.html#ga3d269d2554fba90ce94f5516ed08a4f1", null ],
     [ "mpu9250_getAccel", "group__MPU9250.html#ga7c29e3ff01dfb42520d5c559e23e8734", null ],
     [ "mpu9250_getGyro", "group__MPU9250.html#ga468cdbceea406da93f2ec51ba8d1de87", null ],
-    [ "mpu9250_init", "group__MPU9250.html#ga1b91e03103b43b5be77b24deef5eb6eb", null ],
+    [ "mpu9250_init", "group__MPU9250.html#ga1a97d5d05f07e319317c1b5725bdca32", null ],
     [ "mpu9250_reset", "group__MPU9250.html#ga921915e0ec6a6821ce77055300fcf33e", null ]
 ];

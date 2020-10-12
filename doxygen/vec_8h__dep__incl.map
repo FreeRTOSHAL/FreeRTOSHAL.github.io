@@ -1,5 +1,8 @@
 <map id="driver/include/vec.h" name="driver/include/vec.h">
-<area shape="rect" id="node2" href="$accel_8h.html" title="driver/include/accel.h" alt="" coords="5,80,151,107"/>
-<area shape="rect" id="node3" href="$mpu9250_8h.html" title="driver/include/mpu9250.h" alt="" coords="105,155,272,181"/>
-<area shape="rect" id="node4" href="$gyro_8h.html" title="driver/include/gyro.h" alt="" coords="226,80,365,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="228,5,363,32"/>
+<area shape="rect" id="node2" href="$accel_8h.html" title=" " alt="" coords="5,80,151,107"/>
+<area shape="rect" id="node3" href="$mpu9250_8h.html" title=" " alt="" coords="152,155,319,181"/>
+<area shape="rect" id="node4" href="$mpu9250__prv_8h.html" title=" " alt="" coords="217,229,373,271"/>
+<area shape="rect" id="node5" href="$gyro_8h.html" title=" " alt="" coords="226,80,365,107"/>
+<area shape="rect" id="node6" href="$temp_8h.html" title=" " alt="" coords="440,80,583,107"/>
 </map>

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['u16',['u16',['../remoteproc_8h.html#ace9d960e74685e2cd84b36132dbbf8aa',1,'remoteproc.h']]],
-  ['u32',['u32',['../remoteproc_8h.html#afaa62991928fb9fb18ff0db62a040aba',1,'remoteproc.h']]],
-  ['u8',['u8',['../remoteproc_8h.html#a92c50087ca0e64fa93fc59402c55f8ca',1,'remoteproc.h']]]
+  ['time_5ft_1522',['time_t',['../group__rtc__driver.html#ga7f5991675a84025dc7c24754a9b257c0',1,'rtc.h']]]
 ];

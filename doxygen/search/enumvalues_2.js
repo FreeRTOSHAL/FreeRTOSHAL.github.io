@@ -1,19 +1,8 @@
 var searchData=
 [
-  ['rp_5fmbox_5fabort_5frequest',['RP_MBOX_ABORT_REQUEST',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2a430dc88a9e8bdb8ec7ea636c2a3bc7b8',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fcrash',['RP_MBOX_CRASH',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2abfa602a7804f5ee7014df00eebe7320a',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fecho_5freply',['RP_MBOX_ECHO_REPLY',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2af4aff8d4d5183189f8d14fc94e511ec9',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fecho_5frequest',['RP_MBOX_ECHO_REQUEST',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2aa08295a25a91fa4807fd026b44ffaf83',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fend_5fmsg',['RP_MBOX_END_MSG',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2a84c323f43ff32283493a7ceca38b4e75',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fpending_5fmsg',['RP_MBOX_PENDING_MSG',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2a67fa3fdd2c44202c1c290bbe39ddd78e',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fready',['RP_MBOX_READY',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2ae50c5ad97c62b3ed89f38a6e00bf198a',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fsuspend_5fack',['RP_MBOX_SUSPEND_ACK',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2a0ef6bac3404316f51c35de2e0eca3d6c',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fsuspend_5fauto',['RP_MBOX_SUSPEND_AUTO',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2a2b352d4c0eb67b4204fb7aad6589a871',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fsuspend_5fcancel',['RP_MBOX_SUSPEND_CANCEL',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2a5a5fe4b06e6b4408622dd974d111c131',1,'remoteproc_mailbox.h']]],
-  ['rp_5fmbox_5fsuspend_5fsystem',['RP_MBOX_SUSPEND_SYSTEM',['../remoteproc__mailbox_8h.html#a5247c1fc2ef5b781952d20ea1bb6f4c2a82e916fa463a71de077ee5c66a8d69ea',1,'remoteproc_mailbox.h']]],
-  ['rsc_5fcarveout',['RSC_CARVEOUT',['../group__Remoteproc.html#gga5e1dedaa9c4c87a62799ad523c33e46ba6b07b16911179d973f8c976f46dca162',1,'remoteproc.h']]],
-  ['rsc_5fdevmem',['RSC_DEVMEM',['../group__Remoteproc.html#gga5e1dedaa9c4c87a62799ad523c33e46ba51b52c56685d06ccceb577bf51c69a97',1,'remoteproc.h']]],
-  ['rsc_5flast',['RSC_LAST',['../group__Remoteproc.html#gga5e1dedaa9c4c87a62799ad523c33e46ba60771896ec2e12f08caf0e883466a9bf',1,'remoteproc.h']]],
-  ['rsc_5ftrace',['RSC_TRACE',['../group__Remoteproc.html#gga5e1dedaa9c4c87a62799ad523c33e46ba8ffe1e5f97c1ae61ec21ef8321db8b37',1,'remoteproc.h']]],
-  ['rsc_5fvdev',['RSC_VDEV',['../group__Remoteproc.html#gga5e1dedaa9c4c87a62799ad523c33e46bab16bdb1ad861835136d3fbc0edd40eaa',1,'remoteproc.h']]]
+  ['i2c_5ffm_1550',['I2C_FM',['../group__I2C.html#gga9e7157514d73fc7628b8150ad6844b70ad87a75087baf689cf3a240a769d2b558',1,'i2c.h']]],
+  ['i2c_5ffmp_1551',['I2C_FMP',['../group__I2C.html#gga9e7157514d73fc7628b8150ad6844b70acab280b484ea06a499900154515f3005',1,'i2c.h']]],
+  ['i2c_5fhsm_1552',['I2C_HSM',['../group__I2C.html#gga9e7157514d73fc7628b8150ad6844b70aaf2bf758a3347eb24008017b6f90cae0',1,'i2c.h']]],
+  ['i2c_5fsm_1553',['I2C_SM',['../group__I2C.html#gga9e7157514d73fc7628b8150ad6844b70a6eea39a9dd2939db1ddc926255080f46',1,'i2c.h']]],
+  ['i2c_5fufm_1554',['i2C_UFM',['../group__I2C.html#gga9e7157514d73fc7628b8150ad6844b70a5675d2482a702609fa9fd3e8ec05a96c',1,'i2c.h']]]
 ];

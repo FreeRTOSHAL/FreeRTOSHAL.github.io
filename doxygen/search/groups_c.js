@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['system_20layer_20for_20freertos',['System Layer for FreeRTOS',['../group__Operation.html',1,'']]],
-  ['sd_20card_20controller_20interface',['SD Card Controller Interface',['../group__sd__driver.html',1,'']]],
-  ['spi_20subsystem',['SPI Subsystem',['../group__SPI.html',1,'']]],
-  ['spi_20slave_20subsystem',['SPI Slave Subsystem',['../group__SPI__SLAVE.html',1,'']]]
+  ['remoteproc_20subssystem_2099',['Remoteproc Subssystem',['../group__Remoteproc.html',1,'']]],
+  ['real_20time_20clock_20_28rtc_29_20or_20warl_20clock_20driver_2e_2100',['Real Time Clock (RTC) or Warl Clock driver.',['../group__rtc__driver.html',1,'']]]
 ];

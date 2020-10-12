@@ -1,5 +1,10 @@
 <map id="driver/include/spi.h" name="driver/include/spi.h">
-<area shape="rect" id="node4" href="$system_8h.html" title="system.h" alt="" coords="228,229,304,256"/>
-<area shape="rect" id="node7" href="$hal_8h.html" title="hal.h" alt="" coords="266,80,317,107"/>
-<area shape="rect" id="node8" href="$os_8h.html" title="os.h" alt="" coords="299,155,345,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="145,5,275,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,71,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="129,229,203,256"/>
+<area shape="rect" id="node4" href="$system_8h.html" title=" " alt="" coords="228,229,304,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="439,229,535,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="339,229,415,256"/>
+<area shape="rect" id="node7" href="$hal_8h.html" title=" " alt="" coords="266,80,317,107"/>
+<area shape="rect" id="node8" href="$os_8h.html" title=" " alt="" coords="299,155,345,181"/>
 </map>

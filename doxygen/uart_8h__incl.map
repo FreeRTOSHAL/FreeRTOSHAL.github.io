@@ -1,5 +1,10 @@
 <map id="driver/include/uart.h" name="driver/include/uart.h">
-<area shape="rect" id="node6" href="$system_8h.html" title="system.h" alt="" coords="237,229,313,256"/>
-<area shape="rect" id="node7" href="$hal_8h.html" title="hal.h" alt="" coords="225,80,276,107"/>
-<area shape="rect" id="node8" href="$os_8h.html" title="os.h" alt="" coords="197,155,243,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="264,5,400,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,229,101,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="126,229,202,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="471,80,537,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="337,229,412,256"/>
+<area shape="rect" id="node6" href="$system_8h.html" title=" " alt="" coords="237,229,313,256"/>
+<area shape="rect" id="node7" href="$hal_8h.html" title=" " alt="" coords="225,80,276,107"/>
+<area shape="rect" id="node8" href="$os_8h.html" title=" " alt="" coords="197,155,243,181"/>
 </map>

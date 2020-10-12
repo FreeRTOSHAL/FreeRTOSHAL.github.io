@@ -1,6 +1,11 @@
 <map id="driver/include/accel.h" name="driver/include/accel.h">
-<area shape="rect" id="node4" href="$system_8h.html" title="system.h" alt="" coords="168,229,244,256"/>
-<area shape="rect" id="node7" href="$hal_8h.html" title="hal.h" alt="" coords="306,80,357,107"/>
-<area shape="rect" id="node9" href="$vec_8h.html" title="vec.h" alt="" coords="5,80,60,107"/>
-<area shape="rect" id="node8" href="$os_8h.html" title="os.h" alt="" coords="339,155,385,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="127,5,272,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="23,155,88,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="269,229,343,256"/>
+<area shape="rect" id="node4" href="$system_8h.html" title=" " alt="" coords="168,229,244,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="479,229,575,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="379,229,455,256"/>
+<area shape="rect" id="node7" href="$hal_8h.html" title=" " alt="" coords="306,80,357,107"/>
+<area shape="rect" id="node9" href="$vec_8h.html" title=" " alt="" coords="5,80,60,107"/>
+<area shape="rect" id="node8" href="$os_8h.html" title=" " alt="" coords="339,155,385,181"/>
 </map>

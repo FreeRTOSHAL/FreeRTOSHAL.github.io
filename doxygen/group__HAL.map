@@ -1,29 +1,34 @@
 <map id="Hardware Abstraction Layer for FreeRTOS" name="Hardware Abstraction Layer for FreeRTOS">
-<area shape="rect" id="node1" href="$group__TPS65381.html" title="TPS65381 driver" alt="" coords="237,5,355,32"/>
-<area shape="rect" id="node2" href="$group__MPU9250.html" title="MPU9250 driver" alt="" coords="238,56,354,83"/>
-<area shape="rect" id="node3" href="$group__CAN.html" title="CAN Subsystem" alt="" coords="235,107,357,133"/>
-<area shape="rect" id="node4" href="$group__CAPTURE.html" title="Capture Subsystem" alt="" coords="227,157,365,184"/>
-<area shape="rect" id="node5" href="$group__GYRO.html" title="Gyroscope Subsystem" alt="" coords="219,208,373,235"/>
-<area shape="rect" id="node6" href="$group__LINKER.html" title="Linker Script Macros" alt="" coords="225,259,367,285"/>
-<area shape="rect" id="node8" href="$group__Remoteproc.html" title="Remoteproc Subssystem" alt="" coords="211,309,381,336"/>
-<area shape="rect" id="node9" href="$group__SPI.html" title="SPI Subsystem" alt="" coords="239,360,353,387"/>
-<area shape="rect" id="node10" href="$group__CLOCK.html" title="Clock Subsystem" alt="" coords="233,411,359,437"/>
-<area shape="rect" id="node11" href="$group__SYSTEM.html" title="Useful Macros" alt="" coords="243,461,349,488"/>
-<area shape="rect" id="node12" href="$group__ADC.html" title="ADC Subsystem" alt="" coords="235,512,357,539"/>
-<area shape="rect" id="node13" href="$group__sd__driver.html" title="SD Card Controller\l Interface" alt="" coords="229,563,363,605"/>
-<area shape="rect" id="node14" href="$group__rtc__driver.html" title="Real Time Clock (RTC)\l or Warl Clock driver." alt="" coords="216,629,376,670"/>
-<area shape="rect" id="node15" href="$group__BUFFER.html" title="Driver for Shared Memmory\l for heterogeneous Multicore\l Possessor" alt="" coords="203,695,389,751"/>
-<area shape="rect" id="node16" href="$group__Operation.html" title="System Layer for FreeRTOS" alt="" coords="201,775,391,801"/>
-<area shape="rect" id="node17" href="$group__Newlib.html" title="Newlib Function" alt="" coords="238,825,354,852"/>
-<area shape="rect" id="node18" href="$group__counter__driver.html" title="Counter Subsystem" alt="" coords="227,876,365,903"/>
-<area shape="rect" id="node19" href="$group__PWM.html" title="PWM Subsystem" alt="" coords="233,927,359,953"/>
-<area shape="rect" id="node20" href="$group__GPIO.html" title="GPIO Subsystem" alt="" coords="233,977,359,1004"/>
-<area shape="rect" id="node21" href="$group__CACHE.html" title="Cache Subsystem" alt="" coords="231,1028,361,1055"/>
-<area shape="rect" id="node22" href="$group__IRQ.html" title="IRQ Subsystem" alt="" coords="238,1079,354,1105"/>
-<area shape="rect" id="node23" href="$group__example__driver.html" title="Example driver" alt="" coords="241,1129,351,1156"/>
-<area shape="rect" id="node24" href="$group__mailbox.html" title="Mailbox" alt="" coords="263,1180,329,1207"/>
-<area shape="rect" id="node25" href="$group__UART.html" title="UART Subsystem" alt="" coords="231,1231,361,1257"/>
-<area shape="rect" id="node26" href="$group__MUX.html" title="Mux Subsystem" alt="" coords="237,1281,355,1308"/>
-<area shape="rect" id="node27" href="$group__TIMER.html" title="Timer Subsystem" alt="" coords="233,1332,359,1359"/>
-<area shape="rect" id="node28" href="$group__ACCEL.html" title="Accelerator Subsystem" alt="" coords="217,1383,375,1409"/>
+<area shape="rect" id="node1" href="$group__TPS65381.html" title=" " alt="" coords="235,5,354,31"/>
+<area shape="rect" id="node2" href="$group__MPU9250.html" title=" " alt="" coords="237,55,353,80"/>
+<area shape="rect" id="node3" href="$group__CAN.html" title=" " alt="" coords="234,104,355,129"/>
+<area shape="rect" id="node4" href="$group__CAPTURE.html" title=" " alt="" coords="225,153,364,179"/>
+<area shape="rect" id="node5" href="$group__GYRO.html" title=" " alt="" coords="217,203,372,228"/>
+<area shape="rect" id="node6" href="$group__LINKER.html" title=" " alt="" coords="223,252,366,277"/>
+<area shape="rect" id="node7" href="$group__OS.html" title=" " alt="" coords="213,302,376,342"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5,762,153,802"/>
+<area shape="rect" id="node9" href="$group__TLC5947.html" title=" " alt="" coords="237,367,352,392"/>
+<area shape="rect" id="node10" href="$group__Remoteproc.html" title=" " alt="" coords="209,416,380,441"/>
+<area shape="rect" id="node11" href="$group__I2C.html" title=" " alt="" coords="238,465,351,491"/>
+<area shape="rect" id="node12" href="$group__SPI.html" title=" " alt="" coords="237,515,352,540"/>
+<area shape="rect" id="node13" href="$group__LTC6811.html" title=" " alt="" coords="239,564,350,589"/>
+<area shape="rect" id="node14" href="$group__CLOCK.html" title=" " alt="" coords="231,613,358,639"/>
+<area shape="rect" id="node15" href="$group__SYSTEM.html" title=" " alt="" coords="241,663,348,688"/>
+<area shape="rect" id="node16" href="$group__ADC.html" title=" " alt="" coords="234,712,355,737"/>
+<area shape="rect" id="node17" href="$group__sd__driver.html" title=" " alt="" coords="228,762,361,802"/>
+<area shape="rect" id="node18" href="$group__rtc__driver.html" title=" " alt="" coords="215,826,375,866"/>
+<area shape="rect" id="node19" href="$group__BUFFER.html" title=" " alt="" coords="201,891,388,945"/>
+<area shape="rect" id="node20" href="$group__Newlib.html" title=" " alt="" coords="237,969,353,995"/>
+<area shape="rect" id="node21" href="$group__counter__driver.html" title=" " alt="" coords="225,1019,364,1044"/>
+<area shape="rect" id="node22" href="$group__PWM.html" title=" " alt="" coords="232,1068,357,1093"/>
+<area shape="rect" id="node23" href="$group__GPIO.html" title=" " alt="" coords="232,1117,357,1143"/>
+<area shape="rect" id="node24" href="$group__TEMP.html" title=" " alt="" coords="212,1167,377,1192"/>
+<area shape="rect" id="node25" href="$group__CACHE.html" title=" " alt="" coords="229,1216,360,1241"/>
+<area shape="rect" id="node26" href="$group__IRQ.html" title=" " alt="" coords="237,1265,353,1291"/>
+<area shape="rect" id="node27" href="$group__example__driver.html" title=" " alt="" coords="240,1315,349,1340"/>
+<area shape="rect" id="node28" href="$group__mailbox.html" title=" " alt="" coords="261,1364,328,1389"/>
+<area shape="rect" id="node29" href="$group__UART.html" title=" " alt="" coords="230,1413,359,1439"/>
+<area shape="rect" id="node30" href="$group__MUX.html" title=" " alt="" coords="236,1463,353,1488"/>
+<area shape="rect" id="node31" href="$group__TIMER.html" title=" " alt="" coords="232,1512,357,1537"/>
+<area shape="rect" id="node32" href="$group__ACCEL.html" title=" " alt="" coords="215,1561,374,1587"/>
 </map>

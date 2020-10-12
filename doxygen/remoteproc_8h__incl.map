@@ -1,6 +1,11 @@
 <map id="driver/include/remoteproc.h" name="driver/include/remoteproc.h">
-<area shape="rect" id="node3" href="$system_8h.html" title="system.h" alt="" coords="149,304,225,331"/>
-<area shape="rect" id="node4" href="$mailbox_8h.html" title="mailbox.h" alt="" coords="177,80,255,107"/>
-<area shape="rect" id="node8" href="$hal_8h.html" title="hal.h" alt="" coords="323,155,373,181"/>
-<area shape="rect" id="node9" href="$os_8h.html" title="os.h" alt="" coords="355,229,402,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="62,155,127,181"/>
+<area shape="rect" id="node3" href="$system_8h.html" title=" " alt="" coords="149,304,225,331"/>
+<area shape="rect" id="node4" href="$mailbox_8h.html" title=" " alt="" coords="177,80,255,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="269,304,365,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="396,304,471,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="495,304,571,331"/>
+<area shape="rect" id="node8" href="$hal_8h.html" title=" " alt="" coords="323,155,373,181"/>
+<area shape="rect" id="node9" href="$os_8h.html" title=" " alt="" coords="355,229,402,256"/>
 </map>

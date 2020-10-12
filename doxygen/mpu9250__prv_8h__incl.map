@@ -1,0 +1,15 @@
+<map id="driver/include/mpu9250_prv.h" name="driver/include/mpu9250_prv.h">
+<area shape="rect" id="node1" title=" " alt="" coords="321,5,477,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="280,319,345,345"/>
+<area shape="rect" id="node3" href="$mpu9250_8h.html" title=" " alt="" coords="356,95,442,121"/>
+<area shape="rect" id="node4" href="$spi_8h.html" title=" " alt="" coords="706,169,756,196"/>
+<area shape="rect" id="node9" href="$hal_8h.html" title=" " alt="" coords="618,244,668,271"/>
+<area shape="rect" id="node11" href="$vec_8h.html" title=" " alt="" coords="285,244,340,271"/>
+<area shape="rect" id="node12" href="$accel_8h.html" title=" " alt="" coords="130,169,194,196"/>
+<area shape="rect" id="node13" href="$gyro_8h.html" title=" " alt="" coords="512,169,571,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="396,393,471,420"/>
+<area shape="rect" id="node6" href="$system_8h.html" title=" " alt="" coords="764,393,840,420"/>
+<area shape="rect" id="node7" title=" " alt="" coords="538,393,634,420"/>
+<area shape="rect" id="node8" title=" " alt="" coords="664,393,740,420"/>
+<area shape="rect" id="node10" href="$os_8h.html" title=" " alt="" coords="624,319,670,345"/>
+</map>

@@ -71,5 +71,5 @@ var group__Remoteproc =
     [ "rproc_init", "group__Remoteproc.html#gabf554463053f376f5aa9274a7e7d9ddc", null ],
     [ "rproc_isr", "group__Remoteproc.html#ga797f4f9956e25cc6dcd966f43ba2d73b", null ],
     [ "rproc_notify", "group__Remoteproc.html#ga5bbf08581fcb16169b9a95db6b0b27fe", null ],
-    [ "__packed", "group__Remoteproc.html#gab151f186772fe6dc0da42c0ae9a27261", null ]
+    [ "__packed", "group__Remoteproc.html#gab132ae72152140afc4b1e78bac4e69c5", null ]
 ];

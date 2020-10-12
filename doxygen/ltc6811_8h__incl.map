@@ -1,0 +1,13 @@
+<map id="driver/include/ltc6811.h" name="driver/include/ltc6811.h">
+<area shape="rect" id="node1" title=" " alt="" coords="462,5,618,32"/>
+<area shape="rect" id="node2" href="$hal_8h.html" title=" " alt="" coords="484,155,535,181"/>
+<area shape="rect" id="node8" href="$i2c_8h.html" title=" " alt="" coords="547,80,598,107"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title=" " alt="" coords="666,80,721,107"/>
+<area shape="rect" id="node11" href="$spi_8h.html" title=" " alt="" coords="422,80,472,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="474,304,570,331"/>
+<area shape="rect" id="node4" title=" " alt="" coords="686,304,762,331"/>
+<area shape="rect" id="node5" href="$system_8h.html" title=" " alt="" coords="108,304,184,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="260,304,335,331"/>
+<area shape="rect" id="node7" href="$os_8h.html" title=" " alt="" coords="386,229,433,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="661,155,726,181"/>
+</map>
