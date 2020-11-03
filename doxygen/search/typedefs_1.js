@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['time_5ft_1522',['time_t',['../group__rtc__driver.html#ga7f5991675a84025dc7c24754a9b257c0',1,'rtc.h']]]
+  ['ltc_5fcmd_5ft_1638',['ltc_cmd_t',['../group__LTC6811.html#ga2e00f2c68a7d99d561ce6907cf3b111f',1,'ltc6811.h']]]
 ];

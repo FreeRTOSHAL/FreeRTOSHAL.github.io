@@ -1,7 +1,7 @@
 var group__LTC6811 =
 [
     [ "LTC6811_ADC_ID", "group__LTC6811.html#gaedfdd37da7a0f1da6385748f3e26b16d", null ],
-    [ "LTC6811_ADDDEV", "group__LTC6811.html#ga7291382e13ddccc95a0b9961e1336f01", null ],
+    [ "LTC6811_ADDDEV", "group__LTC6811.html#gafb23d3d0ccda9c1b58bfd972cb6f0900", null ],
     [ "LTC6811_GET_ALL_ADCS", "group__LTC6811.html#ga26560c5ea08d6a30b17dc07217c0a2cb", null ],
     [ "LTC6811_ID", "group__LTC6811.html#gaec9dfb0e261195b39ee8a8ed0a653313", null ],
     [ "LTC6811_SLAVE_ADDDEV", "group__LTC6811.html#ga1ac61a57671ffec9dac2a83904c19ee0", null ],
@@ -54,6 +54,12 @@ var group__LTC6811 =
     [ "LTC_CMD_STCOMM", "group__LTC6811.html#gaf27de1c6f4a72d69003cd491e9d35a1a", null ],
     [ "LTC_CMD_STSCTRL", "group__LTC6811.html#gae993f2d986bcc5c17d4bbf8a6e9041f8", null ],
     [ "LTC_CMD_WRCFGA", "group__LTC6811.html#ga464456ecc4a9176928b41706071047a6", null ],
+    [ "LTC_CMD_WRCFGA_0_ADCOPT", "group__LTC6811.html#ga669f0daccf0e37e90cdfc9088280dc22", null ],
+    [ "LTC_CMD_WRCFGA_0_DTEN", "group__LTC6811.html#ga2ad4295a23df9d6c1db51dd8f538420f", null ],
+    [ "LTC_CMD_WRCFGA_0_GPIO_PULLUP", "group__LTC6811.html#gae35c867a605ee9eb29afe4f94bb0e02b", null ],
+    [ "LTC_CMD_WRCFGA_0_REFON", "group__LTC6811.html#ga3b0f690bdb1046082c48a64b2e8221c3", null ],
+    [ "LTC_CMD_WRCFGA_4_DCC", "group__LTC6811.html#ga58f39c05542475e17a85ad43cbc247a7", null ],
+    [ "LTC_CMD_WRCFGA_5_DCTO", "group__LTC6811.html#ga4977d03adf6944fd8a37a88716b57537", null ],
     [ "LTC_CMD_WRCOMM", "group__LTC6811.html#gabd22427999990ae8dfac821025c973a4", null ],
     [ "LTC_CMD_WRPWM", "group__LTC6811.html#ga3e7c86e5ee14c9d262692b9e5ca6c83d", null ],
     [ "LTC_CMD_WRSCTRL", "group__LTC6811.html#ga19dfdd21af1709a030175f265de81b56", null ],
@@ -63,7 +69,10 @@ var group__LTC6811 =
     [ "ltc6811_init", "group__LTC6811.html#ga75440f4c38f88d57d0906cc5fbf33e3d", null ],
     [ "ltc6811_read", "group__LTC6811.html#gaeb72a1b5fcc6bbaf13a777c09cd0a4d6", null ],
     [ "ltc6811_readRegister", "group__LTC6811.html#ga6073cf3d4097b592b2419600f1903633", null ],
+    [ "ltc6811_setADCCallback", "group__LTC6811.html#gaea6df58bd10f1286875bc9fc5d3ef083", null ],
     [ "ltc6811_slave_init", "group__LTC6811.html#ga88ad31eb78ccefd8e7a095669a339f79", null ],
+    [ "ltc6811_startADC", "group__LTC6811.html#gaacd41037c988471ce53389762fec414f", null ],
+    [ "ltc6811_stopADC", "group__LTC6811.html#ga748c90fab4a3cdd346585b8314280236", null ],
     [ "ltc6811_write", "group__LTC6811.html#ga6ec819ead13d65dab10fdcfb4bc9d118", null ],
     [ "ltc6811_writeRegister", "group__LTC6811.html#ga1fc90983588d75d4f2bcbb1f3f7b5c8c", null ]
 ];

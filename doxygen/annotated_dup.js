@@ -2,6 +2,8 @@ var annotated_dup =
 [
     [ "accel_generic", "structaccel__generic.html", "structaccel__generic" ],
     [ "adc_generic", "structadc__generic.html", "structadc__generic" ],
+    [ "can_bittiming", "structcan__bittiming.html", "structcan__bittiming" ],
+    [ "can_bittiming_const", "structcan__bittiming__const.html", "structcan__bittiming__const" ],
     [ "can_filter", "structcan__filter.html", "structcan__filter" ],
     [ "can_generic", "structcan__generic.html", "structcan__generic" ],
     [ "can_msg", "structcan__msg.html", "structcan__msg" ],

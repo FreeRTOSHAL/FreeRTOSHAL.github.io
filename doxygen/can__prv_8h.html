@@ -82,6 +82,7 @@ $(document).ready(function(){initNavTree('can__prv_8h.html',''); initResizable()
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -111,6 +112,13 @@ Include dependency graph for can_prv.h:</div>
 </div>
 <p><a href="can__prv_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__bittiming.html">can_bittiming</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__bittiming__const.html">can_bittiming_const</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a5f01bed95520ecddaa2358936b105d32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a5f01bed95520ecddaa2358936b105d32">CAN_ALREDY_INITED</a>&#160;&#160;&#160;1</td></tr>
@@ -127,23 +135,23 @@ Macros</h2></td></tr>
 <tr class="separator:aed898a0efcdcfbcb9f82a42a89e967c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac862a7d898297677ecba653021cf5ace"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#ac862a7d898297677ecba653021cf5ace">CAN_INIT_DEV</a>(ns)</td></tr>
 <tr class="separator:ac862a7d898297677ecba653021cf5ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8abb30c416c308e30d59e38b25fe289"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#ae8abb30c416c308e30d59e38b25fe289">CAN_INIT</a>(ns,  index,  bitrate,  pin,  pinHigh)&#160;&#160;&#160;struct can * <a class="el" href="group__CAN.html#ga2b2512c7ec6a73b3344d746df156ba58">can_init</a>(uint32_t index, uint8_t bitrate, struct gpio_pin *pin, bool pinHigh)</td></tr>
-<tr class="separator:ae8abb30c416c308e30d59e38b25fe289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78a97d41423ea9f18723a2750bc1fa31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a78a97d41423ea9f18723a2750bc1fa31">CAN_INIT</a>(ns,  index,  bitrate,  pin,  pinHigh,  callback,  data)&#160;&#160;&#160;struct can * <a class="el" href="group__CAN.html#ga7d0fc6a3fc8cf38b7cfb43017ac459d7">can_init</a>(uint32_t index, uint32_t bitrate, struct gpio_pin *pin, bool pinHigh, bool (*callback)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> d), void *data)</td></tr>
+<tr class="separator:a78a97d41423ea9f18723a2750bc1fa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afae93500fda5ee1103965ea25d9c051e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#afae93500fda5ee1103965ea25d9c051e">CAN_DEINIT</a>(ns,  c)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga58ec29822172f6026d890954509fe6a7">can_deinit</a>(struct can *c)</td></tr>
 <tr class="separator:afae93500fda5ee1103965ea25d9c051e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1372390358ff337929561480372e8d88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a1372390358ff337929561480372e8d88">CAN_SET_CALLBACK</a>(ns,  c,  filterID,  callback,  data)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gab396c354a7e3a68aeec65da6ba029cd2">can_setCallback</a>(struct can *c, uint32_t filterID, bool (*callback)(struct can *can, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, void *data), void *data)</td></tr>
+<tr class="memitem:a1372390358ff337929561480372e8d88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a1372390358ff337929561480372e8d88">CAN_SET_CALLBACK</a>(ns,  c,  filterID,  callback,  data)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga9e81eba08aa916e73a558baf6d314afe">can_setCallback</a>(struct can *c, int32_t filterID, bool (*callback)(struct can *can, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, void *data), void *data)</td></tr>
 <tr class="separator:a1372390358ff337929561480372e8d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab98434320d053f99183a3e1b6db15a1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#ab98434320d053f99183a3e1b6db15a1a">CAN_REGISTER_FILTER</a>(ns,  c,  filter)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gab643a6c51025321993c140ca5cfe448d">can_registerFilter</a>(struct can *c, struct <a class="el" href="structcan__filter.html">can_filter</a> *filter)</td></tr>
 <tr class="separator:ab98434320d053f99183a3e1b6db15a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eacbb816f723bbd49712dffc683c8be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a3eacbb816f723bbd49712dffc683c8be">CAN_DEREGISTER_FILTER</a>(ns,  c,  filterID)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga03c7fbdcdc88557f4de0d12b5304d195">can_deregisterFilter</a>(struct can *c, uint32_t filterID)</td></tr>
+<tr class="memitem:a3eacbb816f723bbd49712dffc683c8be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a3eacbb816f723bbd49712dffc683c8be">CAN_DEREGISTER_FILTER</a>(ns,  c,  filterID)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gaddc776090b46d28b4a35b58b62529f01">can_deregisterFilter</a>(struct can *c, int32_t filterID)</td></tr>
 <tr class="separator:a3eacbb816f723bbd49712dffc683c8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91a988fe2abe29195a767ec654ce9cd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a91a988fe2abe29195a767ec654ce9cd3">CAN_SEND</a>(ns,  c,  msg,  waittime)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gab2e35961c8c2057c7a01ef272d2d2267">can_send</a>(struct can *c, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, TickType_t waittime)</td></tr>
 <tr class="separator:a91a988fe2abe29195a767ec654ce9cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29d237bb7cf5ba1b864519a5934adf3c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a29d237bb7cf5ba1b864519a5934adf3c">CAN_RECV</a>(ns,  c,  filterID,  msg,  waittime)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gad0e3e6f2f6a876fa81c9d14e605da35d">can_recv</a>(struct can *c, uint32_t filterID, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, TickType_t waittime)</td></tr>
+<tr class="memitem:a29d237bb7cf5ba1b864519a5934adf3c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a29d237bb7cf5ba1b864519a5934adf3c">CAN_RECV</a>(ns,  c,  filterID,  msg,  waittime)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga3a1e121bd95d613e2d792ce6c7553f4c">can_recv</a>(struct can *c, int32_t filterID, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, TickType_t waittime)</td></tr>
 <tr class="separator:a29d237bb7cf5ba1b864519a5934adf3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8cde79e7999a391901d80ad9a959473"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#ae8cde79e7999a391901d80ad9a959473">CAN_SEND_ISR</a>(ns,  c,  msg)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga0d2325c23924ca471fde9fb8251cc01d">can_sendISR</a>(struct can *c, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg)</td></tr>
 <tr class="separator:ae8cde79e7999a391901d80ad9a959473"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05e185b32a336f67d9857afcba5b544e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a05e185b32a336f67d9857afcba5b544e">CAN_RECV_ISR</a>(ns,  c,  filterID,  msg)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga7622cd7a7d064d813b811d48050380e6">can_recvISR</a>(struct can *c, uint32_t filterID, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg)</td></tr>
+<tr class="memitem:a05e185b32a336f67d9857afcba5b544e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a05e185b32a336f67d9857afcba5b544e">CAN_RECV_ISR</a>(ns,  c,  filterID,  msg)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga59d76080ec29acbcb5c7ad106d110785">can_recvISR</a>(struct can *c, int32_t filterID, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg)</td></tr>
 <tr class="separator:a05e185b32a336f67d9857afcba5b544e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9c3be25985ee82eb1f6ac906b07fb4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#ae9c3be25985ee82eb1f6ac906b07fb4a">CAN_UP</a>(ns,  c)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gaab22e76e50c6848b34bfa3437cd996aa">can_up</a>(struct can *c)</td></tr>
 <tr class="separator:ae9c3be25985ee82eb1f6ac906b07fb4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,6 +164,8 @@ Functions</h2></td></tr>
 <tr class="separator:a902894921bc5c3062cb9bd373a1314b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f8b366c4850d85b14f9888aeae755f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a5f8b366c4850d85b14f9888aeae755f7">HAL_DEFINE_GLOBAL_ARRAY</a> (can)</td></tr>
 <tr class="separator:a5f8b366c4850d85b14f9888aeae755f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9166ac5db0f69edab173664030bb29e1"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a9166ac5db0f69edab173664030bb29e1">can_calcBittiming</a> (struct <a class="el" href="structcan__bittiming.html">can_bittiming</a> *bt, struct <a class="el" href="structcan__bittiming__const.html">can_bittiming_const</a> const *btc, int64_t clkFreq)</td></tr>
+<tr class="separator:a9166ac5db0f69edab173664030bb29e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ad2b0d23e971829b1908e688f022ee263"></a>
@@ -255,7 +265,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga03c7fbdcdc88557f4de0d12b5304d195">can_deregisterFilter</a>(struct can *c, uint32_t filterID)</td>
+          <td></td><td>&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gaddc776090b46d28b4a35b58b62529f01">can_deregisterFilter</a>(struct can *c, int32_t filterID)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -308,8 +318,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae8abb30c416c308e30d59e38b25fe289"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8abb30c416c308e30d59e38b25fe289">&#9670;&nbsp;</a></span>CAN_INIT</h2>
+<a id="a78a97d41423ea9f18723a2750bc1fa31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78a97d41423ea9f18723a2750bc1fa31">&#9670;&nbsp;</a></span>CAN_INIT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,12 +352,24 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">pinHigh&#160;</td>
+          <td class="paramname">pinHigh, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">callback, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">data&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;struct can * <a class="el" href="group__CAN.html#ga2b2512c7ec6a73b3344d746df156ba58">can_init</a>(uint32_t index, uint8_t bitrate, struct gpio_pin *pin, bool pinHigh)</td>
+          <td></td><td>&#160;&#160;&#160;struct can * <a class="el" href="group__CAN.html#ga7d0fc6a3fc8cf38b7cfb43017ac459d7">can_init</a>(uint32_t index, uint32_t bitrate, struct gpio_pin *pin, bool pinHigh, bool (*callback)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> d), void *data)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -463,7 +485,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gad0e3e6f2f6a876fa81c9d14e605da35d">can_recv</a>(struct can *c, uint32_t filterID, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, TickType_t waittime)</td>
+          <td></td><td>&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga3a1e121bd95d613e2d792ce6c7553f4c">can_recv</a>(struct can *c, int32_t filterID, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, TickType_t waittime)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -503,7 +525,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga7622cd7a7d064d813b811d48050380e6">can_recvISR</a>(struct can *c, uint32_t filterID, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg)</td>
+          <td></td><td>&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga59d76080ec29acbcb5c7ad106d110785">can_recvISR</a>(struct can *c, int32_t filterID, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -657,7 +679,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#gab396c354a7e3a68aeec65da6ba029cd2">can_setCallback</a>(struct can *c, uint32_t filterID, bool (*callback)(struct can *can, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, void *data), void *data)</td>
+          <td></td><td>&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga9e81eba08aa916e73a558baf6d314afe">can_setCallback</a>(struct can *c, int32_t filterID, bool (*callback)(struct can *can, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, void *data), void *data)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -721,6 +743,40 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a9166ac5db0f69edab173664030bb29e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9166ac5db0f69edab173664030bb29e1">&#9670;&nbsp;</a></span>can_calcBittiming()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t can_calcBittiming </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structcan__bittiming.html">can_bittiming</a> *&#160;</td>
+          <td class="paramname"><em>bt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structcan__bittiming__const.html">can_bittiming_const</a> const *&#160;</td>
+          <td class="paramname"><em>btc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int64_t&#160;</td>
+          <td class="paramname"><em>clkFreq</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a902894921bc5c3062cb9bd373a1314b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a902894921bc5c3062cb9bd373a1314b7">&#9670;&nbsp;</a></span>can_genericInit()</h2>
 
@@ -763,7 +819,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="can__prv_8h.html">can_prv.h</a></li>
-    <li class="footer">Generated on Mon Oct 12 2020 19:03:14 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

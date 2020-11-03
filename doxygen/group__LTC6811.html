@@ -103,6 +103,18 @@ Collaboration diagram for LTC6811 driver:</div>
 Macros</h2></td></tr>
 <tr class="memitem:ga464456ecc4a9176928b41706071047a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga464456ecc4a9176928b41706071047a6">LTC_CMD_WRCFGA</a>&#160;&#160;&#160;(0x1)</td></tr>
 <tr class="separator:ga464456ecc4a9176928b41706071047a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae35c867a605ee9eb29afe4f94bb0e02b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#gae35c867a605ee9eb29afe4f94bb0e02b">LTC_CMD_WRCFGA_0_GPIO_PULLUP</a>(gpio)&#160;&#160;&#160;((1 &lt;&lt; gpio) &lt;&lt; 3)</td></tr>
+<tr class="separator:gae35c867a605ee9eb29afe4f94bb0e02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b0f690bdb1046082c48a64b2e8221c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga3b0f690bdb1046082c48a64b2e8221c3">LTC_CMD_WRCFGA_0_REFON</a>&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(2)</td></tr>
+<tr class="separator:ga3b0f690bdb1046082c48a64b2e8221c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ad4295a23df9d6c1db51dd8f538420f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga2ad4295a23df9d6c1db51dd8f538420f">LTC_CMD_WRCFGA_0_DTEN</a>&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(1)</td></tr>
+<tr class="separator:ga2ad4295a23df9d6c1db51dd8f538420f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga669f0daccf0e37e90cdfc9088280dc22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga669f0daccf0e37e90cdfc9088280dc22">LTC_CMD_WRCFGA_0_ADCOPT</a>&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(0)</td></tr>
+<tr class="separator:ga669f0daccf0e37e90cdfc9088280dc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga58f39c05542475e17a85ad43cbc247a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga58f39c05542475e17a85ad43cbc247a7">LTC_CMD_WRCFGA_4_DCC</a>(x)&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(x)</td></tr>
+<tr class="separator:ga58f39c05542475e17a85ad43cbc247a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4977d03adf6944fd8a37a88716b57537"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga4977d03adf6944fd8a37a88716b57537">LTC_CMD_WRCFGA_5_DCTO</a>(DCTO)&#160;&#160;&#160;(DCTO &lt;&lt; 4)</td></tr>
+<tr class="separator:ga4977d03adf6944fd8a37a88716b57537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2a6d6d0d2ebd1fdac118180d52c97163"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga2a6d6d0d2ebd1fdac118180d52c97163">LTC_CMD_RDCFGA</a>&#160;&#160;&#160;(0x2)</td></tr>
 <tr class="separator:ga2a6d6d0d2ebd1fdac118180d52c97163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3467ea9512fea94ca8ead11b2a5453a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga3467ea9512fea94ca8ead11b2a5453a3">LTC_CMD_RDCVA</a>&#160;&#160;&#160;(0x4)</td></tr>
@@ -203,8 +215,8 @@ Macros</h2></td></tr>
 <tr class="separator:ga349739958d32e81c1271f2ad3be161b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf27de1c6f4a72d69003cd491e9d35a1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#gaf27de1c6f4a72d69003cd491e9d35a1a">LTC_CMD_STCOMM</a>&#160;&#160;&#160;(0x723)</td></tr>
 <tr class="separator:gaf27de1c6f4a72d69003cd491e9d35a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7291382e13ddccc95a0b9961e1336f01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga7291382e13ddccc95a0b9961e1336f01">LTC6811_ADDDEV</a>(id,  numberofslave)</td></tr>
-<tr class="separator:ga7291382e13ddccc95a0b9961e1336f01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb23d3d0ccda9c1b58bfd972cb6f0900"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#gafb23d3d0ccda9c1b58bfd972cb6f0900">LTC6811_ADDDEV</a>(id,  numberofslave,  _cellUnderVoltage,  _cellOverVoltage)</td></tr>
+<tr class="separator:gafb23d3d0ccda9c1b58bfd972cb6f0900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1ac61a57671ffec9dac2a83904c19ee0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga1ac61a57671ffec9dac2a83904c19ee0">LTC6811_SLAVE_ADDDEV</a>(masterid,  id)</td></tr>
 <tr class="separator:ga1ac61a57671ffec9dac2a83904c19ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaec9dfb0e261195b39ee8a8ed0a653313"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#gaec9dfb0e261195b39ee8a8ed0a653313">LTC6811_ID</a>(id)&#160;&#160;&#160;<a class="el" href="group__HAL.html#gaf08f99e8b465763a2212f006738673d8">HAL_GET_ID</a>(<a class="el" href="structhal.html">hal</a>, ltc6811, ltc6811_dev_##id)</td></tr>
@@ -239,6 +251,12 @@ Functions</h2></td></tr>
 <tr class="separator:ga1fc90983588d75d4f2bcbb1f3f7b5c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6073cf3d4097b592b2419600f1903633"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga6073cf3d4097b592b2419600f1903633">ltc6811_readRegister</a> (struct ltc6811 *ltc, <a class="el" href="group__LTC6811.html#ga2e00f2c68a7d99d561ce6907cf3b111f">ltc_cmd_t</a> cmd, uint8_t *registerContent)</td></tr>
 <tr class="separator:ga6073cf3d4097b592b2419600f1903633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaea6df58bd10f1286875bc9fc5d3ef083"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#gaea6df58bd10f1286875bc9fc5d3ef083">ltc6811_setADCCallback</a> (struct ltc6811 *ltc, bool(*callback)(struct ltc6811 *ltc, void *data), void *data)</td></tr>
+<tr class="separator:gaea6df58bd10f1286875bc9fc5d3ef083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaacd41037c988471ce53389762fec414f"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#gaacd41037c988471ce53389762fec414f">ltc6811_startADC</a> (struct ltc6811 *ltc)</td></tr>
+<tr class="separator:gaacd41037c988471ce53389762fec414f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga748c90fab4a3cdd346585b8314280236"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga748c90fab4a3cdd346585b8314280236">ltc6811_stopADC</a> (struct ltc6811 *ltc)</td></tr>
+<tr class="separator:ga748c90fab4a3cdd346585b8314280236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="ltc6811_8h.html">ltc6811.h</a>&gt;</span></div>
@@ -278,8 +296,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga7291382e13ddccc95a0b9961e1336f01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7291382e13ddccc95a0b9961e1336f01">&#9670;&nbsp;</a></span>LTC6811_ADDDEV</h2>
+<a id="gafb23d3d0ccda9c1b58bfd972cb6f0900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafb23d3d0ccda9c1b58bfd972cb6f0900">&#9670;&nbsp;</a></span>LTC6811_ADDDEV</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +312,19 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">numberofslave&#160;</td>
+          <td class="paramname">numberofslave, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_cellUnderVoltage, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_cellOverVoltage&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -311,6 +341,8 @@ Functions</h2></td></tr>
 <div class="line">                .allSlavesMask = ((1 &lt;&lt; numberofslave) - 1), \</div>
 <div class="line">                .selectSlaves = ((1 &lt;&lt; numberofslave) - 1), \</div>
 <div class="line">                .slaves = ltc6811_slaves_##id, \</div>
+<div class="line">                .cellUnderVoltage = (((_cellUnderVoltage) / (16 * 100E-3)) - 1), \</div>
+<div class="line">                .cellOverVoltage = ((_cellOverVoltage) / (16 * 100E-3)), \</div>
 <div class="line">        }; \</div>
 <div class="line">        HAL_ADD(ltc6811, ltc6811_dev_##<span class="keywordtype">id</span>);</div>
 </div><!-- fragment -->
@@ -1690,6 +1722,131 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ga669f0daccf0e37e90cdfc9088280dc22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga669f0daccf0e37e90cdfc9088280dc22">&#9670;&nbsp;</a></span>LTC_CMD_WRCFGA_0_ADCOPT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LTC_CMD_WRCFGA_0_ADCOPT&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>ADC Mode Option Bit 0 -&gt; Selects Modes 27kHz, 7kHz, 422Hz or 26Hz with MD[1:0] Bits in ADC Conversion Commands (Default) 1 -&gt; Selects Modes 14kHz, 3kHz, 1kHz or 2kHz with MD[1:0] Bits in ADC Conversion Commands </p>
+
+</div>
+</div>
+<a id="ga2ad4295a23df9d6c1db51dd8f538420f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ad4295a23df9d6c1db51dd8f538420f">&#9670;&nbsp;</a></span>LTC_CMD_WRCFGA_0_DTEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LTC_CMD_WRCFGA_0_DTEN&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Discharge Timer Enable (Read Only) 1 -&gt; Enables the Discharge Timer for Discharge Switches 0 -&gt; Disables Discharge Timer </p>
+
+</div>
+</div>
+<a id="gae35c867a605ee9eb29afe4f94bb0e02b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae35c867a605ee9eb29afe4f94bb0e02b">&#9670;&nbsp;</a></span>LTC_CMD_WRCFGA_0_GPIO_PULLUP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LTC_CMD_WRCFGA_0_GPIO_PULLUP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">gpio</td><td>)</td>
+          <td>&#160;&#160;&#160;((1 &lt;&lt; gpio) &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Define GPIO Pullup </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gpio</td><td>0 = GPIO1, 1 = GPIO2, etc </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga3b0f690bdb1046082c48a64b2e8221c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b0f690bdb1046082c48a64b2e8221c3">&#9670;&nbsp;</a></span>LTC_CMD_WRCFGA_0_REFON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LTC_CMD_WRCFGA_0_REFON&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>References Powered Up</p>
+<p>1 = References Remain Powered Up Until Watchdog Timeout 0 = References Shut Down After Conversions </p>
+
+</div>
+</div>
+<a id="ga58f39c05542475e17a85ad43cbc247a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga58f39c05542475e17a85ad43cbc247a7">&#9670;&nbsp;</a></span>LTC_CMD_WRCFGA_4_DCC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LTC_CMD_WRCFGA_4_DCC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(x)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Discharge Cell </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Cell</td><td>0 - 11 (16 Bit Acces!) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4977d03adf6944fd8a37a88716b57537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4977d03adf6944fd8a37a88716b57537">&#9670;&nbsp;</a></span>LTC_CMD_WRCFGA_5_DCTO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LTC_CMD_WRCFGA_5_DCTO</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">DCTO</td><td>)</td>
+          <td>&#160;&#160;&#160;(DCTO &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Discharge Timeout Value</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">DCTO</td><td>0x0-0xF <table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadLeft">DCTO  </th><th class="markdownTableHeadCenter">0  </th><th class="markdownTableHeadCenter">1  </th><th class="markdownTableHeadCenter">2  </th><th class="markdownTableHeadCenter">3  </th><th class="markdownTableHeadCenter">4  </th><th class="markdownTableHeadCenter">5  </th><th class="markdownTableHeadCenter">6  </th><th class="markdownTableHeadCenter">7  </th><th class="markdownTableHeadCenter">8  </th><th class="markdownTableHeadCenter">9  </th><th class="markdownTableHeadCenter">A  </th><th class="markdownTableHeadCenter">B  </th><th class="markdownTableHeadCenter">C  </th><th class="markdownTableHeadCenter">D  </th><th class="markdownTableHeadCenter">E  </th><th class="markdownTableHeadCenter">F   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyLeft">Time (MIN)  </td><td class="markdownTableBodyCenter">Disabled  </td><td class="markdownTableBodyCenter">0.5  </td><td class="markdownTableBodyCenter">1  </td><td class="markdownTableBodyCenter">2  </td><td class="markdownTableBodyCenter">3  </td><td class="markdownTableBodyCenter">4  </td><td class="markdownTableBodyCenter">5  </td><td class="markdownTableBodyCenter">10  </td><td class="markdownTableBodyCenter">15  </td><td class="markdownTableBodyCenter">20  </td><td class="markdownTableBodyCenter">30  </td><td class="markdownTableBodyCenter">40  </td><td class="markdownTableBodyCenter">60  </td><td class="markdownTableBodyCenter">75  </td><td class="markdownTableBodyCenter">90  </td><td class="markdownTableBodyCenter">120   </td></tr>
+</table>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="gabd22427999990ae8dfac821025c973a4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gabd22427999990ae8dfac821025c973a4">&#9670;&nbsp;</a></span>LTC_CMD_WRCOMM</h2>
 
@@ -1964,6 +2121,40 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gaea6df58bd10f1286875bc9fc5d3ef083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaea6df58bd10f1286875bc9fc5d3ef083">&#9670;&nbsp;</a></span>ltc6811_setADCCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t ltc6811_setADCCallback </td>
+          <td>(</td>
+          <td class="paramtype">struct ltc6811 *&#160;</td>
+          <td class="paramname"><em>ltc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool(*)(struct ltc6811 *ltc, void *data)&#160;</td>
+          <td class="paramname"><em>callback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ga88ad31eb78ccefd8e7a095669a339f79"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga88ad31eb78ccefd8e7a095669a339f79">&#9670;&nbsp;</a></span>ltc6811_slave_init()</h2>
 
@@ -1986,6 +2177,42 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>LTC6811 Slave Instance or NULL on error </dd></dl>
+
+</div>
+</div>
+<a id="gaacd41037c988471ce53389762fec414f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaacd41037c988471ce53389762fec414f">&#9670;&nbsp;</a></span>ltc6811_startADC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t ltc6811_startADC </td>
+          <td>(</td>
+          <td class="paramtype">struct ltc6811 *&#160;</td>
+          <td class="paramname"><em>ltc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga748c90fab4a3cdd346585b8314280236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga748c90fab4a3cdd346585b8314280236">&#9670;&nbsp;</a></span>ltc6811_stopADC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t ltc6811_stopADC </td>
+          <td>(</td>
+          <td class="paramtype">struct ltc6811 *&#160;</td>
+          <td class="paramname"><em>ltc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2092,12 +2319,12 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="altc6811_8h_html"><div class="ttname"><a href="ltc6811_8h.html">ltc6811.h</a></div></div>
-<div class="ttc" id="agroup__LTC6811_html_gaedfdd37da7a0f1da6385748f3e26b16d"><div class="ttname"><a href="group__LTC6811.html#gaedfdd37da7a0f1da6385748f3e26b16d">LTC6811_ADC_ID</a></div><div class="ttdeci">#define LTC6811_ADC_ID(masterid, id, adcid)</div><div class="ttdef"><b>Definition:</b> ltc6811.h:564</div></div>
+<div class="ttc" id="agroup__LTC6811_html_gaedfdd37da7a0f1da6385748f3e26b16d"><div class="ttname"><a href="group__LTC6811.html#gaedfdd37da7a0f1da6385748f3e26b16d">LTC6811_ADC_ID</a></div><div class="ttdeci">#define LTC6811_ADC_ID(masterid, id, adcid)</div><div class="ttdef"><b>Definition:</b> ltc6811.h:646</div></div>
 <div class="ttc" id="agroup__ADC_html_ga63f966faf587a11f8437b0573b877141"><div class="ttname"><a href="group__ADC.html#ga63f966faf587a11f8437b0573b877141">adc_init</a></div><div class="ttdeci">struct adc * adc_init(uint32_t index, uint8_t bits, uint32_t hz)</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Oct 12 2020 19:03:14 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Nov 3 2020 12:39:32 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

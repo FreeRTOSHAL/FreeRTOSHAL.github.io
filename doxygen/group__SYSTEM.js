@@ -6,6 +6,7 @@ var group__SYSTEM =
     [ "be16_to_cpu", "group__SYSTEM.html#ga704914f1589d068135ab80380a6881ee", null ],
     [ "be32_to_cpu", "group__SYSTEM.html#gac4679fe8e8af7b9a150195649e67dc10", null ],
     [ "BIT", "group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae", null ],
+    [ "BIT64", "group__SYSTEM.html#ga2bfa2634d8a88e42f49450f77d7e5044", null ],
     [ "cpu_to_be16", "group__SYSTEM.html#ga61fd4a7a792dc1fe64848f579c701332", null ],
     [ "cpu_to_be32", "group__SYSTEM.html#ga9d894207be4b384cfce1dcc50865450d", null ],
     [ "cpu_to_le16", "group__SYSTEM.html#ga58fe9b3d2186e13223b7bb1fa4d72901", null ],

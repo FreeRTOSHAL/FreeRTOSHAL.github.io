@@ -92,12 +92,14 @@ $(document).ready(function(){initNavTree('structcan__msg.html',''); initResizabl
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a8742fe3ede054e5ef49607f6ee7f001b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__msg.html#a8742fe3ede054e5ef49607f6ee7f001b">id</a></td></tr>
-<tr class="separator:a8742fe3ede054e5ef49607f6ee7f001b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157aaad2daf039f59606522c6a51663a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__msg.html#a157aaad2daf039f59606522c6a51663a">ts</a></td></tr>
+<tr class="separator:a157aaad2daf039f59606522c6a51663a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a5f820883d3dfe1f0c6bc33c3f95989"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__msg.html#a9a5f820883d3dfe1f0c6bc33c3f95989">id</a></td></tr>
+<tr class="separator:a9a5f820883d3dfe1f0c6bc33c3f95989"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307f436ef38aae1e53fd8ed4a11094d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__msg.html#a307f436ef38aae1e53fd8ed4a11094d1">req</a></td></tr>
 <tr class="separator:a307f436ef38aae1e53fd8ed4a11094d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad31937280463c2405ec071c786951436"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__msg.html#ad31937280463c2405ec071c786951436">len</a></td></tr>
-<tr class="separator:ad31937280463c2405ec071c786951436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99189cf1fd06d3c6825c276a5ea66155"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__msg.html#a99189cf1fd06d3c6825c276a5ea66155">length</a></td></tr>
+<tr class="separator:a99189cf1fd06d3c6825c276a5ea66155"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8560e03d1ea08105038233426001ca48"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcan__msg.html#a8560e03d1ea08105038233426001ca48">data</a> [<a class="el" href="group__CAN.html#gab7bf92a4f1fa8d5c2f4ab24991419bc3">CAN_MAX_LENGTH</a>]</td></tr>
 <tr class="separator:a8560e03d1ea08105038233426001ca48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -119,14 +121,14 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a8742fe3ede054e5ef49607f6ee7f001b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8742fe3ede054e5ef49607f6ee7f001b">&#9670;&nbsp;</a></span>id</h2>
+<a id="a9a5f820883d3dfe1f0c6bc33c3f95989"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a5f820883d3dfe1f0c6bc33c3f95989">&#9670;&nbsp;</a></span>id</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t can_msg::id</td>
+          <td class="memname">uint32_t can_msg::id</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -134,18 +136,19 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="ad31937280463c2405ec071c786951436"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad31937280463c2405ec071c786951436">&#9670;&nbsp;</a></span>len</h2>
+<a id="a99189cf1fd06d3c6825c276a5ea66155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99189cf1fd06d3c6825c276a5ea66155">&#9670;&nbsp;</a></span>length</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t can_msg::len</td>
+          <td class="memname">uint8_t can_msg::length</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Length </p>
+<p>Length</p>
+<p>DLC values ranging from 1001 to 1111 are used to specify the data lengths of 12, 16, 20, 24, 32, 48, and 64 bytes. </p>
 
 </div>
 </div>
@@ -164,6 +167,22 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
+<a id="a157aaad2daf039f59606522c6a51663a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a157aaad2daf039f59606522c6a51663a">&#9670;&nbsp;</a></span>ts</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t can_msg::ts</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Timestamp</p>
+<p>May from a free Running Conunter of the Hardware </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>driver/include/<a class="el" href="can_8h_source.html">can.h</a></li>
 </ul>
@@ -173,7 +192,7 @@ Data Fields</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="structcan__msg.html">can_msg</a></li>
-    <li class="footer">Generated on Mon Oct 12 2020 19:03:14 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Nov 3 2020 12:39:32 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>
