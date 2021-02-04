@@ -10,6 +10,7 @@ The Hardware supported are:
   * NXP S32k
   * ST STM32
   * TI AM57xx (Cortex-M4 only)
+  * TI TMS320C28x (TI DSP)
 
 Driver Support for each core:
 
