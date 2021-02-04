@@ -13,13 +13,14 @@ The Hardware supported are:
 
 Driver Support for each core:
 
-| Platform | GPIO | UART | SPI | Timer | PWM | Capture | SD | Net | CAN | Mailbox | Remoteproc | Temp  | 
-|----------|:----:|:----:|:---:|:-----:|:---:|:-------:|:--:|:---:|:---:|:-------:|:----------:|:-----:|
-| VF610    |  x   |  x   |  x  |   x   |  x  |    x    | -  |  -  |  -  |    -    |      -     |   -   |
-| IMX6sx   |  x   |  x   |  -  |   x   |  x  |    x    | -  |  x  |  -  |    x    |      x     |   -   |
-| S32k     |  x   |  x   |  -  |   x   |  x  |    x    | -  |  /  |  -  |    -    |      -     |   -   |
-| STM32    |  x   |  x   |  x  |   x   |  x  |    x    | x  |  -  |  -  |    -    |      -     |   -   |
-| AM57xx   |  x   |  x   |  x  |   x   |  x  |    x    | -  |  -  |  -  |    x    |      x     |   x   |
+| Platform   | GPIO | UART | ADC | SPI | Timer | PWM | Capture | SD | Net | CAN | Mailbox | Remoteproc | Temp  | 
+|------------|:----:|:----:|:---:|:---:|:-----:|:---:|:-------:|:--:|:---:|:---:|:-------:|:----------:|:-----:|
+| VF610      |  x   |  x   |  x  |  x  |   x   |  x  |    x    | -  |  -  |  /  |    -    |      -     |   -   |
+| IMX6sx     |  x   |  x   |  -  |  -  |   x   |  x  |    x    | -  |  x  |  /  |    x    |      x     |   -   |
+| S32k       |  x   |  x   |  -  |  -  |   x   |  x  |    x    | -  |  /  |  x  |    -    |      -     |   -   |
+| STM32      |  x   |  x   |  x  |  x  |   x   |  x  |    x    | x  |  -  |  -  |    -    |      -     |   -   |
+| AM57xx     |  x   |  x   |  -  |  x  |   x   |  x  |    x    | -  |  -  |  x  |    x    |      x     |   x   |
+| TMS320C28x |  x   |  x   |  x  |  -  |   x   |  x  |    -    | -  |  -  |  x  |    -    |      -     |   -   |
 
 
 x=supported, /=not tested, o=only software emulation supported
