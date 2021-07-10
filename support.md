@@ -11,17 +11,19 @@ The Hardware supported are:
   * ST STM32
   * TI AM57xx (Cortex-M4 only)
   * TI TMS320C28x (TI DSP)
+  * Qemu Virt IO (Risc-V)
 
 Driver Support for each core:
 
-| Platform   | GPIO | UART | ADC | SPI | Timer | PWM | Capture | SD | Net | CAN | Mailbox | Remoteproc | Temp  | 
-|------------|:----:|:----:|:---:|:---:|:-----:|:---:|:-------:|:--:|:---:|:---:|:-------:|:----------:|:-----:|
-| VF610      |  x   |  x   |  x  |  x  |   x   |  x  |    x    | -  |  -  |  /  |    -    |      -     |   -   |
-| IMX6sx     |  x   |  x   |  -  |  -  |   x   |  x  |    x    | -  |  x  |  /  |    x    |      x     |   -   |
-| S32k       |  x   |  x   |  -  |  -  |   x   |  x  |    x    | -  |  /  |  x  |    -    |      -     |   -   |
-| STM32      |  x   |  x   |  x  |  x  |   x   |  x  |    x    | x  |  -  |  -  |    -    |      -     |   -   |
-| AM57xx     |  x   |  x   |  -  |  x  |   x   |  x  |    x    | -  |  -  |  x  |    x    |      x     |   x   |
-| TMS320C28x |  x   |  x   |  x  |  -  |   x   |  x  |    -    | -  |  -  |  x  |    -    |      -     |   -   |
+| Platform   | GPIO | UART | ADC | DAC | SPI | Timer | PWM | Capture | SD | Net | CAN | Mailbox | Remoteproc | Temp  | 
+|------------|:----:|:----:|:---:|:---:|:---:|:-----:|:---:|:-------:|:--:|:---:|:---:|:-------:|:----------:|:-----:|
+| VF610      |  x   |  x   |  x  |  -  |  x  |   x   |  x  |    x    | -  |  -  |  /  |    -    |      -     |   -   |
+| IMX6sx     |  x   |  x   |  -  |  -  |  -  |   x   |  x  |    x    | -  |  x  |  /  |    x    |      x     |   -   |
+| S32k       |  x   |  x   |  -  |  -  |  -  |   x   |  x  |    x    | -  |  /  |  x  |    -    |      -     |   -   |
+| STM32      |  x   |  x   |  x  |  -  |  x  |   x   |  x  |    x    | x  |  -  |  -  |    -    |      -     |   -   |
+| AM57xx     |  x   |  x   |  -  |  -  |  x  |   x   |  x  |    x    | -  |  -  |  x  |    x    |      x     |   x   |
+| TMS320C28x |  x   |  x   |  /  |  -  |  -  |   x   |  /  |    -    | -  |  -  |  x  |    -    |      -     |   -   |
+| Qemu Virt  |  -   |  x   |  -  |  -  |  -  |   x   |  -  |    -    | -  |  -  |  -  |    -    |      -     |   -   |
 
 
 x=supported, /=not tested, o=only software emulation supported
@@ -36,6 +38,7 @@ The following external Hardware is supported:
   * Microchip MCP320X: 12-Bit ADC over SPI
   * MPU9250 / ICM-20948: Nine-Axis (Gyro + Accelerometer + Compass) MEMS (Compass not supported) over SPI
   * NTC Tempaturesensor over ADC
+  * Microchip MCP492x DAC: 12-Bit DAC with SPI Interface
 
 Software Emulation
 ==================
