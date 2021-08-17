@@ -1,14 +1,22 @@
 var searchData=
 [
-  ['ltc6811_5fcalcpec_1429',['ltc6811_calcPEC',['../group__LTC6811.html#ga18043801ff7fd93551c8a77178d72250',1,'ltc6811.h']]],
-  ['ltc6811_5fconnect_1430',['ltc6811_connect',['../group__LTC6811.html#gac455ef50fbce55fd71ca551d9ced667b',1,'ltc6811.h']]],
-  ['ltc6811_5finit_1431',['ltc6811_init',['../group__LTC6811.html#ga75440f4c38f88d57d0906cc5fbf33e3d',1,'ltc6811.h']]],
-  ['ltc6811_5fread_1432',['ltc6811_read',['../group__LTC6811.html#gaeb72a1b5fcc6bbaf13a777c09cd0a4d6',1,'ltc6811.h']]],
-  ['ltc6811_5freadregister_1433',['ltc6811_readRegister',['../group__LTC6811.html#ga6073cf3d4097b592b2419600f1903633',1,'ltc6811.h']]],
-  ['ltc6811_5fsetadccallback_1434',['ltc6811_setADCCallback',['../group__LTC6811.html#gaea6df58bd10f1286875bc9fc5d3ef083',1,'ltc6811.h']]],
-  ['ltc6811_5fslave_5finit_1435',['ltc6811_slave_init',['../group__LTC6811.html#ga88ad31eb78ccefd8e7a095669a339f79',1,'ltc6811.h']]],
-  ['ltc6811_5fstartadc_1436',['ltc6811_startADC',['../group__LTC6811.html#gaacd41037c988471ce53389762fec414f',1,'ltc6811.h']]],
-  ['ltc6811_5fstopadc_1437',['ltc6811_stopADC',['../group__LTC6811.html#ga748c90fab4a3cdd346585b8314280236',1,'ltc6811.h']]],
-  ['ltc6811_5fwrite_1438',['ltc6811_write',['../group__LTC6811.html#ga6ec819ead13d65dab10fdcfb4bc9d118',1,'ltc6811.h']]],
-  ['ltc6811_5fwriteregister_1439',['ltc6811_writeRegister',['../group__LTC6811.html#ga1fc90983588d75d4f2bcbb1f3f7b5c8c',1,'ltc6811.h']]]
+  ['i2c_5fdeinit_1448',['i2c_deinit',['../group__I2C.html#ga702d583e7f4c1c5a27c91babd1d49528',1,'i2c.h']]],
+  ['i2c_5fgenericinit_1449',['i2c_genericInit',['../i2c__prv_8h.html#a04d01422e5bbd492afc8b958bebdd1a8',1,'i2c_prv.h']]],
+  ['i2c_5finit_1450',['i2c_init',['../group__I2C.html#ga94a41aa77a3bfa5efe44ac1e159fce64',1,'i2c.h']]],
+  ['i2c_5frecv_1451',['i2c_recv',['../group__I2C.html#ga47a1c26760b08dd58503fb8fa15ed1a9',1,'i2c.h']]],
+  ['i2c_5frecvisr_1452',['i2c_recvISR',['../group__I2C.html#gab460cd50562d048d700dc6cf15e112bb',1,'i2c.h']]],
+  ['i2c_5fsend_1453',['i2c_send',['../group__I2C.html#gaa0e6024bacad56c6b0638e3665972cd3',1,'i2c.h']]],
+  ['i2c_5fsendisr_1454',['i2c_sendISR',['../group__I2C.html#ga48c524859d6681e1b84648018deedc00',1,'i2c.h']]],
+  ['i2c_5ftransfer_1455',['i2c_transfer',['../group__I2C.html#gada7d3621670b976faa0e0248663588db',1,'i2c.h']]],
+  ['i2c_5ftransferisr_1456',['i2c_transferISR',['../group__I2C.html#ga978d7668e08b404b2c759aa22f92265a',1,'i2c.h']]],
+  ['irq_5fclear_1457',['irq_clear',['../group__IRQ.html#ga6fecc7a3f7c1be1391b2c6fe72a210ff',1,'irq.h']]],
+  ['irq_5fdisable_1458',['irq_disable',['../group__IRQ.html#ga19b80c135a9a2f84b931153fb335df47',1,'irq.h']]],
+  ['irq_5fenable_1459',['irq_enable',['../group__IRQ.html#ga479509fe4ead4918c3c4c07237c10445',1,'irq.h']]],
+  ['irq_5fgetcpuid_1460',['irq_getCPUID',['../group__IRQ.html#ga9a3970ad688c3e95de8d0cb3ce5cbeb8',1,'irq.h']]],
+  ['irq_5fgetprio_1461',['irq_getPrio',['../group__IRQ.html#ga433fa7b30fa40110ec45899a7d7bc849',1,'irq.h']]],
+  ['irq_5finit_1462',['irq_init',['../group__IRQ.html#ga380b7dcfa1e280620a4571ad29ee161f',1,'irq.h']]],
+  ['irq_5fmask_1463',['irq_mask',['../group__IRQ.html#ga16d01bfb8a06d2e8244e287b7b99fc0a',1,'irq.h']]],
+  ['irq_5fnotify_1464',['irq_notify',['../group__IRQ.html#ga626e5343ffedf98e132b36f9453a7aed',1,'irq.h']]],
+  ['irq_5fsetprio_1465',['irq_setPrio',['../group__IRQ.html#ga9b210297974dd0ff31124103af1cd084',1,'irq.h']]],
+  ['irq_5funmask_1466',['irq_unmask',['../group__IRQ.html#gaacf7971ecdb215b39805f843fc87de25',1,'irq.h']]]
 ];

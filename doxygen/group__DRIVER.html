@@ -91,62 +91,20 @@ $(document).ready(function(){initNavTree('group__DRIVER.html',''); initResizable
 Collaboration diagram for Driver specific Linker Macros:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__DRIVER.png" border="0" usemap="#agroup____DRIVER" alt=""/></div>
-<map name="group____DRIVER" id="agroup____DRIVER">
-<area shape="rect" href="group__LINKER.html" title=" " alt="" coords="5,13,148,38"/>
-<area shape="rect" title=" " alt="" coords="196,5,341,45"/>
+<map name="group____DRIVER" id="group____DRIVER">
+<area shape="rect" href="group__LINKER.html" title=" " alt="" coords="5,13,159,38"/>
+<area shape="rect" title=" " alt="" coords="207,5,365,45"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga2010419cd42948a95074066b0e6720f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRIVER.html#ga2010419cd42948a95074066b0e6720f6">DEV</a>(name,  location)</td></tr>
-<tr class="separator:ga2010419cd42948a95074066b0e6720f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaac137bd07026b0f43923f01f470f4e18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DRIVER.html#gaac137bd07026b0f43923f01f470f4e18">DEV_DEFAULT</a>(location)</td></tr>
 <tr class="separator:gaac137bd07026b0f43923f01f470f4e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="driver_8h.html">driver.h</a>&gt;</span></div>
 </div><!-- fragment --> <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga2010419cd42948a95074066b0e6720f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2010419cd42948a95074066b0e6720f6">&#9670;&nbsp;</a></span>DEV</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEV</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">name, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">location&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        <a class="code" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.rodata.dev.##name) \</div>
-<div class="line">        SYMBOL(_dev_##name); \</div>
-<div class="line">        KEEP(*(.rodata.dev.##name)) \</div>
-<div class="line">        SYMBOL(_dev_##name##_end); \</div>
-<div class="line">        SECTION_STOP(location)</div>
-</div><!-- fragment --><p>Define Device Array Sections </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>Driver Name like uart, timer, pwm, ... </td></tr>
-    <tr><td class="paramname">location</td><td>Location </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="gaac137bd07026b0f43923f01f470f4e18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaac137bd07026b0f43923f01f470f4e18">&#9670;&nbsp;</a></span>DEV_DEFAULT</h2>
 
@@ -162,26 +120,11 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">        <a class="code" href="group__DRIVER.html#ga2010419cd42948a95074066b0e6720f6">DEV</a>(<a class="code" href="structhal.html">hal</a>, location) \</div>
-<div class="line">        DEV(gpio, location) \</div>
-<div class="line">        DEV(<a class="code" href="structuart.html">uart</a>, location) \</div>
-<div class="line">        DEV(timer, location) \</div>
-<div class="line">        DEV(pwm, location) \</div>
-<div class="line">        DEV(capture, location) \</div>
-<div class="line">        DEV(spi, location) \</div>
-<div class="line">        DEV(accel, location) \</div>
-<div class="line">        DEV(gyro, location) \</div>
-<div class="line">        DEV(adc, location) \</div>
-<div class="line">        DEV(example, location) \</div>
-<div class="line">        DEV(sd, location) \</div>
-<div class="line">        DEV(mailbox, location) \</div>
-<div class="line">        DEV(phydev, location) \</div>
-<div class="line">        DEV(mac, location) \</div>
-<div class="line">        DEV(net, location) \</div>
-<div class="line">        DEV(counter, location) \</div>
-<div class="line">        DEV(rtc, location) \</div>
-<div class="line">        DEV(temp, location) \</div>
-<div class="line">        DEV(can, location)</div>
+<b>Value:</b><div class="fragment"><div class="line">        <a class="code" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.rodata.devs) \</div>
+<div class="line">        SYMBOL(_devs); \</div>
+<div class="line">        KEEP(*(.rodata.devs)) \</div>
+<div class="line">        SYMBOL(_devs_end); \</div>
+<div class="line">        SECTION_STOP(location)</div>
 </div><!-- fragment --><p>Default Devices </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">location</td><td>Location </td></tr>
@@ -194,14 +137,11 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="adriver_8h_html"><div class="ttname"><a href="driver_8h.html">driver.h</a></div></div>
-<div class="ttc" id="astructhal_html"><div class="ttname"><a href="structhal.html">hal</a></div><div class="ttdef"><b>Definition:</b> hal.h:44</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga93b3d7599008ac064e9dc4071494ad37"><div class="ttname"><a href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a></div><div class="ttdeci">#define SECTION_START(name)</div><div class="ttdef"><b>Definition:</b> linker.h:92</div></div>
-<div class="ttc" id="astructuart_html"><div class="ttname"><a href="structuart.html">uart</a></div><div class="ttdef"><b>Definition:</b> remoteproc_trace.h:4</div></div>
-<div class="ttc" id="agroup__DRIVER_html_ga2010419cd42948a95074066b0e6720f6"><div class="ttname"><a href="group__DRIVER.html#ga2010419cd42948a95074066b0e6720f6">DEV</a></div><div class="ttdeci">#define DEV(name, location)</div><div class="ttdef"><b>Definition:</b> driver.h:22</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

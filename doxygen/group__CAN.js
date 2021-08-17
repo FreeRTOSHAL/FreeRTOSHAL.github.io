@@ -2,18 +2,19 @@ var group__CAN =
 [
     [ "can_filter", "structcan__filter.html", [
       [ "id", "structcan__filter.html#adf2b18eab11d360780707478a1f624b9", null ],
-      [ "mask", "structcan__filter.html#a7f03c265f5fafb0fb92fa46d7d2101b1", null ]
+      [ "mask", "structcan__filter.html#a15632117f3f031fbbeb28ef562f9ac94", null ]
     ] ],
     [ "can_msg", "structcan__msg.html", [
       [ "data", "structcan__msg.html#a8560e03d1ea08105038233426001ca48", null ],
       [ "id", "structcan__msg.html#a9a5f820883d3dfe1f0c6bc33c3f95989", null ],
       [ "length", "structcan__msg.html#a99189cf1fd06d3c6825c276a5ea66155", null ],
-      [ "req", "structcan__msg.html#a307f436ef38aae1e53fd8ed4a11094d1", null ],
       [ "ts", "structcan__msg.html#a157aaad2daf039f59606522c6a51663a", null ]
     ] ],
     [ "can_generic", "structcan__generic.html", [
       [ "init", "structcan__generic.html#a1b4a347f0a7a678a15bae8ce8596cfe1", null ]
     ] ],
+    [ "CAN_EFF_FLAG", "group__CAN.html#ga5ae55ab3741140024858bd7b8762ea42", null ],
+    [ "CAN_EFF_MASK", "group__CAN.html#ga83b943dca61d0aad5b07ec01c3317572", null ],
     [ "CAN_ERR_ACK", "group__CAN.html#gadbe83f5e81c1c8c767daaf97c5849017", null ],
     [ "CAN_ERR_BUSERROR", "group__CAN.html#ga0b068b1221129441b89967ee2ddb9f44", null ],
     [ "CAN_ERR_BUSOFF", "group__CAN.html#ga8b0903e35c75de100b97a7b3e368b269", null ],
@@ -73,12 +74,14 @@ var group__CAN =
     [ "CAN_ERR_TRX_OFFSET", "group__CAN.html#gad433fcf0c2e21644fa366a21dea703ab", null ],
     [ "CAN_ERR_TRX_UNSPEC", "group__CAN.html#ga2169eab29b3c954598fe6780d98b479a", null ],
     [ "CAN_MAX_LENGTH", "group__CAN.html#gab7bf92a4f1fa8d5c2f4ab24991419bc3", null ],
+    [ "CAN_RTR_FLAG", "group__CAN.html#gaf324d65226057755175038a15d9bbd75", null ],
+    [ "CAN_SFF_MASK", "group__CAN.html#gafe4fc3f9cab58aeeb463861289e8ce93", null ],
     [ "can_error_t", "group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1", null ],
     [ "can_errorData_t", "group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc", null ],
     [ "can_deinit", "group__CAN.html#ga58ec29822172f6026d890954509fe6a7", null ],
     [ "can_deregisterFilter", "group__CAN.html#gaddc776090b46d28b4a35b58b62529f01", null ],
     [ "can_down", "group__CAN.html#ga4e1b67f482378bfa46737db41552e043", null ],
-    [ "can_init", "group__CAN.html#ga7d0fc6a3fc8cf38b7cfb43017ac459d7", null ],
+    [ "can_init", "group__CAN.html#gad5313261d32cdb77d59881f6f021d504", null ],
     [ "can_recv", "group__CAN.html#ga3a1e121bd95d613e2d792ce6c7553f4c", null ],
     [ "can_recvISR", "group__CAN.html#ga59d76080ec29acbcb5c7ad106d110785", null ],
     [ "can_registerFilter", "group__CAN.html#gab643a6c51025321993c140ca5cfe448d", null ],

@@ -92,10 +92,10 @@ $(document).ready(function(){initNavTree('group__LINKER.html',''); initResizable
 Collaboration diagram for Linker Script Macros:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__LINKER.png" border="0" usemap="#agroup____LINKER" alt=""/></div>
-<map name="group____LINKER" id="agroup____LINKER">
-<area shape="rect" title=" " alt="" coords="201,13,344,38"/>
-<area shape="rect" href="group__DRIVER.html" title=" " alt="" coords="392,5,537,45"/>
-<area shape="rect" href="group__HAL.html" title=" " alt="" coords="5,5,153,45"/>
+<map name="group____LINKER" id="group____LINKER">
+<area shape="rect" title=" " alt="" coords="216,13,369,38"/>
+<area shape="rect" href="group__DRIVER.html" title=" " alt="" coords="417,5,576,45"/>
+<area shape="rect" href="group__HAL.html" title=" " alt="" coords="5,5,168,45"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -124,13 +124,13 @@ Macros</h2></td></tr>
 <tr class="separator:gaff2b674563e53cd7b662d69d0ef119b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf40328147ea8d692233b245fd13c2ea0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gaf40328147ea8d692233b245fd13c2ea0">SECTIONS_STOP</a>&#160;&#160;&#160;}</td></tr>
 <tr class="separator:gaf40328147ea8d692233b245fd13c2ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga131dd02a9e1e01bfded25338141ca131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga131dd02a9e1e01bfded25338141ca131">VECTOR_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.vectors) . = ALIGN(4);</td></tr>
+<tr class="memitem:ga131dd02a9e1e01bfded25338141ca131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga131dd02a9e1e01bfded25338141ca131">VECTOR_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.vectors) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4);</td></tr>
 <tr class="separator:ga131dd02a9e1e01bfded25338141ca131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa18edbf5f28cedd41c5f202806f6c682"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gaa18edbf5f28cedd41c5f202806f6c682">VECTOR_DEFAULT</a>&#160;&#160;&#160;*(.vectors)</td></tr>
 <tr class="separator:gaa18edbf5f28cedd41c5f202806f6c682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0fe468fe5337f2300c74186dd4b11abf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga0fe468fe5337f2300c74186dd4b11abf">VECTOR_STOP</a>(location)&#160;&#160;&#160;<a class="el" href="group__LINKER.html#gaea017fa210e5330070d5f53a71223165">SECTION_STOP</a>(location)</td></tr>
 <tr class="separator:ga0fe468fe5337f2300c74186dd4b11abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac82702700be45e68eafd74e53ab412be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gac82702700be45e68eafd74e53ab412be">TEXT_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.text) . = ALIGN(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_start_text);</td></tr>
+<tr class="memitem:gac82702700be45e68eafd74e53ab412be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gac82702700be45e68eafd74e53ab412be">TEXT_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.text) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_start_text);</td></tr>
 <tr class="separator:gac82702700be45e68eafd74e53ab412be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga64fafe61a2d3d3f5780cae640bdc0335"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga64fafe61a2d3d3f5780cae640bdc0335">TEXT_DEFAULT</a>&#160;&#160;&#160;*(.text*) *(.init*) *(.fini) *(.eh_frame)</td></tr>
 <tr class="separator:ga64fafe61a2d3d3f5780cae640bdc0335"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,7 +140,7 @@ Macros</h2></td></tr>
 <tr class="separator:ga4ad6a1b2a0c87df1dbd2ad281e432655"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad6be33c454a98d00f29c66d974a61766"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gad6be33c454a98d00f29c66d974a61766">UNWIND_TABLES</a></td></tr>
 <tr class="separator:gad6be33c454a98d00f29c66d974a61766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga83111cc041c74ca5b19df3e2579c933f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga83111cc041c74ca5b19df3e2579c933f">RODATA_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.rodata) . = ALIGN(4);</td></tr>
+<tr class="memitem:ga83111cc041c74ca5b19df3e2579c933f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga83111cc041c74ca5b19df3e2579c933f">RODATA_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.rodata) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4);</td></tr>
 <tr class="separator:ga83111cc041c74ca5b19df3e2579c933f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac94f7c7c30e15bf8ec0d856302791d94"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gac94f7c7c30e15bf8ec0d856302791d94">RODATA_DEFAULT</a>&#160;&#160;&#160;*(.rodata) *(.rodata*)</td></tr>
 <tr class="separator:gac94f7c7c30e15bf8ec0d856302791d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,17 +152,17 @@ Macros</h2></td></tr>
 <tr class="separator:ga0e03390891b88e9cdba624b4ad958784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8de807882535659749e054e7357ce88c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga8de807882535659749e054e7357ce88c">DATA_TABLE_STOP</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_data_table_end);</td></tr>
 <tr class="separator:ga8de807882535659749e054e7357ce88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5562e3e4189eff9e71305f172f2b515a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga5562e3e4189eff9e71305f172f2b515a">DATA_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.data) . = ALIGN(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_start_data);</td></tr>
+<tr class="memitem:ga5562e3e4189eff9e71305f172f2b515a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga5562e3e4189eff9e71305f172f2b515a">DATA_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.data) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_start_data);</td></tr>
 <tr class="separator:ga5562e3e4189eff9e71305f172f2b515a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b071972271ea9a8ca7dd767c80d6a24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga3b071972271ea9a8ca7dd767c80d6a24">DATA_DEFAULT</a>&#160;&#160;&#160;*(.data) *(.data*) *(.fini_array)</td></tr>
+<tr class="memitem:ga3b071972271ea9a8ca7dd767c80d6a24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga3b071972271ea9a8ca7dd767c80d6a24">DATA_DEFAULT</a></td></tr>
 <tr class="separator:ga3b071972271ea9a8ca7dd767c80d6a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga795d3daddeecff10deaa1cfe8f31611c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga795d3daddeecff10deaa1cfe8f31611c">DATA_FREERTOS</a>&#160;&#160;&#160;*(.data.freertos*)</td></tr>
 <tr class="separator:ga795d3daddeecff10deaa1cfe8f31611c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga211741e30a61c1937d12fceb6fa8a344"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#ga211741e30a61c1937d12fceb6fa8a344">DATA_STOP</a>(location,  flashLocation)&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_end_data); <a class="el" href="group__LINKER.html#gaff2b674563e53cd7b662d69d0ef119b2">SECTION_STOP_RAM</a>(location, flashLocation)</td></tr>
 <tr class="separator:ga211741e30a61c1937d12fceb6fa8a344"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaa4cac0bc6572368838af44d9cd914a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gaaa4cac0bc6572368838af44d9cd914a0">BSS_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.bss) . = ALIGN(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(__bss_start__);</td></tr>
+<tr class="memitem:gaaa4cac0bc6572368838af44d9cd914a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gaaa4cac0bc6572368838af44d9cd914a0">BSS_START</a>&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.bss) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(__bss_start__);</td></tr>
 <tr class="separator:gaaa4cac0bc6572368838af44d9cd914a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf2b2483c34e9cd8f099d90f01c89f52a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gaf2b2483c34e9cd8f099d90f01c89f52a">BSS_DEFAULT</a>&#160;&#160;&#160;*(.bss) *(.bss*)</td></tr>
+<tr class="memitem:gaf2b2483c34e9cd8f099d90f01c89f52a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gaf2b2483c34e9cd8f099d90f01c89f52a">BSS_DEFAULT</a></td></tr>
 <tr class="separator:gaf2b2483c34e9cd8f099d90f01c89f52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa9a55098eac7cd6af4d111d3e5a42a9b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LINKER.html#gaa9a55098eac7cd6af4d111d3e5a42a9b">BSS_FREERTOS</a>&#160;&#160;&#160;*(.bss.freertos*)</td></tr>
 <tr class="separator:gaa9a55098eac7cd6af4d111d3e5a42a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,11 +228,18 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define BSS_DEFAULT&#160;&#160;&#160;*(.bss) *(.bss*)</td>
+          <td class="memname">#define BSS_DEFAULT</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Default BSS Section entrys </p>
+<b>Value:</b><div class="fragment"><div class="line">        *(.dynsbss) \</div>
+<div class="line">        *(.sbss .sbss.* .gnu.linkonce.sb.*) \</div>
+<div class="line">        *(.scommon) \</div>
+<div class="line">        *(.bss) \</div>
+<div class="line">        *(.bss*)\</div>
+<div class="line">        PROVIDE(__global_pointer$ = <a class="code" href="group__SYSTEM.html#ga3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(__sdata_begin__ + 0x800, \</div>
+<div class="line">                            <a class="code" href="group__SYSTEM.html#gafa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(_start_data + 0x800, __bss_end__ - 0x800)));</div>
+</div><!-- fragment --><p>Default BSS Section entrys </p>
 
 </div>
 </div>
@@ -258,7 +265,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define BSS_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.bss) . = ALIGN(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(__bss_start__);</td>
+          <td class="memname">#define BSS_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.bss) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(__bss_start__);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -297,11 +304,23 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DATA_DEFAULT&#160;&#160;&#160;*(.data) *(.data*) *(.fini_array)</td>
+          <td class="memname">#define DATA_DEFAULT</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Default in Data Section </p>
+<b>Value:</b><div class="fragment"><div class="line">        *(.data) \</div>
+<div class="line">        *(.data*) \</div>
+<div class="line">        *(.fini_array) \</div>
+<div class="line">        *(.gnu.linkonce.d.*) \</div>
+<div class="line">        . = <a class="code" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(8); \</div>
+<div class="line">        __sdata_begin__ = .; \</div>
+<div class="line">        *(.srodata.cst16) \</div>
+<div class="line">        *(.srodata.cst8) \</div>
+<div class="line">        *(.srodata.cst4) \</div>
+<div class="line">        *(.srodata.cst2) \</div>
+<div class="line">        *(.srodata .srodata.*) \</div>
+<div class="line">        *(.sdata .sdata.* .gnu.linkonce.s.*)</div>
+</div><!-- fragment --><p>Default in Data Section </p>
 
 </div>
 </div>
@@ -327,7 +346,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DATA_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.data) . = ALIGN(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_start_data);</td>
+          <td class="memname">#define DATA_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.data) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_start_data);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -468,10 +487,10 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">        <a class="code" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.heap) \</div>
-<div class="line">        . = ALIGN(4); \</div>
+<div class="line">        . = <a class="code" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); \</div>
 <div class="line">        SYMBOL(_heap_end); \</div>
 <div class="line">        . = ((ORIGIN(location) + LENGTH(location)) - (stakSize)); \</div>
-<div class="line">        . = ALIGN(4); \</div>
+<div class="line">        . = <a class="code" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); \</div>
 <div class="line">        _heap_top = . - 4; \</div>
 <div class="line">        SECTION_STOP(location)</div>
 </div><!-- fragment --><p>Define Heap Section </p><dl class="params"><dt>Parameters</dt><dd>
@@ -580,7 +599,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define RODATA_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.rodata) . = ALIGN(4);</td>
+          <td class="memname">#define RODATA_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.rodata) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -736,9 +755,10 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">        <a class="code" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.stackArea) \</div>
-<div class="line">        . = ALIGN(4); \</div>
+<div class="line">        . = <a class="code" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); \</div>
 <div class="line">        SYMBOL(_start_stack); \</div>
 <div class="line">        _end_stack = (ORIGIN(location) + LENGTH(location)); \</div>
+<div class="line">        __freertos_irq_stack_top = (ORIGIN(location) + LENGTH(location)); \</div>
 <div class="line">        SECTION_STOP(location)</div>
 </div><!-- fragment --><p>Define Stack Section </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -810,7 +830,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TEXT_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.text) . = ALIGN(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_start_text);</td>
+          <td class="memname">#define TEXT_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.text) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4); <a class="el" href="group__LINKER.html#ga352aebbb94757e42c1c4669688403c10">SYMBOL</a>(_start_text);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -878,7 +898,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VECTOR_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.vectors) . = ALIGN(4);</td>
+          <td class="memname">#define VECTOR_START&#160;&#160;&#160;<a class="el" href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a>(.vectors) . = <a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(4);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -912,39 +932,42 @@ Macros</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="agroup__LINKER_html_gaaa4cac0bc6572368838af44d9cd914a0"><div class="ttname"><a href="group__LINKER.html#gaaa4cac0bc6572368838af44d9cd914a0">BSS_START</a></div><div class="ttdeci">#define BSS_START</div><div class="ttdef"><b>Definition:</b> linker.h:205</div></div>
-<div class="ttc" id="agroup__LINKER_html_ga7ab5530e1e9a3a6fcd839e395c9ea172"><div class="ttname"><a href="group__LINKER.html#ga7ab5530e1e9a3a6fcd839e395c9ea172">HEAP</a></div><div class="ttdeci">#define HEAP(location, stakSize)</div><div class="ttdef"><b>Definition:</b> linker.h:225</div></div>
+<div class="ttc" id="agroup__SYSTEM_html_gabe7f8cd9a0ce69b71567a3870415be66"><div class="ttname"><a href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a></div><div class="ttdeci">#define ALIGN(x)</div><div class="ttdef"><b>Definition:</b> system.h:105</div></div>
+<div class="ttc" id="agroup__SYSTEM_html_ga3acffbd305ee72dcd4593c0d8af64a4f"><div class="ttname"><a href="group__SYSTEM.html#ga3acffbd305ee72dcd4593c0d8af64a4f">MIN</a></div><div class="ttdeci">#define MIN(a, b)</div><div class="ttdef"><b>Definition:</b> system.h:186</div></div>
+<div class="ttc" id="agroup__LINKER_html_gaaa4cac0bc6572368838af44d9cd914a0"><div class="ttname"><a href="group__LINKER.html#gaaa4cac0bc6572368838af44d9cd914a0">BSS_START</a></div><div class="ttdeci">#define BSS_START</div><div class="ttdef"><b>Definition:</b> linker.h:229</div></div>
+<div class="ttc" id="agroup__LINKER_html_ga7ab5530e1e9a3a6fcd839e395c9ea172"><div class="ttname"><a href="group__LINKER.html#ga7ab5530e1e9a3a6fcd839e395c9ea172">HEAP</a></div><div class="ttdeci">#define HEAP(location, stakSize)</div><div class="ttdef"><b>Definition:</b> linker.h:256</div></div>
 <div class="ttc" id="adriver_8h_html"><div class="ttname"><a href="driver_8h.html">driver.h</a></div></div>
-<div class="ttc" id="agroup__LINKER_html_ga3b071972271ea9a8ca7dd767c80d6a24"><div class="ttname"><a href="group__LINKER.html#ga3b071972271ea9a8ca7dd767c80d6a24">DATA_DEFAULT</a></div><div class="ttdeci">#define DATA_DEFAULT</div><div class="ttdef"><b>Definition:</b> linker.h:188</div></div>
+<div class="ttc" id="agroup__LINKER_html_ga3b071972271ea9a8ca7dd767c80d6a24"><div class="ttname"><a href="group__LINKER.html#ga3b071972271ea9a8ca7dd767c80d6a24">DATA_DEFAULT</a></div><div class="ttdeci">#define DATA_DEFAULT</div><div class="ttdef"><b>Definition:</b> linker.h:199</div></div>
 <div class="ttc" id="agroup__LINKER_html_gaa18edbf5f28cedd41c5f202806f6c682"><div class="ttname"><a href="group__LINKER.html#gaa18edbf5f28cedd41c5f202806f6c682">VECTOR_DEFAULT</a></div><div class="ttdeci">#define VECTOR_DEFAULT</div><div class="ttdef"><b>Definition:</b> linker.h:119</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga7219f93c714d70ee70b320a2338e8f44"><div class="ttname"><a href="group__LINKER.html#ga7219f93c714d70ee70b320a2338e8f44">MEM_STOP</a></div><div class="ttdeci">#define MEM_STOP</div><div class="ttdef"><b>Definition:</b> linker.h:83</div></div>
+<div class="ttc" id="agroup__SYSTEM_html_gafa99ec4acc4ecb2dc3c2d05da15d0e3f"><div class="ttname"><a href="group__SYSTEM.html#gafa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a></div><div class="ttdeci">#define MAX(a, b)</div><div class="ttdef"><b>Definition:</b> system.h:179</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga64fafe61a2d3d3f5780cae640bdc0335"><div class="ttname"><a href="group__LINKER.html#ga64fafe61a2d3d3f5780cae640bdc0335">TEXT_DEFAULT</a></div><div class="ttdeci">#define TEXT_DEFAULT</div><div class="ttdef"><b>Definition:</b> linker.h:133</div></div>
-<div class="ttc" id="agroup__DRIVER_html_gaac137bd07026b0f43923f01f470f4e18"><div class="ttname"><a href="group__DRIVER.html#gaac137bd07026b0f43923f01f470f4e18">DEV_DEFAULT</a></div><div class="ttdeci">#define DEV_DEFAULT(location)</div><div class="ttdef"><b>Definition:</b> driver.h:32</div></div>
+<div class="ttc" id="agroup__DRIVER_html_gaac137bd07026b0f43923f01f470f4e18"><div class="ttname"><a href="group__DRIVER.html#gaac137bd07026b0f43923f01f470f4e18">DEV_DEFAULT</a></div><div class="ttdeci">#define DEV_DEFAULT(location)</div><div class="ttdef"><b>Definition:</b> driver.h:21</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga93b3d7599008ac064e9dc4071494ad37"><div class="ttname"><a href="group__LINKER.html#ga93b3d7599008ac064e9dc4071494ad37">SECTION_START</a></div><div class="ttdeci">#define SECTION_START(name)</div><div class="ttdef"><b>Definition:</b> linker.h:92</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga4ad6a1b2a0c87df1dbd2ad281e432655"><div class="ttname"><a href="group__LINKER.html#ga4ad6a1b2a0c87df1dbd2ad281e432655">TEXT_STOP</a></div><div class="ttdeci">#define TEXT_STOP(location)</div><div class="ttdef"><b>Definition:</b> linker.h:142</div></div>
-<div class="ttc" id="agroup__LINKER_html_gaf2b2483c34e9cd8f099d90f01c89f52a"><div class="ttname"><a href="group__LINKER.html#gaf2b2483c34e9cd8f099d90f01c89f52a">BSS_DEFAULT</a></div><div class="ttdeci">#define BSS_DEFAULT</div><div class="ttdef"><b>Definition:</b> linker.h:209</div></div>
+<div class="ttc" id="agroup__LINKER_html_gaf2b2483c34e9cd8f099d90f01c89f52a"><div class="ttname"><a href="group__LINKER.html#gaf2b2483c34e9cd8f099d90f01c89f52a">BSS_DEFAULT</a></div><div class="ttdeci">#define BSS_DEFAULT</div><div class="ttdef"><b>Definition:</b> linker.h:233</div></div>
 <div class="ttc" id="agroup__LINKER_html_gac82702700be45e68eafd74e53ab412be"><div class="ttname"><a href="group__LINKER.html#gac82702700be45e68eafd74e53ab412be">TEXT_START</a></div><div class="ttdeci">#define TEXT_START</div><div class="ttdef"><b>Definition:</b> linker.h:129</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga131dd02a9e1e01bfded25338141ca131"><div class="ttname"><a href="group__LINKER.html#ga131dd02a9e1e01bfded25338141ca131">VECTOR_START</a></div><div class="ttdeci">#define VECTOR_START</div><div class="ttdef"><b>Definition:</b> linker.h:115</div></div>
-<div class="ttc" id="agroup__LINKER_html_ga211741e30a61c1937d12fceb6fa8a344"><div class="ttname"><a href="group__LINKER.html#ga211741e30a61c1937d12fceb6fa8a344">DATA_STOP</a></div><div class="ttdeci">#define DATA_STOP(location, flashLocation)</div><div class="ttdef"><b>Definition:</b> linker.h:199</div></div>
+<div class="ttc" id="agroup__LINKER_html_ga211741e30a61c1937d12fceb6fa8a344"><div class="ttname"><a href="group__LINKER.html#ga211741e30a61c1937d12fceb6fa8a344">DATA_STOP</a></div><div class="ttdeci">#define DATA_STOP(location, flashLocation)</div><div class="ttdef"><b>Definition:</b> linker.h:223</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga0fe468fe5337f2300c74186dd4b11abf"><div class="ttname"><a href="group__LINKER.html#ga0fe468fe5337f2300c74186dd4b11abf">VECTOR_STOP</a></div><div class="ttdeci">#define VECTOR_STOP(location)</div><div class="ttdef"><b>Definition:</b> linker.h:124</div></div>
 <div class="ttc" id="agroup__LINKER_html_gac94f7c7c30e15bf8ec0d856302791d94"><div class="ttname"><a href="group__LINKER.html#gac94f7c7c30e15bf8ec0d856302791d94">RODATA_DEFAULT</a></div><div class="ttdeci">#define RODATA_DEFAULT</div><div class="ttdef"><b>Definition:</b> linker.h:157</div></div>
 <div class="ttc" id="agroup__LINKER_html_gac3577331201985a28e76930920adb33e"><div class="ttname"><a href="group__LINKER.html#gac3577331201985a28e76930920adb33e">MEM_ADD</a></div><div class="ttdeci">#define MEM_ADD(name, origin, len)</div><div class="ttdef"><b>Definition:</b> linker.h:79</div></div>
 <div class="ttc" id="agroup__LINKER_html_gaf33429f648b8fe9fbb86563316bc257b"><div class="ttname"><a href="group__LINKER.html#gaf33429f648b8fe9fbb86563316bc257b">SECTIONS_START</a></div><div class="ttdeci">#define SECTIONS_START</div><div class="ttdef"><b>Definition:</b> linker.h:87</div></div>
 <div class="ttc" id="agroup__LINKER_html_gab8cecd225d7867e6dfa1b65f2d4c0f1a"><div class="ttname"><a href="group__LINKER.html#gab8cecd225d7867e6dfa1b65f2d4c0f1a">MEM_START</a></div><div class="ttdeci">#define MEM_START</div><div class="ttdef"><b>Definition:</b> linker.h:72</div></div>
-<div class="ttc" id="agroup__LINKER_html_ga0e03390891b88e9cdba624b4ad958784"><div class="ttname"><a href="group__LINKER.html#ga0e03390891b88e9cdba624b4ad958784">DATA_TABLE</a></div><div class="ttdeci">#define DATA_TABLE(sname)</div><div class="ttdef"><b>Definition:</b> linker.h:172</div></div>
+<div class="ttc" id="agroup__LINKER_html_ga0e03390891b88e9cdba624b4ad958784"><div class="ttname"><a href="group__LINKER.html#ga0e03390891b88e9cdba624b4ad958784">DATA_TABLE</a></div><div class="ttdeci">#define DATA_TABLE(sname)</div><div class="ttdef"><b>Definition:</b> linker.h:173</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga3a13be40cb70623fb4803d0b84c3b210"><div class="ttname"><a href="group__LINKER.html#ga3a13be40cb70623fb4803d0b84c3b210">DATA_TABLE_START</a></div><div class="ttdeci">#define DATA_TABLE_START</div><div class="ttdef"><b>Definition:</b> linker.h:167</div></div>
-<div class="ttc" id="agroup__LINKER_html_ga8de807882535659749e054e7357ce88c"><div class="ttname"><a href="group__LINKER.html#ga8de807882535659749e054e7357ce88c">DATA_TABLE_STOP</a></div><div class="ttdeci">#define DATA_TABLE_STOP</div><div class="ttdef"><b>Definition:</b> linker.h:179</div></div>
+<div class="ttc" id="agroup__LINKER_html_ga8de807882535659749e054e7357ce88c"><div class="ttname"><a href="group__LINKER.html#ga8de807882535659749e054e7357ce88c">DATA_TABLE_STOP</a></div><div class="ttdeci">#define DATA_TABLE_STOP</div><div class="ttdef"><b>Definition:</b> linker.h:190</div></div>
 <div class="ttc" id="agroup__LINKER_html_gaf40328147ea8d692233b245fd13c2ea0"><div class="ttname"><a href="group__LINKER.html#gaf40328147ea8d692233b245fd13c2ea0">SECTIONS_STOP</a></div><div class="ttdeci">#define SECTIONS_STOP</div><div class="ttdef"><b>Definition:</b> linker.h:111</div></div>
 <div class="ttc" id="alinker_8h_html"><div class="ttname"><a href="linker_8h.html">linker.h</a></div></div>
-<div class="ttc" id="agroup__LINKER_html_ga5562e3e4189eff9e71305f172f2b515a"><div class="ttname"><a href="group__LINKER.html#ga5562e3e4189eff9e71305f172f2b515a">DATA_START</a></div><div class="ttdeci">#define DATA_START</div><div class="ttdef"><b>Definition:</b> linker.h:184</div></div>
+<div class="ttc" id="agroup__LINKER_html_ga5562e3e4189eff9e71305f172f2b515a"><div class="ttname"><a href="group__LINKER.html#ga5562e3e4189eff9e71305f172f2b515a">DATA_START</a></div><div class="ttdeci">#define DATA_START</div><div class="ttdef"><b>Definition:</b> linker.h:195</div></div>
 <div class="ttc" id="agroup__LINKER_html_gaaa7ca3747c6d20264d8ecf69d24a1611"><div class="ttname"><a href="group__LINKER.html#gaaa7ca3747c6d20264d8ecf69d24a1611">RODATA_STOP</a></div><div class="ttdeci">#define RODATA_STOP(location)</div><div class="ttdef"><b>Definition:</b> linker.h:162</div></div>
-<div class="ttc" id="agroup__LINKER_html_ga7142de0d6d4b4bc7e9809ccd0e21dbe4"><div class="ttname"><a href="group__LINKER.html#ga7142de0d6d4b4bc7e9809ccd0e21dbe4">STACK</a></div><div class="ttdeci">#define STACK(location)</div><div class="ttdef"><b>Definition:</b> linker.h:236</div></div>
+<div class="ttc" id="agroup__LINKER_html_ga7142de0d6d4b4bc7e9809ccd0e21dbe4"><div class="ttname"><a href="group__LINKER.html#ga7142de0d6d4b4bc7e9809ccd0e21dbe4">STACK</a></div><div class="ttdeci">#define STACK(location)</div><div class="ttdef"><b>Definition:</b> linker.h:267</div></div>
 <div class="ttc" id="agroup__LINKER_html_ga83111cc041c74ca5b19df3e2579c933f"><div class="ttname"><a href="group__LINKER.html#ga83111cc041c74ca5b19df3e2579c933f">RODATA_START</a></div><div class="ttdeci">#define RODATA_START</div><div class="ttdef"><b>Definition:</b> linker.h:153</div></div>
-<div class="ttc" id="agroup__LINKER_html_gaad722a767f7625efa71f0fba0debd810"><div class="ttname"><a href="group__LINKER.html#gaad722a767f7625efa71f0fba0debd810">BSS_STOP</a></div><div class="ttdeci">#define BSS_STOP(location)</div><div class="ttdef"><b>Definition:</b> linker.h:219</div></div>
+<div class="ttc" id="agroup__LINKER_html_gaad722a767f7625efa71f0fba0debd810"><div class="ttname"><a href="group__LINKER.html#gaad722a767f7625efa71f0fba0debd810">BSS_STOP</a></div><div class="ttdeci">#define BSS_STOP(location)</div><div class="ttdef"><b>Definition:</b> linker.h:250</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:32 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:24 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

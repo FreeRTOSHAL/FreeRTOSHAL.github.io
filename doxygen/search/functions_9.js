@@ -1,6 +1,22 @@
 var searchData=
 [
-  ['newlib_5finit_1457',['newlib_init',['../group__Newlib.html#gaeb17ff18d0a796d6dd95804c934609bf',1,'newlib_stub.h']]],
-  ['nlibc_5finit_1458',['nlibc_init',['../group__Newlib.html#ga7acb8d9b8f1b101e1c15dc757b56d50e',1,'nlibc_stub.h']]],
-  ['ntc_5ftemp_5fconnect_1459',['ntc_temp_connect',['../temp__ntc_8h.html#a6e1ea6a7043e7836df4baf07a46a78db',1,'temp_ntc.h']]]
+  ['mailbox_5fdeinit_1478',['mailbox_deinit',['../group__mailbox.html#ga632481a7f77ca89f9959942d98704651',1,'mailbox.h']]],
+  ['mailbox_5fgenericinit_1479',['mailbox_genericInit',['../mailbox__prv_8h.html#adc9cbb2016598f3e82e99c61f7414072',1,'mailbox_prv.h']]],
+  ['mailbox_5finit_1480',['mailbox_init',['../group__mailbox.html#gaf079969bacd94fcb05be86b02cabbc8d',1,'mailbox.h']]],
+  ['mailbox_5frecv_1481',['mailbox_recv',['../group__mailbox.html#ga9c3d516c1d211a84d5912efc5f9f8ee9',1,'mailbox.h']]],
+  ['mailbox_5frecvisr_1482',['mailbox_recvISR',['../group__mailbox.html#ga1ec61df1f026544eec4c619b88970423',1,'mailbox.h']]],
+  ['mailbox_5fsend_1483',['mailbox_send',['../group__mailbox.html#ga7d5f98a68a85f739c52aea2c946a190b',1,'mailbox.h']]],
+  ['mailbox_5fsendisr_1484',['mailbox_sendISR',['../group__mailbox.html#gac30d4133dfb3de9f7883029e61fd31a2',1,'mailbox.h']]],
+  ['mcp320x_5fconnect_1485',['mcp320x_connect',['../mcp320x_8h.html#a460b3e373095754fb29d6e7d3cccb964',1,'mcp320x.h']]],
+  ['mcp320x_5fcontroller_5finit_1486',['mcp320x_controller_init',['../mcp320x_8h.html#a20f6757707361b8cd132b87cb7c56065',1,'mcp320x.h']]],
+  ['mcp492x_5fconnect_1487',['mcp492x_connect',['../mcp492x_8h.html#a936d0cd2e0b2d71cb4cf57f92c8d4e7e',1,'mcp492x.h']]],
+  ['mcp492x_5fcontroller_5finit_1488',['mcp492x_controller_init',['../mcp492x_8h.html#aab0a84852b2d932a164f59aeeff2854f',1,'mcp492x.h']]],
+  ['mpu9250_5fdeinit_1489',['mpu9250_deinit',['../group__MPU9250.html#ga3d269d2554fba90ce94f5516ed08a4f1',1,'mpu9250.h']]],
+  ['mpu9250_5fgetaccel_1490',['mpu9250_getAccel',['../group__MPU9250.html#ga7c29e3ff01dfb42520d5c559e23e8734',1,'mpu9250.h']]],
+  ['mpu9250_5fgetgyro_1491',['mpu9250_getGyro',['../group__MPU9250.html#ga468cdbceea406da93f2ec51ba8d1de87',1,'mpu9250.h']]],
+  ['mpu9250_5finit_1492',['mpu9250_init',['../group__MPU9250.html#ga1a97d5d05f07e319317c1b5725bdca32',1,'mpu9250.h']]],
+  ['mpu9250_5freset_1493',['mpu9250_reset',['../group__MPU9250.html#ga921915e0ec6a6821ce77055300fcf33e',1,'mpu9250.h']]],
+  ['mux_5fdeinit_1494',['mux_deinit',['../group__MUX.html#ga0f752e223f52a3aced2f1b008d423c51',1,'mux.h']]],
+  ['mux_5finit_1495',['mux_init',['../group__MUX.html#gaccf986666c40f38cdad815e074643fe6',1,'mux.h']]],
+  ['mux_5fpinctl_1496',['mux_pinctl',['../group__MUX.html#ga539b9aefa1d173043f76efd233d89e26',1,'mux.h']]]
 ];

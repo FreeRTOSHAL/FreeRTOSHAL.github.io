@@ -98,15 +98,16 @@ $(document).ready(function(){initNavTree('can__prv_8h.html',''); initResizable()
 Include dependency graph for can_prv.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="can__prv_8h__incl.png" border="0" usemap="#adriver_2include_2can__prv_8h" alt=""/></div>
-<map name="driver_2include_2can__prv_8h" id="adriver_2include_2can__prv_8h">
-<area shape="rect" title=" " alt="" coords="163,5,287,47"/>
-<area shape="rect" title=" " alt="" coords="5,244,101,271"/>
-<area shape="rect" title=" " alt="" coords="126,244,202,271"/>
-<area shape="rect" title=" " alt="" coords="426,95,491,121"/>
-<area shape="rect" title=" " alt="" coords="327,244,401,271"/>
-<area shape="rect" href="hal_8h.html" title=" " alt="" coords="200,95,251,121"/>
-<area shape="rect" href="system_8h.html" title=" " alt="" coords="226,244,302,271"/>
-<area shape="rect" href="os_8h.html" title=" " alt="" coords="202,169,249,196"/>
+<map name="driver_2include_2can__prv_8h" id="driver_2include_2can__prv_8h">
+<area shape="rect" title=" " alt="" coords="231,5,370,47"/>
+<area shape="rect" title=" " alt="" coords="5,244,103,271"/>
+<area shape="rect" title=" " alt="" coords="127,244,210,271"/>
+<area shape="rect" title=" " alt="" coords="503,95,573,121"/>
+<area shape="rect" title=" " alt="" coords="453,244,535,271"/>
+<area shape="rect" href="hal_8h.html" title=" " alt="" coords="273,95,328,121"/>
+<area shape="rect" href="system_8h.html" title=" " alt="" coords="346,244,429,271"/>
+<area shape="rect" href="os_8h.html" title=" " alt="" coords="276,169,325,196"/>
+<area shape="rect" title=" " alt="" coords="234,244,322,271"/>
 </map>
 </div>
 </div>
@@ -135,7 +136,7 @@ Macros</h2></td></tr>
 <tr class="separator:aed898a0efcdcfbcb9f82a42a89e967c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac862a7d898297677ecba653021cf5ace"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#ac862a7d898297677ecba653021cf5ace">CAN_INIT_DEV</a>(ns)</td></tr>
 <tr class="separator:ac862a7d898297677ecba653021cf5ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78a97d41423ea9f18723a2750bc1fa31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a78a97d41423ea9f18723a2750bc1fa31">CAN_INIT</a>(ns,  index,  bitrate,  pin,  pinHigh,  callback,  data)&#160;&#160;&#160;struct can * <a class="el" href="group__CAN.html#ga7d0fc6a3fc8cf38b7cfb43017ac459d7">can_init</a>(uint32_t index, uint32_t bitrate, struct gpio_pin *pin, bool pinHigh, bool (*callback)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> d), void *data)</td></tr>
+<tr class="memitem:a78a97d41423ea9f18723a2750bc1fa31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#a78a97d41423ea9f18723a2750bc1fa31">CAN_INIT</a>(ns,  index,  bitrate,  pin,  pinHigh,  callback,  data)&#160;&#160;&#160;struct can * <a class="el" href="group__CAN.html#gad5313261d32cdb77d59881f6f021d504">can_init</a>(uint32_t index, uint32_t bitrate, struct gpio_pin *pin, bool pinHigh, bool (*callback)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> d, void *userData), void *data)</td></tr>
 <tr class="separator:a78a97d41423ea9f18723a2750bc1fa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afae93500fda5ee1103965ea25d9c051e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="can__prv_8h.html#afae93500fda5ee1103965ea25d9c051e">CAN_DEINIT</a>(ns,  c)&#160;&#160;&#160;int32_t  <a class="el" href="group__CAN.html#ga58ec29822172f6026d890954509fe6a7">can_deinit</a>(struct can *c)</td></tr>
 <tr class="separator:afae93500fda5ee1103965ea25d9c051e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -369,7 +370,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;struct can * <a class="el" href="group__CAN.html#ga7d0fc6a3fc8cf38b7cfb43017ac459d7">can_init</a>(uint32_t index, uint32_t bitrate, struct gpio_pin *pin, bool pinHigh, bool (*callback)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> d), void *data)</td>
+          <td></td><td>&#160;&#160;&#160;struct can * <a class="el" href="group__CAN.html#gad5313261d32cdb77d59881f6f021d504">can_init</a>(uint32_t index, uint32_t bitrate, struct gpio_pin *pin, bool pinHigh, bool (*callback)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> d, void *userData), void *data)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -819,7 +820,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="can__prv_8h.html">can_prv.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

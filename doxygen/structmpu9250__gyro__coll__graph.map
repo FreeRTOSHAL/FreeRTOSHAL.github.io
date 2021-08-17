@@ -1,10 +1,10 @@
 <map id="mpu9250_gyro" name="mpu9250_gyro">
-<area shape="rect" id="node1" title=" " alt="" coords="68,95,175,121"/>
-<area shape="rect" id="node2" href="$structmpu9250.html" title=" " alt="" coords="139,184,213,211"/>
-<area shape="rect" id="node4" href="$structmpu9250__accel.html" title=" " alt="" coords="113,273,226,300"/>
-<area shape="rect" id="node3" href="$structspi__opt.html" title=" " alt="" coords="204,95,268,121"/>
-<area shape="rect" id="node5" href="$structvector.html" title=" " alt="" coords="5,5,64,32"/>
-<area shape="rect" id="node6" href="$structaccel__generic.html" title=" " alt="" coords="238,184,341,211"/>
-<area shape="rect" id="node7" href="$structhal.html" title=" " alt="" coords="293,95,331,121"/>
-<area shape="rect" id="node8" href="$structgyro__generic.html" title=" " alt="" coords="105,5,201,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="68,95,187,121"/>
+<area shape="rect" id="node2" href="$structmpu9250.html" title=" " alt="" coords="146,184,229,211"/>
+<area shape="rect" id="node4" href="$structmpu9250__accel.html" title=" " alt="" coords="120,273,244,300"/>
+<area shape="rect" id="node3" href="$structspi__opt.html" title=" " alt="" coords="217,95,286,121"/>
+<area shape="rect" id="node5" href="$structvector.html" title=" " alt="" coords="5,5,68,32"/>
+<area shape="rect" id="node6" href="$structaccel__generic.html" title=" " alt="" coords="253,184,364,211"/>
+<area shape="rect" id="node7" href="$structhal.html" title=" " alt="" coords="310,95,353,121"/>
+<area shape="rect" id="node8" href="$structgyro__generic.html" title=" " alt="" coords="110,5,217,32"/>
 </map>

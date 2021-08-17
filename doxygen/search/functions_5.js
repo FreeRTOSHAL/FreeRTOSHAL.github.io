@@ -1,10 +1,24 @@
 var searchData=
 [
-  ['hal_5fdefine_5fglobal_5farray_1403',['HAL_DEFINE_GLOBAL_ARRAY',['../accel__prv_8h.html#a5107a3cf09bab75334bdf6884eaf4d42',1,'HAL_DEFINE_GLOBAL_ARRAY(accel):&#160;accel_prv.h'],['../adc__prv_8h.html#af963165471801cb188dfe7d1dbb582a7',1,'HAL_DEFINE_GLOBAL_ARRAY(adc):&#160;adc_prv.h'],['../can__prv_8h.html#a5f8b366c4850d85b14f9888aeae755f7',1,'HAL_DEFINE_GLOBAL_ARRAY(can):&#160;can_prv.h'],['../capture__prv_8h.html#a0cd6d6f2015a301c11122fa83f893767',1,'HAL_DEFINE_GLOBAL_ARRAY(capture):&#160;capture_prv.h'],['../counter__prv_8h.html#afe4799f77071e67cc6b5867350f9a4ec',1,'HAL_DEFINE_GLOBAL_ARRAY(counter):&#160;counter_prv.h'],['../group__example__driver__prv.html#gac3c7862dbab6b6aeef0d966d58da0b0d',1,'HAL_DEFINE_GLOBAL_ARRAY(example):&#160;example_prv.h'],['../gpio__prv_8h.html#a03ad61bbb28e6327eb71e70d5328aaf1',1,'HAL_DEFINE_GLOBAL_ARRAY(gpio):&#160;gpio_prv.h'],['../gyro__prv_8h.html#a6dee013490b546e12bcf64f07fd40492',1,'HAL_DEFINE_GLOBAL_ARRAY(gyro):&#160;gyro_prv.h'],['../group__HAL.html#ga5c8293309d3950d4cfe773983ac3c9be',1,'HAL_DEFINE_GLOBAL_ARRAY(hal):&#160;hal.h'],['../i2c__prv_8h.html#a2caadd6f96481b5dd631a774bf97ac87',1,'HAL_DEFINE_GLOBAL_ARRAY(i2c):&#160;i2c_prv.h'],['../mailbox__prv_8h.html#ad1124b8836861edc9d381d360e1dce2a',1,'HAL_DEFINE_GLOBAL_ARRAY(mailbox):&#160;mailbox_prv.h'],['../pwm__prv_8h.html#adc604219be04e0a5f26264dc874cc567',1,'HAL_DEFINE_GLOBAL_ARRAY(pwm):&#160;pwm_prv.h'],['../remoteproc__trace_8h.html#af1e6c2cdf5217556150f09bac37bb19f',1,'HAL_DEFINE_GLOBAL_ARRAY(uart):&#160;remoteproc_trace.h'],['../rtc__prv_8h.html#abeb1fc491878df24e0cb0f0f9e787095',1,'HAL_DEFINE_GLOBAL_ARRAY(rtc):&#160;rtc_prv.h'],['../sd__prv_8h.html#a8f65c6852a8c278e4846f81b9ec99776',1,'HAL_DEFINE_GLOBAL_ARRAY(sd):&#160;sd_prv.h'],['../spi__prv_8h.html#aa655f0602a53bfc2e18fe63ac547db2e',1,'HAL_DEFINE_GLOBAL_ARRAY(spi):&#160;spi_prv.h'],['../temp__prv_8h.html#a34303179e8bfbd11e65dd59030ece211',1,'HAL_DEFINE_GLOBAL_ARRAY(temp):&#160;temp_prv.h'],['../timer__prv_8h.html#ae2a97b9f459e94ccda313b373cbf970a',1,'HAL_DEFINE_GLOBAL_ARRAY(timer):&#160;timer_prv.h'],['../uart__prv_8h.html#af1e6c2cdf5217556150f09bac37bb19f',1,'HAL_DEFINE_GLOBAL_ARRAY(uart):&#160;uart_prv.h']]],
-  ['hal_5fdeinit_1404',['hal_deinit',['../group__HAL.html#ga6632e06a9c92e5c58dbed1b1ab0bdd32',1,'hal.h']]],
-  ['hal_5fgetdev_1405',['hal_getDev',['../group__HAL.html#ga95bb237b7a87ab715d6415997dbcfee8',1,'hal.h']]],
-  ['hal_5finit_1406',['hal_init',['../group__HAL.html#ga6e683e5f814e744970321e28a771b4e1',1,'hal.h']]],
-  ['hal_5fisinit_1407',['hal_isInit',['../group__HAL.html#ga7b05a7672ff0c67e6f43bfca8a23679d',1,'hal.h']]],
-  ['hal_5flock_1408',['hal_lock',['../group__HAL.html#ga2ccb52ad5ca9f440f0746a7a80130fda',1,'hal.h']]],
-  ['hal_5funlock_1409',['hal_unlock',['../group__HAL.html#ga500858f8ba7d9181fc684e2b826dd3a7',1,'hal.h']]]
+  ['gpio_5fdeinit_1420',['gpio_deinit',['../group__GPIO.html#ga90ff6f67cf7f6c76979e86e9dd472cc6',1,'gpio.h']]],
+  ['gpio_5fgenericinit_1421',['gpio_genericInit',['../gpio__prv_8h.html#a7c7183db4c27c4b0343307c54e0cae8d',1,'gpio_prv.h']]],
+  ['gpio_5finit_1422',['gpio_init',['../group__GPIO.html#gaeaa3e8472af37de6fad06488d7b51292',1,'gpio.h']]],
+  ['gpiopin_5fclearpin_1423',['gpioPin_clearPin',['../group__GPIO__PIN.html#ga4b7d18876ef15ff0866f8efebae0d373',1,'gpio.h']]],
+  ['gpiopin_5fdeinit_1424',['gpioPin_deinit',['../group__GPIO__PIN.html#gaca9390efda801d772afbf2e887934efa',1,'gpio.h']]],
+  ['gpiopin_5fdisableinterrupt_1425',['gpioPin_disableInterrupt',['../group__GPIO__PIN.html#ga0d17cb5a41ab6abff5cb6a16ea51a1f2',1,'gpio.h']]],
+  ['gpiopin_5fenableinterrupt_1426',['gpioPin_enableInterrupt',['../group__GPIO__PIN.html#ga6f1430baffaeb1850170a14e24d94d4f',1,'gpio.h']]],
+  ['gpiopin_5fgetvalue_1427',['gpioPin_getValue',['../group__GPIO__PIN.html#ga2ebdfaf8f55dbf3ff468a4a9e8e0b207',1,'gpio.h']]],
+  ['gpiopin_5finit_1428',['gpioPin_init',['../group__GPIO__PIN.html#ga5d3115bd30d83c57535f9a9e8b18cb7a',1,'gpio.h']]],
+  ['gpiopin_5fschmitttrigger_1429',['gpioPin_SchmittTrigger',['../group__GPIO__PIN.html#ga40c9d1e19d21d03bea900112497765fb',1,'gpio.h']]],
+  ['gpiopin_5fsetcallback_1430',['gpioPin_setCallback',['../group__GPIO__PIN.html#ga4860e4631b4fcd99a277ca84b1a9b704',1,'gpio.h']]],
+  ['gpiopin_5fsetdirection_1431',['gpioPin_setDirection',['../group__GPIO__PIN.html#gaf7c20b4fd951eafbcde07834c8214167',1,'gpio.h']]],
+  ['gpiopin_5fsetpin_1432',['gpioPin_setPin',['../group__GPIO__PIN.html#ga4768e96dcfc4d277777a6bc48c121605',1,'gpio.h']]],
+  ['gpiopin_5fsetsetting_1433',['gpioPin_setSetting',['../group__GPIO__PIN.html#ga815b1071c924bb959b612ac565c1611e',1,'gpio.h']]],
+  ['gpiopin_5fsetvalue_1434',['gpioPin_setValue',['../group__GPIO__PIN.html#ga26dd5cc32dd8bbd3b58edefc2d901b7a',1,'gpio.h']]],
+  ['gpiopin_5ftogglepin_1435',['gpioPin_togglePin',['../group__GPIO__PIN.html#gac4976a37678d45abb842a6b9fa48a60f',1,'gpio.h']]],
+  ['gyro_5fdeinit_1436',['gyro_deinit',['../group__GYRO.html#gacf8367b17e4c541145915cf5706d4fc9',1,'gyro.h']]],
+  ['gyro_5fgeneric_5finit_1437',['gyro_generic_init',['../gyro__prv_8h.html#a35e52af05d0e019303c35ac6d7b4d115',1,'gyro_prv.h']]],
+  ['gyro_5fget_1438',['gyro_get',['../group__GYRO.html#ga4937a90e5b701352e918e47223bdbb78',1,'gyro.h']]],
+  ['gyro_5fgetisr_1439',['gyro_getISR',['../group__GYRO.html#ga372829308e39c345969aa492bef0cb9d',1,'gyro.h']]],
+  ['gyro_5finit_1440',['gyro_init',['../group__GYRO.html#ga9cce021fd7964d47a3e62a3bca36fb7f',1,'gyro.h']]]
 ];

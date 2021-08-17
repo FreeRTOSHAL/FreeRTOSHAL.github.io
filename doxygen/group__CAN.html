@@ -94,9 +94,9 @@ $(document).ready(function(){initNavTree('group__CAN.html',''); initResizable();
 Collaboration diagram for CAN Subsystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__CAN.png" border="0" usemap="#agroup____CAN" alt=""/></div>
-<map name="group____CAN" id="agroup____CAN">
-<area shape="rect" title=" " alt="" coords="201,13,323,38"/>
-<area shape="rect" href="group__HAL.html" title=" " alt="" coords="5,5,153,45"/>
+<map name="group____CAN" id="group____CAN">
+<area shape="rect" title=" " alt="" coords="216,13,343,38"/>
+<area shape="rect" href="group__HAL.html" title=" " alt="" coords="5,5,168,45"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -113,6 +113,14 @@ Data Structures</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:gab7bf92a4f1fa8d5c2f4ab24991419bc3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#gab7bf92a4f1fa8d5c2f4ab24991419bc3">CAN_MAX_LENGTH</a>&#160;&#160;&#160;8</td></tr>
 <tr class="separator:gab7bf92a4f1fa8d5c2f4ab24991419bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5ae55ab3741140024858bd7b8762ea42"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#ga5ae55ab3741140024858bd7b8762ea42">CAN_EFF_FLAG</a>&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(31) /* EFF/SFF is set in the MSB */</td></tr>
+<tr class="separator:ga5ae55ab3741140024858bd7b8762ea42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf324d65226057755175038a15d9bbd75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#gaf324d65226057755175038a15d9bbd75">CAN_RTR_FLAG</a>&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(30) /* remote transmission request */</td></tr>
+<tr class="separator:gaf324d65226057755175038a15d9bbd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe4fc3f9cab58aeeb463861289e8ce93"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#gafe4fc3f9cab58aeeb463861289e8ce93">CAN_SFF_MASK</a>&#160;&#160;&#160;0x000007FFUL /* standard frame format (SFF) */</td></tr>
+<tr class="separator:gafe4fc3f9cab58aeeb463861289e8ce93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga83b943dca61d0aad5b07ec01c3317572"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#ga83b943dca61d0aad5b07ec01c3317572">CAN_EFF_MASK</a>&#160;&#160;&#160;0x1FFFFFFFUL /* extended frame format (EFF) */</td></tr>
+<tr class="separator:ga83b943dca61d0aad5b07ec01c3317572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8086092a2e40c1b0429caaad3b2c8675"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#ga8086092a2e40c1b0429caaad3b2c8675">CAN_ERR_CRTL</a>&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#ga2bfa2634d8a88e42f49450f77d7e5044">BIT64</a>(0)</td></tr>
 <tr class="separator:ga8086092a2e40c1b0429caaad3b2c8675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga460124ac3db203ad03403b6cc2e98475"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#ga460124ac3db203ad03403b6cc2e98475">CAN_ERR_CTRL_OFFSET</a>&#160;&#160;&#160;0</td></tr>
@@ -239,8 +247,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga7d0fc6a3fc8cf38b7cfb43017ac459d7"><td class="memItemLeft" align="right" valign="top">struct can *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#ga7d0fc6a3fc8cf38b7cfb43017ac459d7">can_init</a> (uint32_t index, uint32_t bitrate, struct gpio_pin *pin, bool pinHigh, bool(*callback)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> data), void *data)</td></tr>
-<tr class="separator:ga7d0fc6a3fc8cf38b7cfb43017ac459d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5313261d32cdb77d59881f6f021d504"><td class="memItemLeft" align="right" valign="top">struct can *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#gad5313261d32cdb77d59881f6f021d504">can_init</a> (uint32_t index, uint32_t bitrate, struct gpio_pin *pin, bool pinHigh, bool(*callback)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> data, void *userData), void *data)</td></tr>
+<tr class="separator:gad5313261d32cdb77d59881f6f021d504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga58ec29822172f6026d890954509fe6a7"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#ga58ec29822172f6026d890954509fe6a7">can_deinit</a> (struct can *can)</td></tr>
 <tr class="separator:ga58ec29822172f6026d890954509fe6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9e81eba08aa916e73a558baf6d314afe"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__CAN.html#ga9e81eba08aa916e73a558baf6d314afe">can_setCallback</a> (struct can *can, int32_t filterID, bool(*callback)(struct can *can, struct <a class="el" href="structcan__msg.html">can_msg</a> *msg, void *data), void *data)</td></tr>
@@ -266,6 +274,34 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="can_8h.html">can.h</a>&gt;</span></div>
 </div><!-- fragment --><p>This is the CAN Subsystem for controlling CAN of a SOC. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga5ae55ab3741140024858bd7b8762ea42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5ae55ab3741140024858bd7b8762ea42">&#9670;&nbsp;</a></span>CAN_EFF_FLAG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CAN_EFF_FLAG&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(31) /* EFF/SFF is set in the MSB */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga83b943dca61d0aad5b07ec01c3317572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga83b943dca61d0aad5b07ec01c3317572">&#9670;&nbsp;</a></span>CAN_EFF_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CAN_EFF_MASK&#160;&#160;&#160;0x1FFFFFFFUL /* extended frame format (EFF) */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="gadbe83f5e81c1c8c767daaf97c5849017"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadbe83f5e81c1c8c767daaf97c5849017">&#9670;&nbsp;</a></span>CAN_ERR_ACK</h2>
 
@@ -441,7 +477,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>unspecified contoller protocol </p>
+<p>unspecified controller protocol </p>
 
 </div>
 </div>
@@ -1146,6 +1182,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gaf324d65226057755175038a15d9bbd75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf324d65226057755175038a15d9bbd75">&#9670;&nbsp;</a></span>CAN_RTR_FLAG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CAN_RTR_FLAG&#160;&#160;&#160;<a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(30) /* remote transmission request */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gafe4fc3f9cab58aeeb463861289e8ce93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe4fc3f9cab58aeeb463861289e8ce93">&#9670;&nbsp;</a></span>CAN_SFF_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CAN_SFF_MASK&#160;&#160;&#160;0x000007FFUL /* standard frame format (SFF) */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ga130725a90a6f8bfc8a24743cdf4944e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga130725a90a6f8bfc8a24743cdf4944e1">&#9670;&nbsp;</a></span>can_error_t</h2>
@@ -1262,8 +1326,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga7d0fc6a3fc8cf38b7cfb43017ac459d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7d0fc6a3fc8cf38b7cfb43017ac459d7">&#9670;&nbsp;</a></span>can_init()</h2>
+<a id="gad5313261d32cdb77d59881f6f021d504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5313261d32cdb77d59881f6f021d504">&#9670;&nbsp;</a></span>can_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1295,7 +1359,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool(*)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> data)&#160;</td>
+          <td class="paramtype">bool(*)(struct can *can, <a class="el" href="group__CAN.html#ga130725a90a6f8bfc8a24743cdf4944e1">can_error_t</a> error, <a class="el" href="group__CAN.html#gacbbbfad306664496de5d631f25ee2cfc">can_errorData_t</a> data, void *userData)&#160;</td>
           <td class="paramname"><em>callback</em>, </td>
         </tr>
         <tr>
@@ -1444,7 +1508,9 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Register CAN Filter </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Register CAN Filter</p>
+<dl class="section warning"><dt>Warning</dt><dd>If a id and a mask is overlapping with another filter only one filter get the messages </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">can</td><td>CAN instance </td></tr>
     <tr><td class="paramname">filter</td><td>Filter </td></tr>
@@ -1617,7 +1683,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

@@ -54,14 +54,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "accel_8h.html",
-"group__ADC.html#gaa2edd87d3108533fe30f15e600e13cd0",
-"group__GPIO__PIN.html#gga032609f1d4935a99eb012c7b017df9f1a93970a9b4ab92816371682f4e537a8e2",
-"group__LTC6811.html#ga663888d776cb2b819dda921d80fecd40",
-"group__SYSTEM.html#ga7a18c4884994b9b520ae535b6d9579d3",
-"group__sd__driver.html#gad4d8475ff8191eec64ec75fa4241f187",
-"lwipopts_8h.html#a9f9881c887a8aceb9765820c2dbdf292",
-"structcan__bittiming.html#a5091d7fbce1c7404c1746723551a42c7",
-"uart__prv_8h.html#a3f027e19a23fa1e8f225816c56845d7b"
+"group__ACCEL.html",
+"group__GPIO__PIN.html#ga032609f1d4935a99eb012c7b017df9f1",
+"group__LTC6811.html#ga33ea869ba8cc7f9ee109d7cadfdd75a7",
+"group__SPI__SLAVE.html#gad08430560811fee084b3bb1140ee5faa",
+"group__sd__driver.html#ga1c157532ce8453ccd0998e93ca67c81a",
+"lwipopts_8h.html#a741a0710dc126ed3ae9e305472df3432",
+"sd__prv_8h.html#a53d9869e0dbe0b56f3136ea16e79c535",
+"temp_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

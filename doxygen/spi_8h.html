@@ -100,29 +100,30 @@ $(document).ready(function(){initNavTree('spi_8h.html',''); initResizable(); });
 Include dependency graph for spi.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="spi_8h__incl.png" border="0" usemap="#adriver_2include_2spi_8h" alt=""/></div>
-<map name="driver_2include_2spi_8h" id="adriver_2include_2spi_8h">
-<area shape="rect" title=" " alt="" coords="145,5,275,32"/>
-<area shape="rect" title=" " alt="" coords="5,80,71,107"/>
-<area shape="rect" title=" " alt="" coords="129,229,203,256"/>
-<area shape="rect" href="system_8h.html" title=" " alt="" coords="228,229,304,256"/>
-<area shape="rect" title=" " alt="" coords="439,229,535,256"/>
-<area shape="rect" title=" " alt="" coords="339,229,415,256"/>
-<area shape="rect" href="hal_8h.html" title=" " alt="" coords="266,80,317,107"/>
-<area shape="rect" href="os_8h.html" title=" " alt="" coords="299,155,345,181"/>
+<map name="driver_2include_2spi_8h" id="driver_2include_2spi_8h">
+<area shape="rect" title=" " alt="" coords="142,5,289,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,76,107"/>
+<area shape="rect" title=" " alt="" coords="71,229,154,256"/>
+<area shape="rect" href="system_8h.html" title=" " alt="" coords="178,229,261,256"/>
+<area shape="rect" title=" " alt="" coords="504,229,601,256"/>
+<area shape="rect" title=" " alt="" coords="397,229,479,256"/>
+<area shape="rect" href="hal_8h.html" title=" " alt="" coords="269,80,324,107"/>
+<area shape="rect" href="os_8h.html" title=" " alt="" coords="304,155,353,181"/>
+<area shape="rect" title=" " alt="" coords="285,229,373,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="spi_8h__dep__incl.png" border="0" usemap="#adriver_2include_2spi_8hdep" alt=""/></div>
-<map name="driver_2include_2spi_8hdep" id="adriver_2include_2spi_8hdep">
-<area shape="rect" title=" " alt="" coords="325,5,455,32"/>
-<area shape="rect" href="ltc6811_8h.html" title=" " alt="" coords="5,80,161,107"/>
-<area shape="rect" href="mpu9250_8h.html" title=" " alt="" coords="185,80,352,107"/>
-<area shape="rect" href="mpu9250__prv_8h.html" title=" " alt="" coords="251,155,407,196"/>
-<area shape="rect" href="tlc5947_8h.html" title=" " alt="" coords="428,80,584,107"/>
-<area shape="rect" href="tps65381_8h.html" title=" " alt="" coords="608,80,775,107"/>
-<area shape="rect" href="ltc6811__prv_8h.html" title=" " alt="" coords="11,155,156,196"/>
+<map name="driver_2include_2spi_8hdep" id="driver_2include_2spi_8hdep">
+<area shape="rect" title=" " alt="" coords="357,5,503,32"/>
+<area shape="rect" href="ltc6811_8h.html" title=" " alt="" coords="5,80,180,107"/>
+<area shape="rect" href="mpu9250_8h.html" title=" " alt="" coords="204,80,392,107"/>
+<area shape="rect" href="mpu9250__prv_8h.html" title=" " alt="" coords="275,155,451,196"/>
+<area shape="rect" href="tlc5947_8h.html" title=" " alt="" coords="468,80,643,107"/>
+<area shape="rect" href="tps65381_8h.html" title=" " alt="" coords="667,80,854,107"/>
+<area shape="rect" href="ltc6811__prv_8h.html" title=" " alt="" coords="11,155,174,196"/>
 </map>
 </div>
 </div>
@@ -165,14 +166,14 @@ Functions</h2></td></tr>
 <tr class="separator:gada0f1e3f1d755d941a6abfa063a7fcba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga847cb6f493a0308795690aa54eaf53d4"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#ga847cb6f493a0308795690aa54eaf53d4">spiSlave_deinit</a> (struct spi_slave *slave)</td></tr>
 <tr class="separator:ga847cb6f493a0308795690aa54eaf53d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3332a95a70e979565843645f63a33594"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#ga3332a95a70e979565843645f63a33594">spiSlave_transver</a> (struct spi_slave *slave, uint16_t *sendData, uint16_t *recvData, uint32_t len, TickType_t waittime)</td></tr>
-<tr class="separator:ga3332a95a70e979565843645f63a33594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac3b976c8b173d35fc2698b5859a873f7"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#gac3b976c8b173d35fc2698b5859a873f7">spiSlave_transfer</a> (struct spi_slave *slave, uint16_t *sendData, uint16_t *recvData, uint32_t len, TickType_t waittime)</td></tr>
+<tr class="separator:gac3b976c8b173d35fc2698b5859a873f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad9308e6593024517c0583790106beab3"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#gad9308e6593024517c0583790106beab3">spiSlave_send</a> (struct spi_slave *slave, uint16_t *data, uint32_t len, TickType_t waittime)</td></tr>
 <tr class="separator:gad9308e6593024517c0583790106beab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gad08430560811fee084b3bb1140ee5faa"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#gad08430560811fee084b3bb1140ee5faa">spiSlave_recv</a> (struct spi_slave *slave, uint16_t *data, uint32_t len, TickType_t waittime)</td></tr>
 <tr class="separator:gad08430560811fee084b3bb1140ee5faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7e3ae88e01f096bf6720d101e0dbc72d"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#ga7e3ae88e01f096bf6720d101e0dbc72d">spiSlave_transverISR</a> (struct spi_slave *slave, uint16_t *sendData, uint16_t *recvData, uint32_t len)</td></tr>
-<tr class="separator:ga7e3ae88e01f096bf6720d101e0dbc72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga460b8c2fbf792f0f300cc733043736ad"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#ga460b8c2fbf792f0f300cc733043736ad">spiSlave_transferISR</a> (struct spi_slave *slave, uint16_t *sendData, uint16_t *recvData, uint32_t len)</td></tr>
+<tr class="separator:ga460b8c2fbf792f0f300cc733043736ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaef90c75c7576ef8fd1240300d88b7edb"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#gaef90c75c7576ef8fd1240300d88b7edb">spiSlave_sendISR</a> (struct spi_slave *slave, uint16_t *data, uint32_t len)</td></tr>
 <tr class="separator:gaef90c75c7576ef8fd1240300d88b7edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaac685d1e2077039084ac0b53537703f8"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SPI__SLAVE.html#gaac685d1e2077039084ac0b53537703f8">spiSlave_recvISR</a> (struct spi_slave *slave, uint16_t *data, uint32_t len)</td></tr>
@@ -184,7 +185,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="spi_8h.html">spi.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

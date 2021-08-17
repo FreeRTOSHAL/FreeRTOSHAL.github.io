@@ -97,15 +97,16 @@ $(document).ready(function(){initNavTree('uart__prv_8h.html',''); initResizable(
 Include dependency graph for uart_prv.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="uart__prv_8h__incl.png" border="0" usemap="#adriver_2include_2uart__prv_8h" alt=""/></div>
-<map name="driver_2include_2uart__prv_8h" id="adriver_2include_2uart__prv_8h">
-<area shape="rect" title=" " alt="" coords="163,5,288,47"/>
-<area shape="rect" title=" " alt="" coords="5,244,101,271"/>
-<area shape="rect" title=" " alt="" coords="126,244,202,271"/>
-<area shape="rect" title=" " alt="" coords="426,95,491,121"/>
-<area shape="rect" title=" " alt="" coords="327,244,401,271"/>
-<area shape="rect" href="hal_8h.html" title=" " alt="" coords="200,95,251,121"/>
-<area shape="rect" href="system_8h.html" title=" " alt="" coords="226,244,302,271"/>
-<area shape="rect" href="os_8h.html" title=" " alt="" coords="202,169,249,196"/>
+<map name="driver_2include_2uart__prv_8h" id="driver_2include_2uart__prv_8h">
+<area shape="rect" title=" " alt="" coords="230,5,371,47"/>
+<area shape="rect" title=" " alt="" coords="5,244,103,271"/>
+<area shape="rect" title=" " alt="" coords="127,244,210,271"/>
+<area shape="rect" title=" " alt="" coords="503,95,573,121"/>
+<area shape="rect" title=" " alt="" coords="453,244,535,271"/>
+<area shape="rect" href="hal_8h.html" title=" " alt="" coords="273,95,328,121"/>
+<area shape="rect" href="system_8h.html" title=" " alt="" coords="346,244,429,271"/>
+<area shape="rect" href="os_8h.html" title=" " alt="" coords="276,169,325,196"/>
+<area shape="rect" title=" " alt="" coords="234,244,322,271"/>
 </map>
 </div>
 </div>
@@ -127,8 +128,8 @@ Macros</h2></td></tr>
 <tr class="separator:a661ed32bc74c552472a4712c06e325c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9c04750ef95797874b1293c3baf9026"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uart__prv_8h.html#af9c04750ef95797874b1293c3baf9026">UART_INIT_DEV</a>(ns)</td></tr>
 <tr class="separator:af9c04750ef95797874b1293c3baf9026"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12b6539d9e662705c1fa8bbd8a335326"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uart__prv_8h.html#a12b6539d9e662705c1fa8bbd8a335326">UART_INIT</a>(ns,  port,  bautrate)&#160;&#160;&#160;struct <a class="el" href="structuart.html">uart</a> *<a class="el" href="group__UART.html#ga9da347d71abfc59a78c00ce0f260c772">uart_init</a>(uint8_t port, uint32_t bautrate)</td></tr>
-<tr class="separator:a12b6539d9e662705c1fa8bbd8a335326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c325f2398467b775a90fe16c2b23975"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uart__prv_8h.html#a3c325f2398467b775a90fe16c2b23975">UART_INIT</a>(ns,  port,  baudrate)&#160;&#160;&#160;struct <a class="el" href="structuart.html">uart</a> *<a class="el" href="group__UART.html#gac71962cb51b53f69faf6231cf756dff9">uart_init</a>(uint8_t port, uint32_t baudrate)</td></tr>
+<tr class="separator:a3c325f2398467b775a90fe16c2b23975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfff6df3c71c381f79f87e2d6cedcbbe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uart__prv_8h.html#abfff6df3c71c381f79f87e2d6cedcbbe">UART_DEINIT</a>(ns,  u)&#160;&#160;&#160;int32_t <a class="el" href="group__UART.html#gaf46ad4da19722d2c36de34156d46add6">uart_deinit</a>(struct <a class="el" href="structuart.html">uart</a> *u)</td></tr>
 <tr class="separator:abfff6df3c71c381f79f87e2d6cedcbbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae0d16d3d0cf9509c217869b194d4810"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="uart__prv_8h.html#aae0d16d3d0cf9509c217869b194d4810">UART_GETC</a>(ns,  u,  waittime)&#160;&#160;&#160;char <a class="el" href="group__UART.html#ga145d9664689fd86f17930aaeda5c797b">uart_getc</a>(struct <a class="el" href="structuart.html">uart</a> *u, TickType_t waittime)</td></tr>
@@ -310,8 +311,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a12b6539d9e662705c1fa8bbd8a335326"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12b6539d9e662705c1fa8bbd8a335326">&#9670;&nbsp;</a></span>UART_INIT</h2>
+<a id="a3c325f2398467b775a90fe16c2b23975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c325f2398467b775a90fe16c2b23975">&#9670;&nbsp;</a></span>UART_INIT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -332,12 +333,12 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">bautrate&#160;</td>
+          <td class="paramname">baudrate&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;struct <a class="el" href="structuart.html">uart</a> *<a class="el" href="group__UART.html#ga9da347d71abfc59a78c00ce0f260c772">uart_init</a>(uint8_t port, uint32_t bautrate)</td>
+          <td></td><td>&#160;&#160;&#160;struct <a class="el" href="structuart.html">uart</a> *<a class="el" href="group__UART.html#gac71962cb51b53f69faf6231cf756dff9">uart_init</a>(uint8_t port, uint32_t baudrate)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -805,7 +806,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="uart__prv_8h.html">uart_prv.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

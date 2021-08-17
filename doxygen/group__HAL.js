@@ -7,6 +7,7 @@ var group__HAL =
     [ "Capture Subsystem", "group__CAPTURE.html", "group__CAPTURE" ],
     [ "Clock Subsystem", "group__CLOCK.html", "group__CLOCK" ],
     [ "Counter Subsystem", "group__counter__driver.html", "group__counter__driver" ],
+    [ "DAC Subsystem", "group__DAC.html", "group__DAC" ],
     [ "Driver for Shared Memmory for heterogeneous Multicore Possessor", "group__BUFFER.html", "group__BUFFER" ],
     [ "Example driver", "group__example__driver.html", "group__example__driver" ],
     [ "GPIO Subsystem", "group__GPIO.html", "group__GPIO" ],

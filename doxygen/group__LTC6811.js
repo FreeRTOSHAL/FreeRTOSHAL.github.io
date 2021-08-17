@@ -65,7 +65,7 @@ var group__LTC6811 =
     [ "LTC_CMD_WRSCTRL", "group__LTC6811.html#ga19dfdd21af1709a030175f265de81b56", null ],
     [ "ltc_cmd_t", "group__LTC6811.html#ga2e00f2c68a7d99d561ce6907cf3b111f", null ],
     [ "ltc6811_calcPEC", "group__LTC6811.html#ga18043801ff7fd93551c8a77178d72250", null ],
-    [ "ltc6811_connect", "group__LTC6811.html#gac455ef50fbce55fd71ca551d9ced667b", null ],
+    [ "ltc6811_connect", "group__LTC6811.html#ga09864968198961742e71b45a183d0171", null ],
     [ "ltc6811_init", "group__LTC6811.html#ga75440f4c38f88d57d0906cc5fbf33e3d", null ],
     [ "ltc6811_read", "group__LTC6811.html#gaeb72a1b5fcc6bbaf13a777c09cd0a4d6", null ],
     [ "ltc6811_readRegister", "group__LTC6811.html#ga6073cf3d4097b592b2419600f1903633", null ],

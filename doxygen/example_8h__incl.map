@@ -1,10 +1,11 @@
 <map id="driver/include/example.h" name="driver/include/example.h">
-<area shape="rect" id="node1" title=" " alt="" coords="249,5,412,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,229,101,256"/>
-<area shape="rect" id="node3" title=" " alt="" coords="470,80,535,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="125,229,200,256"/>
-<area shape="rect" id="node5" href="$system_8h.html" title=" " alt="" coords="335,229,411,256"/>
-<area shape="rect" id="node6" title=" " alt="" coords="235,229,311,256"/>
-<area shape="rect" id="node7" href="$hal_8h.html" title=" " alt="" coords="224,80,275,107"/>
-<area shape="rect" id="node8" href="$os_8h.html" title=" " alt="" coords="195,155,242,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="298,5,482,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,229,103,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="531,80,601,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="127,229,210,256"/>
+<area shape="rect" id="node5" href="$system_8h.html" title=" " alt="" coords="453,229,535,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="346,229,429,256"/>
+<area shape="rect" id="node7" href="$hal_8h.html" title=" " alt="" coords="281,80,336,107"/>
+<area shape="rect" id="node8" href="$os_8h.html" title=" " alt="" coords="253,155,303,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="234,229,322,256"/>
 </map>

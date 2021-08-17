@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['pwm_5fdeinit_1461',['pwm_deinit',['../group__PWM.html#ga43d20418960ab84bd280093b70c4116d',1,'pwm.h']]],
-  ['pwm_5fgeneric_5finit_1462',['pwm_generic_init',['../pwm__prv_8h.html#a91a4c08b5a23ac1208b79b48de3f8652',1,'pwm_prv.h']]],
-  ['pwm_5finit_1463',['pwm_init',['../group__PWM.html#ga30ce396b63ca426c096ee80ab276fa1c',1,'pwm.h']]],
-  ['pwm_5fsetdutycycle_1464',['pwm_setDutyCycle',['../group__PWM.html#gafa5a1611b37dfc95aa0503411ddd3288',1,'pwm.h']]],
-  ['pwm_5fsetperiod_1465',['pwm_setPeriod',['../group__PWM.html#ga8a9880e5036b2f3665b22265be52ffc4',1,'pwm.h']]],
-  ['pwm_5fsoftware_5fconnect_1466',['pwm_software_connect',['../pwm__software_8h.html#ab397bb741facc56477d579e5b939c7d7',1,'pwm_software.h']]]
+  ['os_5fdefine_5fmutex_5frecursive_1500',['OS_DEFINE_MUTEX_RECURSIVE',['../structexample__generic.html#aa06a3c832ab218887013ea5f4d735543',1,'example_generic']]]
 ];

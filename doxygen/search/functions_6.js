@@ -1,22 +1,10 @@
 var searchData=
 [
-  ['i2c_5fdeinit_1410',['i2c_deinit',['../group__I2C.html#ga702d583e7f4c1c5a27c91babd1d49528',1,'i2c.h']]],
-  ['i2c_5fgenericinit_1411',['i2c_genericInit',['../i2c__prv_8h.html#a04d01422e5bbd492afc8b958bebdd1a8',1,'i2c_prv.h']]],
-  ['i2c_5finit_1412',['i2c_init',['../group__I2C.html#ga94a41aa77a3bfa5efe44ac1e159fce64',1,'i2c.h']]],
-  ['i2c_5frecv_1413',['i2c_recv',['../group__I2C.html#ga47a1c26760b08dd58503fb8fa15ed1a9',1,'i2c.h']]],
-  ['i2c_5frecvisr_1414',['i2c_recvISR',['../group__I2C.html#gab460cd50562d048d700dc6cf15e112bb',1,'i2c.h']]],
-  ['i2c_5fsend_1415',['i2c_send',['../group__I2C.html#gaa0e6024bacad56c6b0638e3665972cd3',1,'i2c.h']]],
-  ['i2c_5fsendisr_1416',['i2c_sendISR',['../group__I2C.html#ga48c524859d6681e1b84648018deedc00',1,'i2c.h']]],
-  ['i2c_5ftransfer_1417',['i2c_transfer',['../group__I2C.html#gada7d3621670b976faa0e0248663588db',1,'i2c.h']]],
-  ['i2c_5ftransferisr_1418',['i2c_transferISR',['../group__I2C.html#ga978d7668e08b404b2c759aa22f92265a',1,'i2c.h']]],
-  ['irq_5fclear_1419',['irq_clear',['../group__IRQ.html#ga6fecc7a3f7c1be1391b2c6fe72a210ff',1,'irq.h']]],
-  ['irq_5fdisable_1420',['irq_disable',['../group__IRQ.html#ga19b80c135a9a2f84b931153fb335df47',1,'irq.h']]],
-  ['irq_5fenable_1421',['irq_enable',['../group__IRQ.html#ga479509fe4ead4918c3c4c07237c10445',1,'irq.h']]],
-  ['irq_5fgetcpuid_1422',['irq_getCPUID',['../group__IRQ.html#ga9a3970ad688c3e95de8d0cb3ce5cbeb8',1,'irq.h']]],
-  ['irq_5fgetprio_1423',['irq_getPrio',['../group__IRQ.html#ga433fa7b30fa40110ec45899a7d7bc849',1,'irq.h']]],
-  ['irq_5finit_1424',['irq_init',['../group__IRQ.html#ga380b7dcfa1e280620a4571ad29ee161f',1,'irq.h']]],
-  ['irq_5fmask_1425',['irq_mask',['../group__IRQ.html#ga16d01bfb8a06d2e8244e287b7b99fc0a',1,'irq.h']]],
-  ['irq_5fnotify_1426',['irq_notify',['../group__IRQ.html#ga626e5343ffedf98e132b36f9453a7aed',1,'irq.h']]],
-  ['irq_5fsetprio_1427',['irq_setPrio',['../group__IRQ.html#ga9b210297974dd0ff31124103af1cd084',1,'irq.h']]],
-  ['irq_5funmask_1428',['irq_unmask',['../group__IRQ.html#gaacf7971ecdb215b39805f843fc87de25',1,'irq.h']]]
+  ['hal_5fdefine_5fglobal_5farray_1441',['HAL_DEFINE_GLOBAL_ARRAY',['../accel__prv_8h.html#a5107a3cf09bab75334bdf6884eaf4d42',1,'HAL_DEFINE_GLOBAL_ARRAY(accel):&#160;accel_prv.h'],['../adc__prv_8h.html#af963165471801cb188dfe7d1dbb582a7',1,'HAL_DEFINE_GLOBAL_ARRAY(adc):&#160;adc_prv.h'],['../can__prv_8h.html#a5f8b366c4850d85b14f9888aeae755f7',1,'HAL_DEFINE_GLOBAL_ARRAY(can):&#160;can_prv.h'],['../capture__prv_8h.html#a0cd6d6f2015a301c11122fa83f893767',1,'HAL_DEFINE_GLOBAL_ARRAY(capture):&#160;capture_prv.h'],['../counter__prv_8h.html#afe4799f77071e67cc6b5867350f9a4ec',1,'HAL_DEFINE_GLOBAL_ARRAY(counter):&#160;counter_prv.h'],['../dac__prv_8h.html#af801d7ec70d4aec36f5a12b9cb68877d',1,'HAL_DEFINE_GLOBAL_ARRAY(dac):&#160;dac_prv.h'],['../group__example__driver__prv.html#gac3c7862dbab6b6aeef0d966d58da0b0d',1,'HAL_DEFINE_GLOBAL_ARRAY(example):&#160;example_prv.h'],['../gpio__prv_8h.html#a03ad61bbb28e6327eb71e70d5328aaf1',1,'HAL_DEFINE_GLOBAL_ARRAY(gpio):&#160;gpio_prv.h'],['../gyro__prv_8h.html#a6dee013490b546e12bcf64f07fd40492',1,'HAL_DEFINE_GLOBAL_ARRAY(gyro):&#160;gyro_prv.h'],['../group__HAL.html#ga5c8293309d3950d4cfe773983ac3c9be',1,'HAL_DEFINE_GLOBAL_ARRAY(hal):&#160;hal.h'],['../i2c__prv_8h.html#a2caadd6f96481b5dd631a774bf97ac87',1,'HAL_DEFINE_GLOBAL_ARRAY(i2c):&#160;i2c_prv.h'],['../mailbox__prv_8h.html#ad1124b8836861edc9d381d360e1dce2a',1,'HAL_DEFINE_GLOBAL_ARRAY(mailbox):&#160;mailbox_prv.h'],['../pwm__prv_8h.html#adc604219be04e0a5f26264dc874cc567',1,'HAL_DEFINE_GLOBAL_ARRAY(pwm):&#160;pwm_prv.h'],['../remoteproc__trace_8h.html#af1e6c2cdf5217556150f09bac37bb19f',1,'HAL_DEFINE_GLOBAL_ARRAY(uart):&#160;remoteproc_trace.h'],['../rtc__prv_8h.html#abeb1fc491878df24e0cb0f0f9e787095',1,'HAL_DEFINE_GLOBAL_ARRAY(rtc):&#160;rtc_prv.h'],['../sd__prv_8h.html#a8f65c6852a8c278e4846f81b9ec99776',1,'HAL_DEFINE_GLOBAL_ARRAY(sd):&#160;sd_prv.h'],['../spi__prv_8h.html#aa655f0602a53bfc2e18fe63ac547db2e',1,'HAL_DEFINE_GLOBAL_ARRAY(spi):&#160;spi_prv.h'],['../temp__prv_8h.html#a34303179e8bfbd11e65dd59030ece211',1,'HAL_DEFINE_GLOBAL_ARRAY(temp):&#160;temp_prv.h'],['../timer__prv_8h.html#ae2a97b9f459e94ccda313b373cbf970a',1,'HAL_DEFINE_GLOBAL_ARRAY(timer):&#160;timer_prv.h'],['../uart__prv_8h.html#af1e6c2cdf5217556150f09bac37bb19f',1,'HAL_DEFINE_GLOBAL_ARRAY(uart):&#160;uart_prv.h']]],
+  ['hal_5fdeinit_1442',['hal_deinit',['../group__HAL.html#ga6632e06a9c92e5c58dbed1b1ab0bdd32',1,'hal.h']]],
+  ['hal_5fgetdev_1443',['hal_getDev',['../group__HAL.html#ga95bb237b7a87ab715d6415997dbcfee8',1,'hal.h']]],
+  ['hal_5finit_1444',['hal_init',['../group__HAL.html#ga6e683e5f814e744970321e28a771b4e1',1,'hal.h']]],
+  ['hal_5fisinit_1445',['hal_isInit',['../group__HAL.html#ga7b05a7672ff0c67e6f43bfca8a23679d',1,'hal.h']]],
+  ['hal_5flock_1446',['hal_lock',['../group__HAL.html#ga2ccb52ad5ca9f440f0746a7a80130fda',1,'hal.h']]],
+  ['hal_5funlock_1447',['hal_unlock',['../group__HAL.html#ga500858f8ba7d9181fc684e2b826dd3a7',1,'hal.h']]]
 ];

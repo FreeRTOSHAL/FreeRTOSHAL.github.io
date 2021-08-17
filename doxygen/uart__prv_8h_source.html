@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('uart__prv_8h_source.html',''); initRes
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#ifndef CONFIG_UART_MULTI</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="uart__prv_8h.html#a661ed32bc74c552472a4712c06e325c4">   30</a></span>&#160;<span class="preprocessor"># define UART_OPS(ns)</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="uart__prv_8h.html#af9c04750ef95797874b1293c3baf9026">   31</a></span>&#160;<span class="preprocessor"># define UART_INIT_DEV(ns) </span></div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="uart__prv_8h.html#a12b6539d9e662705c1fa8bbd8a335326">   32</a></span>&#160;<span class="preprocessor"># define UART_INIT(ns, port, bautrate) struct uart *uart_init(uint8_t port, uint32_t bautrate) </span></div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="uart__prv_8h.html#a3c325f2398467b775a90fe16c2b23975">   32</a></span>&#160;<span class="preprocessor"># define UART_INIT(ns, port, baudrate) struct uart *uart_init(uint8_t port, uint32_t baudrate) </span></div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="uart__prv_8h.html#abfff6df3c71c381f79f87e2d6cedcbbe">   33</a></span>&#160;<span class="preprocessor"># define UART_DEINIT(ns, u) int32_t uart_deinit(struct uart *u)</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="uart__prv_8h.html#aae0d16d3d0cf9509c217869b194d4810">   34</a></span>&#160;<span class="preprocessor"># define UART_GETC(ns, u, waittime) char uart_getc(struct uart *u, TickType_t waittime) </span></div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="uart__prv_8h.html#a226707db09ae60dd830ccaa530c915b5">   35</a></span>&#160;<span class="preprocessor"># define UART_PUTC(ns, u, c, waittime) int32_t uart_putc(struct uart *u, char c, TickType_t waittime) </span></div>
@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('uart__prv_8h_source.html',''); initRes
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"># define UART_INIT_DEV(ns) .gen.ops = &amp;ns##_uart_ops,</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"># define UART_INIT(ns, port, bautrate) static struct uart *ns##_uart_init(uint8_t port, uint32_t bautrate) </span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"># define UART_INIT(ns, port, baudrate) static struct uart *ns##_uart_init(uint8_t port, uint32_t baudrate) </span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor"># define UART_DEINIT(ns, u) static int32_t ns##_uart_deinit(struct uart *u)</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor"># define UART_GETC(ns, u, waittime) static char ns##_uart_getc(struct uart *u, TickType_t waittime) </span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor"># define UART_PUTC(ns, u, c, waittime) static int32_t ns##_uart_putc(struct uart *u, char c, TickType_t waittime) </span></div>
@@ -184,7 +184,7 @@ $(document).ready(function(){initNavTree('uart__prv_8h_source.html',''); initRes
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="uart__prv_8h.html">uart_prv.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

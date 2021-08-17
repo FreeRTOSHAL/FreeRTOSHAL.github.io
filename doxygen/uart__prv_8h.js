@@ -6,7 +6,7 @@ var uart__prv_8h =
     [ "UART_GET_DEV", "uart__prv_8h.html#a00104b3787f19d252d8dcafbbbc9b692", null ],
     [ "UART_GETC", "uart__prv_8h.html#aae0d16d3d0cf9509c217869b194d4810", null ],
     [ "UART_GETC_ISR", "uart__prv_8h.html#adb08ce4f250b3b0eeafceee838fbca4f", null ],
-    [ "UART_INIT", "uart__prv_8h.html#a12b6539d9e662705c1fa8bbd8a335326", null ],
+    [ "UART_INIT", "uart__prv_8h.html#a3c325f2398467b775a90fe16c2b23975", null ],
     [ "UART_INIT_DEV", "uart__prv_8h.html#af9c04750ef95797874b1293c3baf9026", null ],
     [ "uart_lock", "uart__prv_8h.html#a3f027e19a23fa1e8f225816c56845d7b", null ],
     [ "UART_OPS", "uart__prv_8h.html#a661ed32bc74c552472a4712c06e325c4", null ],

@@ -1,5 +1,5 @@
 <map id="GPIO Subsystem" name="GPIO Subsystem">
-<area shape="rect" id="node1" href="$group__HAL.html" title=" " alt="" coords="5,5,153,45"/>
-<area shape="rect" id="node3" title=" " alt="" coords="201,13,327,38"/>
-<area shape="rect" id="node2" href="$group__GPIO__PIN.html" title=" " alt="" coords="375,13,523,38"/>
+<area shape="rect" id="node1" href="$group__HAL.html" title=" " alt="" coords="5,5,168,45"/>
+<area shape="rect" id="node3" title=" " alt="" coords="216,13,347,38"/>
+<area shape="rect" id="node2" href="$group__GPIO__PIN.html" title=" " alt="" coords="395,13,549,38"/>
 </map>

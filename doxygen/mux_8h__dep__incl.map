@@ -1,7 +1,7 @@
 <map id="driver/include/mux.h" name="driver/include/mux.h">
-<area shape="rect" id="node1" title=" " alt="" coords="169,5,307,32"/>
-<area shape="rect" id="node2" href="$gpio_8h.html" title=" " alt="" coords="169,80,307,107"/>
-<area shape="rect" id="node3" href="$can_8h.html" title=" " alt="" coords="5,162,140,189"/>
-<area shape="rect" id="node4" href="$capture__software_8h.html" title=" " alt="" coords="165,155,311,196"/>
-<area shape="rect" id="node5" href="$tlc5947_8h.html" title=" " alt="" coords="336,162,492,189"/>
+<area shape="rect" id="node1" title=" " alt="" coords="184,5,340,32"/>
+<area shape="rect" id="node2" href="$gpio_8h.html" title=" " alt="" coords="185,80,339,107"/>
+<area shape="rect" id="node3" href="$can_8h.html" title=" " alt="" coords="5,162,156,189"/>
+<area shape="rect" id="node4" href="$capture__software_8h.html" title=" " alt="" coords="180,155,344,196"/>
+<area shape="rect" id="node5" href="$tlc5947_8h.html" title=" " alt="" coords="368,162,543,189"/>
 </map>

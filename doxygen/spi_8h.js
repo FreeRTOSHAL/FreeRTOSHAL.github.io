@@ -17,6 +17,6 @@ var spi_8h =
     [ "spiSlave_recvISR", "group__SPI__SLAVE.html#gaac685d1e2077039084ac0b53537703f8", null ],
     [ "spiSlave_send", "group__SPI__SLAVE.html#gad9308e6593024517c0583790106beab3", null ],
     [ "spiSlave_sendISR", "group__SPI__SLAVE.html#gaef90c75c7576ef8fd1240300d88b7edb", null ],
-    [ "spiSlave_transver", "group__SPI__SLAVE.html#ga3332a95a70e979565843645f63a33594", null ],
-    [ "spiSlave_transverISR", "group__SPI__SLAVE.html#ga7e3ae88e01f096bf6720d101e0dbc72d", null ]
+    [ "spiSlave_transfer", "group__SPI__SLAVE.html#gac3b976c8b173d35fc2698b5859a873f7", null ],
+    [ "spiSlave_transferISR", "group__SPI__SLAVE.html#ga460b8c2fbf792f0f300cc733043736ad", null ]
 ];

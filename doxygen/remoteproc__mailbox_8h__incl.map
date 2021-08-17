@@ -1,12 +1,13 @@
 <map id="driver/include/remoteproc_mailbox.h" name="driver/include/remoteproc_mailbox.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,173,47"/>
-<area shape="rect" id="node2" href="$remoteproc_8h.html" title=" " alt="" coords="40,95,139,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="57,244,122,271"/>
-<area shape="rect" id="node4" href="$system_8h.html" title=" " alt="" coords="143,393,219,420"/>
-<area shape="rect" id="node5" href="$mailbox_8h.html" title=" " alt="" coords="171,169,250,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="264,393,360,420"/>
-<area shape="rect" id="node7" title=" " alt="" coords="391,393,465,420"/>
-<area shape="rect" id="node8" title=" " alt="" coords="490,393,566,420"/>
-<area shape="rect" id="node9" href="$hal_8h.html" title=" " alt="" coords="317,244,368,271"/>
-<area shape="rect" id="node10" href="$os_8h.html" title=" " alt="" coords="350,319,397,345"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$remoteproc_8h.html" title=" " alt="" coords="46,95,155,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="65,244,136,271"/>
+<area shape="rect" id="node4" href="$system_8h.html" title=" " alt="" coords="114,393,197,420"/>
+<area shape="rect" id="node5" href="$mailbox_8h.html" title=" " alt="" coords="181,169,268,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="221,393,319,420"/>
+<area shape="rect" id="node7" title=" " alt="" coords="455,393,538,420"/>
+<area shape="rect" id="node8" title=" " alt="" coords="562,393,645,420"/>
+<area shape="rect" id="node9" href="$hal_8h.html" title=" " alt="" coords="331,244,385,271"/>
+<area shape="rect" id="node10" href="$os_8h.html" title=" " alt="" coords="364,319,413,345"/>
+<area shape="rect" id="node11" title=" " alt="" coords="343,393,431,420"/>
 </map>

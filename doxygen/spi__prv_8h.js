@@ -15,8 +15,8 @@ var spi__prv_8h =
     [ "SPI_SLAVE_RECV_ISR", "spi__prv_8h.html#ae8314c5e2384293f5774c788d499275c", null ],
     [ "SPI_SLAVE_SEND", "spi__prv_8h.html#a325dfbf060f9db2d1c26da161c78b21d", null ],
     [ "SPI_SLAVE_SEND_ISR", "spi__prv_8h.html#a5d0de87f608083449824f14f2934b9e3", null ],
-    [ "SPI_SLAVE_TRANSVER", "spi__prv_8h.html#a8bba846e1eb9c1714fe8ae7b915b5cb8", null ],
-    [ "SPI_SLAVE_TRANSVER_ISR", "spi__prv_8h.html#a7db38aa303454676bed29e0d658dfe07", null ],
+    [ "SPI_SLAVE_TRANSFER", "spi__prv_8h.html#ab52413b317f9ec134621675b9eb36388", null ],
+    [ "SPI_SLAVE_TRANSFER_ISR", "spi__prv_8h.html#a385a764bbea067f7901aec5c1a534047", null ],
     [ "spi_unlock", "spi__prv_8h.html#a7ac119d55efcd253fe22972e441916b8", null ],
     [ "HAL_DEFINE_GLOBAL_ARRAY", "spi__prv_8h.html#aa655f0602a53bfc2e18fe63ac547db2e", null ],
     [ "spi_genericInit", "spi__prv_8h.html#af81bfa77e7cd7ed7b6669e25673997ee", null ]

@@ -91,9 +91,9 @@ $(document).ready(function(){initNavTree('group__SYSTEM.html',''); initResizable
 Collaboration diagram for Useful Macros:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__SYSTEM.png" border="0" usemap="#agroup____SYSTEM" alt=""/></div>
-<map name="group____SYSTEM" id="agroup____SYSTEM">
-<area shape="rect" href="group__HAL.html" title=" " alt="" coords="5,5,153,45"/>
-<area shape="rect" title=" " alt="" coords="201,13,308,38"/>
+<map name="group____SYSTEM" id="group____SYSTEM">
+<area shape="rect" href="group__HAL.html" title=" " alt="" coords="5,5,168,45"/>
+<area shape="rect" title=" " alt="" coords="216,13,331,38"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -115,14 +115,26 @@ Macros</h2></td></tr>
 <tr class="separator:ga36d525cf4d116b2fe4ecc00222b256f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga981d727c769c9516175fef643b82477d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#ga981d727c769c9516175fef643b82477d">NO_REORDER</a></td></tr>
 <tr class="separator:ga981d727c769c9516175fef643b82477d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaf5354ecf4b44f4be650a792b68fad62"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gaaf5354ecf4b44f4be650a792b68fad62">ALGIN</a>(x)&#160;&#160;&#160;__attribute__((aligned(x)))</td></tr>
-<tr class="separator:gaaf5354ecf4b44f4be650a792b68fad62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe7f8cd9a0ce69b71567a3870415be66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gabe7f8cd9a0ce69b71567a3870415be66">ALIGN</a>(x)&#160;&#160;&#160;__attribute__((aligned(x)))</td></tr>
+<tr class="separator:gabe7f8cd9a0ce69b71567a3870415be66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0501e82515b2bdf36453c4cc80f5e0cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#ga0501e82515b2bdf36453c4cc80f5e0cc">NSEC_PER_SEC</a>&#160;&#160;&#160;1000000000ULL</td></tr>
 <tr class="separator:ga0501e82515b2bdf36453c4cc80f5e0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad27cc17b25bb93134368d5eb21126eae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(x)&#160;&#160;&#160;(1 &lt;&lt; (x))</td></tr>
+<tr class="memitem:gad27cc17b25bb93134368d5eb21126eae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gad27cc17b25bb93134368d5eb21126eae">BIT</a>(x)&#160;&#160;&#160;((uint32_t) (1UL &lt;&lt; (x)))</td></tr>
 <tr class="separator:gad27cc17b25bb93134368d5eb21126eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2bfa2634d8a88e42f49450f77d7e5044"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#ga2bfa2634d8a88e42f49450f77d7e5044">BIT64</a>(x)&#160;&#160;&#160;(1ULL &lt;&lt; (x))</td></tr>
+<tr class="memitem:ga4a5d9a40b51d1603c1551dbf9923d643"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#ga4a5d9a40b51d1603c1551dbf9923d643">BITS</a>(x,  mask,  shift)&#160;&#160;&#160;((uint32_t) ((((uint32_t) (x))&lt;&lt;(shift)) &amp; (mask)))</td></tr>
+<tr class="separator:ga4a5d9a40b51d1603c1551dbf9923d643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga976492a7c2d872ba181d32e46b4a3d58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#ga976492a7c2d872ba181d32e46b4a3d58">BITS_INV</a>(x,  mask,  shift)&#160;&#160;&#160;((uint32_t) ((((uint32_t) (x)) &amp; (mask))&gt;&gt;(shift)))</td></tr>
+<tr class="separator:ga976492a7c2d872ba181d32e46b4a3d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0527b94e7f8cdc1da525b68fe77aa5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gab0527b94e7f8cdc1da525b68fe77aa5e">BITS_MASK</a>(bits,  shift)&#160;&#160;&#160;((uint32_t) ((~(0xFFFFFFFFUL &lt;&lt; (bits))) &lt;&lt; (shift)))</td></tr>
+<tr class="separator:gab0527b94e7f8cdc1da525b68fe77aa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2bfa2634d8a88e42f49450f77d7e5044"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#ga2bfa2634d8a88e42f49450f77d7e5044">BIT64</a>(x)&#160;&#160;&#160;((uint64_t) (1ULL &lt;&lt; (x)))</td></tr>
 <tr class="separator:ga2bfa2634d8a88e42f49450f77d7e5044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab9e95b77672558aba9ab570c98fbe983"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gab9e95b77672558aba9ab570c98fbe983">BITS64</a>(x,  mask,  shift)&#160;&#160;&#160;((uint64_t) ((((uint64_t) (x))&lt;&lt;(shift)) &amp; (mask)))</td></tr>
+<tr class="separator:gab9e95b77672558aba9ab570c98fbe983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae6d0f508c078a707c9c870b0fabb776b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gae6d0f508c078a707c9c870b0fabb776b">BITS64_INV</a>(x,  mask,  shift)&#160;&#160;&#160;((uint64_t) ((((uint64_t) (x)) &amp; (mask))&gt;&gt;(shift)))</td></tr>
+<tr class="separator:gae6d0f508c078a707c9c870b0fabb776b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac67e4cdc58a59b3583d69c09403fbe06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gac67e4cdc58a59b3583d69c09403fbe06">BITS64_MASK</a>(bits,  shift)&#160;&#160;&#160;((uint64_t) ((~(0xFFFFFFFFFFFFFFFFULL &lt;&lt; (bits))) &lt;&lt; (shift)))</td></tr>
+<tr class="separator:gac67e4cdc58a59b3583d69c09403fbe06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6242a25f9d996f0cc4f4cdb911218b75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#ga6242a25f9d996f0cc4f4cdb911218b75">ARRAY_SIZE</a>(x)&#160;&#160;&#160;(sizeof(x) / sizeof((x)[0]))</td></tr>
 <tr class="separator:ga6242a25f9d996f0cc4f4cdb911218b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae664e7492e37d324831caf2321ddda37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__SYSTEM.html#gae664e7492e37d324831caf2321ddda37">DIV_ROUND_UP</a>(n,  d)&#160;&#160;&#160;(((n) + (d) - 1) / (d))</td></tr>
@@ -156,25 +168,6 @@ Macros</h2></td></tr>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="code" href="system_8h.html">system.h</a>&gt;</span></div>
 </div><!-- fragment --><p> Useful Macros docu mostly copy from GCC Webpage </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="gaaf5354ecf4b44f4be650a792b68fad62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaaf5354ecf4b44f4be650a792b68fad62">&#9670;&nbsp;</a></span>ALGIN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ALGIN</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;__attribute__((aligned(x)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>This attribute specifies a minimum alignment for the variable or structure field, measured in bytes. </p>
-
-</div>
-</div>
 <a id="ga8c45dcdbd690d19b7c11745687483874"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga8c45dcdbd690d19b7c11745687483874">&#9670;&nbsp;</a></span>ALIAS</h2>
 
@@ -193,6 +186,25 @@ Macros</h2></td></tr>
 <p>The alias attribute causes the declaration to be emitted as an alias for another symbol, which must be specified. For instance, </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> __f () { / * <span class="keywordflow">do</span> something * /; }</div>
 <div class="line"><span class="keywordtype">void</span> f () <a class="code" href="group__SYSTEM.html#gad1480e9557edcc543498ca259cee6c7d">WEAK</a> <a class="code" href="group__SYSTEM.html#ga8c45dcdbd690d19b7c11745687483874">ALIAS</a>(&quot;__f&quot;);</div>
 </div><!-- fragment --><p> declares f to be a weak alias for __f. In C++, the mangled name for the target must be used. Not all target machines support this attribute. </p>
+
+</div>
+</div>
+<a id="gabe7f8cd9a0ce69b71567a3870415be66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe7f8cd9a0ce69b71567a3870415be66">&#9670;&nbsp;</a></span>ALIGN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ALIGN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;__attribute__((aligned(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This attribute specifies a minimum alignment for the variable or structure field, measured in bytes. </p>
 
 </div>
 </div>
@@ -283,11 +295,16 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;(1 &lt;&lt; (x))</td>
+          <td>&#160;&#160;&#160;((uint32_t) (1UL &lt;&lt; (x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set a Bit on Value </p>
+<p>Set a Bit on Value </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>bit position to set </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -302,11 +319,254 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;(1ULL &lt;&lt; (x))</td>
+          <td>&#160;&#160;&#160;((uint64_t) (1ULL &lt;&lt; (x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set a Bit on 64Bit Value </p>
+<p>Set a Bit on 64Bit Value </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>bit position to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4a5d9a40b51d1603c1551dbf9923d643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4a5d9a40b51d1603c1551dbf9923d643">&#9670;&nbsp;</a></span>BITS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BITS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">mask, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">shift&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((uint32_t) ((((uint32_t) (x))&lt;&lt;(shift)) &amp; (mask)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set bits (32 bit), shift them and apply a mask </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>bits to set </td></tr>
+    <tr><td class="paramname">mask</td><td>mask applied after shifting </td></tr>
+    <tr><td class="paramname">shift</td><td>number of bits x gets shifted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab9e95b77672558aba9ab570c98fbe983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab9e95b77672558aba9ab570c98fbe983">&#9670;&nbsp;</a></span>BITS64</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BITS64</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">mask, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">shift&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((uint64_t) ((((uint64_t) (x))&lt;&lt;(shift)) &amp; (mask)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set bits (64 bit), shift them and apply a mask </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>bits to set </td></tr>
+    <tr><td class="paramname">mask</td><td>mask applied after shifting </td></tr>
+    <tr><td class="paramname">shift</td><td>number of bits x gets shifted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gae6d0f508c078a707c9c870b0fabb776b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae6d0f508c078a707c9c870b0fabb776b">&#9670;&nbsp;</a></span>BITS64_INV</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BITS64_INV</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">mask, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">shift&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((uint64_t) ((((uint64_t) (x)) &amp; (mask))&gt;&gt;(shift)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Extract bits (64 bit) by applying a mask and a shift </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>32-bit input value to extract the bits from </td></tr>
+    <tr><td class="paramname">mask</td><td>mask applied to the input value </td></tr>
+    <tr><td class="paramname">shift</td><td>numberof bits masked x gets shifted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac67e4cdc58a59b3583d69c09403fbe06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac67e4cdc58a59b3583d69c09403fbe06">&#9670;&nbsp;</a></span>BITS64_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BITS64_MASK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">bits, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">shift&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((uint64_t) ((~(0xFFFFFFFFFFFFFFFFULL &lt;&lt; (bits))) &lt;&lt; (shift)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generate a mask (64 bit) given the number of bits and the shift </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bits</td><td>number of bits set to 1 </td></tr>
+    <tr><td class="paramname">shift</td><td>number of bits the block of ones gets shifted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga976492a7c2d872ba181d32e46b4a3d58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga976492a7c2d872ba181d32e46b4a3d58">&#9670;&nbsp;</a></span>BITS_INV</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BITS_INV</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">mask, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">shift&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((uint32_t) ((((uint32_t) (x)) &amp; (mask))&gt;&gt;(shift)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Extract bits (32 bit) by applying a mask and a shift </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>32-bit input value to extract the bits from </td></tr>
+    <tr><td class="paramname">mask</td><td>mask applied to the input value </td></tr>
+    <tr><td class="paramname">shift</td><td>numberof bits masked x gets shifted </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gab0527b94e7f8cdc1da525b68fe77aa5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab0527b94e7f8cdc1da525b68fe77aa5e">&#9670;&nbsp;</a></span>BITS_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BITS_MASK</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">bits, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">shift&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((uint32_t) ((~(0xFFFFFFFFUL &lt;&lt; (bits))) &lt;&lt; (shift)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generate a mask (32 bit) given the number of bits and the shift </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bits</td><td>number of bits set to 1 </td></tr>
+    <tr><td class="paramname">shift</td><td>number of bits the block of ones gets shifted </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -796,7 +1056,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:32 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:24 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

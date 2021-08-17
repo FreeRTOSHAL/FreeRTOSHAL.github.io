@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('mpu9250__prv_8h_source.html',''); init
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        memset(wdata, 0xFF, size);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        memset(rdata, 0x00, size);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        wdata[0] = MPU_READ | (reg &amp; 0xFF);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        ret = <a class="code" href="group__SPI__SLAVE.html#ga3332a95a70e979565843645f63a33594">spiSlave_transver</a>(mpu-&gt;<a class="code" href="structmpu9250.html#a20f573a8e8901edefb488ce64e7d8091">slave</a>, wdata, rdata, (len + 1), waittime);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        ret = <a class="code" href="group__SPI__SLAVE.html#gac3b976c8b173d35fc2698b5859a873f7">spiSlave_transfer</a>(mpu-&gt;<a class="code" href="structmpu9250.html#a20f573a8e8901edefb488ce64e7d8091">slave</a>, wdata, rdata, (len + 1), waittime);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">for</span> (i = 1; i &lt; (len + 1); i++) {</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                data[i - 1] = (uint8_t) rdata[i];</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        }</div>
@@ -180,18 +180,18 @@ $(document).ready(function(){initNavTree('mpu9250__prv_8h_source.html',''); init
 <div class="ttc" id="astructvector_html_ae22ddef032f70f27dad04b443548aeb7"><div class="ttname"><a href="structvector.html#ae22ddef032f70f27dad04b443548aeb7">vector::z</a></div><div class="ttdeci">int16_t z</div><div class="ttdef"><b>Definition:</b> vec.h:24</div></div>
 <div class="ttc" id="astructmpu9250_html_a20f573a8e8901edefb488ce64e7d8091"><div class="ttname"><a href="structmpu9250.html#a20f573a8e8901edefb488ce64e7d8091">mpu9250::slave</a></div><div class="ttdeci">struct spi_slave * slave</div><div class="ttdef"><b>Definition:</b> mpu9250.h:424</div></div>
 <div class="ttc" id="agroup__SPI__SLAVE_html_gad9308e6593024517c0583790106beab3"><div class="ttname"><a href="group__SPI__SLAVE.html#gad9308e6593024517c0583790106beab3">spiSlave_send</a></div><div class="ttdeci">int32_t spiSlave_send(struct spi_slave *slave, uint16_t *data, uint32_t len, TickType_t waittime)</div></div>
+<div class="ttc" id="agroup__SPI__SLAVE_html_gac3b976c8b173d35fc2698b5859a873f7"><div class="ttname"><a href="group__SPI__SLAVE.html#gac3b976c8b173d35fc2698b5859a873f7">spiSlave_transfer</a></div><div class="ttdeci">int32_t spiSlave_transfer(struct spi_slave *slave, uint16_t *sendData, uint16_t *recvData, uint32_t len, TickType_t waittime)</div></div>
 <div class="ttc" id="astructvector_html"><div class="ttname"><a href="structvector.html">vector</a></div><div class="ttdef"><b>Definition:</b> vec.h:12</div></div>
 <div class="ttc" id="astructvector_html_a81cc8756c4b9b46a67ce6f135350258f"><div class="ttname"><a href="structvector.html#a81cc8756c4b9b46a67ce6f135350258f">vector::x</a></div><div class="ttdeci">int16_t x</div><div class="ttdef"><b>Definition:</b> vec.h:16</div></div>
 <div class="ttc" id="astructmpu9250_html"><div class="ttname"><a href="structmpu9250.html">mpu9250</a></div><div class="ttdef"><b>Definition:</b> mpu9250.h:406</div></div>
 <div class="ttc" id="ampu9250_8h_html"><div class="ttname"><a href="mpu9250_8h.html">mpu9250.h</a></div></div>
 <div class="ttc" id="astructmpu9250_html_a136519d53737374ae38b294b5abd3842"><div class="ttname"><a href="structmpu9250.html#a136519d53737374ae38b294b5abd3842">mpu9250::bank</a></div><div class="ttdeci">uint32_t bank</div><div class="ttdef"><b>Definition:</b> mpu9250.h:436</div></div>
 <div class="ttc" id="avec_8h_html"><div class="ttname"><a href="vec_8h.html">vec.h</a></div></div>
-<div class="ttc" id="agroup__SPI__SLAVE_html_ga3332a95a70e979565843645f63a33594"><div class="ttname"><a href="group__SPI__SLAVE.html#ga3332a95a70e979565843645f63a33594">spiSlave_transver</a></div><div class="ttdeci">int32_t spiSlave_transver(struct spi_slave *slave, uint16_t *sendData, uint16_t *recvData, uint32_t len, TickType_t waittime)</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="mpu9250__prv_8h.html">mpu9250_prv.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

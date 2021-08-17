@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('adc__prv_8h_source.html',''); initResi
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="adc__prv_8h.html#aa6fa64687e6ab6ae105fb9edd062fbb2">   38</a></span>&#160;<span class="preprocessor">#define ADC_START(ns, a) int32_t adc_start(struct adc *a)</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="adc__prv_8h.html#acfa8c8ea8c4d65342faccbcf20aea1ac">   39</a></span>&#160;<span class="preprocessor">#define ADC_STOP(ns, a) int32_t adc_stop(struct adc *a)</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"># define ADC_OPS(ns) const struct adc_ops ns##_ops = { \</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"># define ADC_OPS(ns) const struct adc_ops ns##_adc_ops = { \</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">        .adc_init = &amp;ns##_adc_init, \</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">        .adc_deinit = &amp;ns##_adc_deinit, \</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">        .adc_get = &amp;ns##_adc_get, \</span></div>
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('adc__prv_8h_source.html',''); initResi
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">        .adc_start = &amp;ns##_adc_start, \</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">        .adc_stop = &amp;ns##_adc_stop, \</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">}</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"># define ADC_INIT_DEV(ns) .gen.ops = &amp;ns##_ops,</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"># define ADC_INIT_DEV(ns) .gen.ops = &amp;ns##_adc_ops,</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define ADC_INIT(ns, index, bits, hz) static struct adc *ns##_adc_init(uint32_t index, uint8_t bits, uint32_t hz)</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#define ADC_DEINIT(ns, a) static int32_t ns##_adc_deinit(struct adc *a)</span></div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('adc__prv_8h_source.html',''); initResi
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="adc__prv_8h.html">adc_prv.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

@@ -3,7 +3,7 @@ var uart_8h =
     [ "uart_deinit", "group__UART.html#gaf46ad4da19722d2c36de34156d46add6", null ],
     [ "uart_getc", "group__UART.html#ga145d9664689fd86f17930aaeda5c797b", null ],
     [ "uart_getcISR", "group__UART.html#ga73640de8b56a22d3f6e0598d751e61ad", null ],
-    [ "uart_init", "group__UART.html#ga9da347d71abfc59a78c00ce0f260c772", null ],
+    [ "uart_init", "group__UART.html#gac71962cb51b53f69faf6231cf756dff9", null ],
     [ "uart_putc", "group__UART.html#ga2fd31ab72b8eaa36012c335dc3d97fe4", null ],
     [ "uart_putcISR", "group__UART.html#ga42ac72512467be7ec96f9174bd221771", null ],
     [ "uart_puts", "group__UART.html#gac7400edfe901aef38ed83be491e02f70", null ],

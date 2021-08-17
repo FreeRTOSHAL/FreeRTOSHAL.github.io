@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['os_5fdefine_5fmutex_5frecursive_1460',['OS_DEFINE_MUTEX_RECURSIVE',['../structexample__generic.html#aa06a3c832ab218887013ea5f4d735543',1,'example_generic']]]
+  ['newlib_5finit_1497',['newlib_init',['../group__Newlib.html#gaeb17ff18d0a796d6dd95804c934609bf',1,'newlib_stub.h']]],
+  ['nlibc_5finit_1498',['nlibc_init',['../group__Newlib.html#ga7acb8d9b8f1b101e1c15dc757b56d50e',1,'nlibc_stub.h']]],
+  ['ntc_5ftemp_5fconnect_1499',['ntc_temp_connect',['../temp__ntc_8h.html#a6e1ea6a7043e7836df4baf07a46a78db',1,'temp_ntc.h']]]
 ];

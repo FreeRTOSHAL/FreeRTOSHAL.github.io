@@ -93,9 +93,9 @@ $(document).ready(function(){initNavTree('group__LTC6811.html',''); initResizabl
 Collaboration diagram for LTC6811 driver:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__LTC6811.png" border="0" usemap="#agroup____LTC6811" alt=""/></div>
-<map name="group____LTC6811" id="agroup____LTC6811">
-<area shape="rect" href="group__HAL.html" title=" " alt="" coords="5,5,153,45"/>
-<area shape="rect" title=" " alt="" coords="201,13,312,38"/>
+<map name="group____LTC6811" id="group____LTC6811">
+<area shape="rect" href="group__HAL.html" title=" " alt="" coords="5,5,168,45"/>
+<area shape="rect" title=" " alt="" coords="216,13,335,38"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -239,8 +239,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga75440f4c38f88d57d0906cc5fbf33e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga88ad31eb78ccefd8e7a095669a339f79"><td class="memItemLeft" align="right" valign="top">struct ltc6811_slave *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga88ad31eb78ccefd8e7a095669a339f79">ltc6811_slave_init</a> (uint32_t index)</td></tr>
 <tr class="separator:ga88ad31eb78ccefd8e7a095669a339f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac455ef50fbce55fd71ca551d9ced667b"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#gac455ef50fbce55fd71ca551d9ced667b">ltc6811_connect</a> (struct ltc6811 *ltc, struct spi *spi, uint8_t cs, uint16_t gpio, uint32_t bautrate)</td></tr>
-<tr class="separator:gac455ef50fbce55fd71ca551d9ced667b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga09864968198961742e71b45a183d0171"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga09864968198961742e71b45a183d0171">ltc6811_connect</a> (struct ltc6811 *ltc, struct spi *spi, uint8_t cs, uint16_t gpio, uint32_t baudrate)</td></tr>
+<tr class="separator:ga09864968198961742e71b45a183d0171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6ec819ead13d65dab10fdcfb4bc9d118"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#ga6ec819ead13d65dab10fdcfb4bc9d118">ltc6811_write</a> (struct ltc6811 *ltc, <a class="el" href="group__LTC6811.html#ga2e00f2c68a7d99d561ce6907cf3b111f">ltc_cmd_t</a> cmd, uint8_t *data, uint32_t len)</td></tr>
 <tr class="separator:ga6ec819ead13d65dab10fdcfb4bc9d118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaeb72a1b5fcc6bbaf13a777c09cd0a4d6"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__LTC6811.html#gaeb72a1b5fcc6bbaf13a777c09cd0a4d6">ltc6811_read</a> (struct ltc6811 *ltc, <a class="el" href="group__LTC6811.html#ga2e00f2c68a7d99d561ce6907cf3b111f">ltc_cmd_t</a> cmd, uint8_t *data, uint32_t len)</td></tr>
@@ -1945,8 +1945,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gac455ef50fbce55fd71ca551d9ced667b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac455ef50fbce55fd71ca551d9ced667b">&#9670;&nbsp;</a></span>ltc6811_connect()</h2>
+<a id="ga09864968198961742e71b45a183d0171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09864968198961742e71b45a183d0171">&#9670;&nbsp;</a></span>ltc6811_connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1979,7 +1979,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>bautrate</em>&#160;</td>
+          <td class="paramname"><em>baudrate</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1995,7 +1995,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">spi</td><td>SPI Master </td></tr>
     <tr><td class="paramname">cs</td><td>CS Number or SPI_OPT_CS_DIS </td></tr>
     <tr><td class="paramname">gpio</td><td>GPIO Pin Number or SPI_OPT_GPIO_DIS </td></tr>
-    <tr><td class="paramname">bautrate</td><td>Bautrate </td></tr>
+    <tr><td class="paramname">baudrate</td><td>Baudrate </td></tr>
   </table>
   </dd>
 </dl>
@@ -2319,12 +2319,12 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="altc6811_8h_html"><div class="ttname"><a href="ltc6811_8h.html">ltc6811.h</a></div></div>
-<div class="ttc" id="agroup__LTC6811_html_gaedfdd37da7a0f1da6385748f3e26b16d"><div class="ttname"><a href="group__LTC6811.html#gaedfdd37da7a0f1da6385748f3e26b16d">LTC6811_ADC_ID</a></div><div class="ttdeci">#define LTC6811_ADC_ID(masterid, id, adcid)</div><div class="ttdef"><b>Definition:</b> ltc6811.h:646</div></div>
+<div class="ttc" id="agroup__LTC6811_html_gaedfdd37da7a0f1da6385748f3e26b16d"><div class="ttname"><a href="group__LTC6811.html#gaedfdd37da7a0f1da6385748f3e26b16d">LTC6811_ADC_ID</a></div><div class="ttdeci">#define LTC6811_ADC_ID(masterid, id, adcid)</div><div class="ttdef"><b>Definition:</b> ltc6811.h:647</div></div>
 <div class="ttc" id="agroup__ADC_html_ga63f966faf587a11f8437b0573b877141"><div class="ttname"><a href="group__ADC.html#ga63f966faf587a11f8437b0573b877141">adc_init</a></div><div class="ttdeci">struct adc * adc_init(uint32_t index, uint8_t bits, uint32_t hz)</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:32 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:24 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

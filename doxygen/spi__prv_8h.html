@@ -95,15 +95,16 @@ $(document).ready(function(){initNavTree('spi__prv_8h.html',''); initResizable()
 Include dependency graph for spi_prv.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="spi__prv_8h__incl.png" border="0" usemap="#adriver_2include_2spi__prv_8h" alt=""/></div>
-<map name="driver_2include_2spi__prv_8h" id="adriver_2include_2spi__prv_8h">
-<area shape="rect" title=" " alt="" coords="115,5,235,47"/>
-<area shape="rect" title=" " alt="" coords="5,244,80,271"/>
-<area shape="rect" title=" " alt="" coords="225,95,290,121"/>
-<area shape="rect" href="hal_8h.html" title=" " alt="" coords="149,95,200,121"/>
-<area shape="rect" title=" " alt="" coords="104,244,200,271"/>
-<area shape="rect" title=" " alt="" coords="225,244,301,271"/>
-<area shape="rect" href="system_8h.html" title=" " alt="" coords="325,244,401,271"/>
-<area shape="rect" href="os_8h.html" title=" " alt="" coords="182,169,229,196"/>
+<map name="driver_2include_2spi__prv_8h" id="driver_2include_2spi__prv_8h">
+<area shape="rect" title=" " alt="" coords="151,5,286,47"/>
+<area shape="rect" title=" " alt="" coords="5,244,88,271"/>
+<area shape="rect" title=" " alt="" coords="270,95,341,121"/>
+<area shape="rect" href="hal_8h.html" title=" " alt="" coords="191,95,246,121"/>
+<area shape="rect" title=" " alt="" coords="113,244,210,271"/>
+<area shape="rect" title=" " alt="" coords="347,244,429,271"/>
+<area shape="rect" href="system_8h.html" title=" " alt="" coords="453,244,536,271"/>
+<area shape="rect" href="os_8h.html" title=" " alt="" coords="239,169,289,196"/>
+<area shape="rect" title=" " alt="" coords="235,244,323,271"/>
 </map>
 </div>
 </div>
@@ -135,14 +136,14 @@ Macros</h2></td></tr>
 <tr class="separator:a92e8d0b12da4ba64a6c561c4a74f7841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d75951f03500a31e4ba5b3479c8de55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#a7d75951f03500a31e4ba5b3479c8de55">SPI_SLAVE_DEINIT</a>(ns,  s)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#ga847cb6f493a0308795690aa54eaf53d4">spiSlave_deinit</a>(struct spi_slave *s)</td></tr>
 <tr class="separator:a7d75951f03500a31e4ba5b3479c8de55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bba846e1eb9c1714fe8ae7b915b5cb8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#a8bba846e1eb9c1714fe8ae7b915b5cb8">SPI_SLAVE_TRANSVER</a>(ns,  s,  sendData,  recvData,  len,  waittime)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#ga3332a95a70e979565843645f63a33594">spiSlave_transver</a>(struct spi_slave *s, uint16_t *sendData, uint16_t *recvData, uint32_t len, TickType_t waittime)</td></tr>
-<tr class="separator:a8bba846e1eb9c1714fe8ae7b915b5cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52413b317f9ec134621675b9eb36388"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#ab52413b317f9ec134621675b9eb36388">SPI_SLAVE_TRANSFER</a>(ns,  s,  sendData,  recvData,  len,  waittime)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#gac3b976c8b173d35fc2698b5859a873f7">spiSlave_transfer</a>(struct spi_slave *s, uint16_t *sendData, uint16_t *recvData, uint32_t len, TickType_t waittime)</td></tr>
+<tr class="separator:ab52413b317f9ec134621675b9eb36388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a325dfbf060f9db2d1c26da161c78b21d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#a325dfbf060f9db2d1c26da161c78b21d">SPI_SLAVE_SEND</a>(ns,  s,  data,  len,  waittime)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#gad9308e6593024517c0583790106beab3">spiSlave_send</a>(struct spi_slave *s, uint16_t *data, uint32_t len, TickType_t waittime)</td></tr>
 <tr class="separator:a325dfbf060f9db2d1c26da161c78b21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23f84e46434b9fbf1ef7ce74ea68724f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#a23f84e46434b9fbf1ef7ce74ea68724f">SPI_SLAVE_RECV</a>(ns,  s,  data,  len,  waittime)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#gad08430560811fee084b3bb1140ee5faa">spiSlave_recv</a>(struct spi_slave *s, uint16_t *data, uint32_t len, TickType_t waittime)</td></tr>
 <tr class="separator:a23f84e46434b9fbf1ef7ce74ea68724f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db38aa303454676bed29e0d658dfe07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#a7db38aa303454676bed29e0d658dfe07">SPI_SLAVE_TRANSVER_ISR</a>(ns,  s,  sendData,  rescvData,  len)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#ga7e3ae88e01f096bf6720d101e0dbc72d">spiSlave_transverISR</a>(struct spi_slave *s, uint16_t *sendData, uint16_t *recvData, uint32_t len)</td></tr>
-<tr class="separator:a7db38aa303454676bed29e0d658dfe07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a385a764bbea067f7901aec5c1a534047"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#a385a764bbea067f7901aec5c1a534047">SPI_SLAVE_TRANSFER_ISR</a>(ns,  s,  sendData,  rescvData,  len)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#ga460b8c2fbf792f0f300cc733043736ad">spiSlave_transferISR</a>(struct spi_slave *s, uint16_t *sendData, uint16_t *recvData, uint32_t len)</td></tr>
+<tr class="separator:a385a764bbea067f7901aec5c1a534047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d0de87f608083449824f14f2934b9e3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#a5d0de87f608083449824f14f2934b9e3">SPI_SLAVE_SEND_ISR</a>(ns,  s,  data,  len)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#gaef90c75c7576ef8fd1240300d88b7edb">spiSlave_sendISR</a>(struct spi_slave *s, uint16_t *data, uint32_t len)</td></tr>
 <tr class="separator:a5d0de87f608083449824f14f2934b9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8314c5e2384293f5774c788d499275c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi__prv_8h.html#ae8314c5e2384293f5774c788d499275c">SPI_SLAVE_RECV_ISR</a>(ns,  s,  data,  len)&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#gaac685d1e2077039084ac0b53537703f8">spiSlave_recvISR</a>(struct spi_slave *s, uint16_t *data, uint32_t len)</td></tr>
@@ -628,14 +629,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8bba846e1eb9c1714fe8ae7b915b5cb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bba846e1eb9c1714fe8ae7b915b5cb8">&#9670;&nbsp;</a></span>SPI_SLAVE_TRANSVER</h2>
+<a id="ab52413b317f9ec134621675b9eb36388"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab52413b317f9ec134621675b9eb36388">&#9670;&nbsp;</a></span>SPI_SLAVE_TRANSFER</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SPI_SLAVE_TRANSVER</td>
+          <td class="memname">#define SPI_SLAVE_TRANSFER</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">ns, </td>
@@ -673,21 +674,21 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#ga3332a95a70e979565843645f63a33594">spiSlave_transver</a>(struct spi_slave *s, uint16_t *sendData, uint16_t *recvData, uint32_t len, TickType_t waittime)</td>
+          <td></td><td>&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#gac3b976c8b173d35fc2698b5859a873f7">spiSlave_transfer</a>(struct spi_slave *s, uint16_t *sendData, uint16_t *recvData, uint32_t len, TickType_t waittime)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7db38aa303454676bed29e0d658dfe07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7db38aa303454676bed29e0d658dfe07">&#9670;&nbsp;</a></span>SPI_SLAVE_TRANSVER_ISR</h2>
+<a id="a385a764bbea067f7901aec5c1a534047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a385a764bbea067f7901aec5c1a534047">&#9670;&nbsp;</a></span>SPI_SLAVE_TRANSFER_ISR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SPI_SLAVE_TRANSVER_ISR</td>
+          <td class="memname">#define SPI_SLAVE_TRANSFER_ISR</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">ns, </td>
@@ -719,7 +720,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#ga7e3ae88e01f096bf6720d101e0dbc72d">spiSlave_transverISR</a>(struct spi_slave *s, uint16_t *sendData, uint16_t *recvData, uint32_t len)</td>
+          <td></td><td>&#160;&#160;&#160;int32_t <a class="el" href="group__SPI__SLAVE.html#ga460b8c2fbf792f0f300cc733043736ad">spiSlave_transferISR</a>(struct spi_slave *s, uint16_t *sendData, uint16_t *recvData, uint32_t len)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -797,7 +798,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="spi__prv_8h.html">spi_prv.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

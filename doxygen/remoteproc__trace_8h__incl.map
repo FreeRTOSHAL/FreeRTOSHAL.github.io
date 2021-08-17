@@ -1,11 +1,12 @@
 <map id="driver/include/remoteproc_trace.h" name="driver/include/remoteproc_trace.h">
-<area shape="rect" id="node1" title=" " alt="" coords="248,5,416,47"/>
-<area shape="rect" id="node2" href="$uart_8h.html" title=" " alt="" coords="305,95,359,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,319,101,345"/>
-<area shape="rect" id="node4" title=" " alt="" coords="126,319,202,345"/>
-<area shape="rect" id="node5" title=" " alt="" coords="471,169,537,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="337,319,412,345"/>
-<area shape="rect" id="node7" href="$system_8h.html" title=" " alt="" coords="237,319,313,345"/>
-<area shape="rect" id="node8" href="$hal_8h.html" title=" " alt="" coords="225,169,276,196"/>
-<area shape="rect" id="node9" href="$os_8h.html" title=" " alt="" coords="197,244,243,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="295,5,485,47"/>
+<area shape="rect" id="node2" href="$uart_8h.html" title=" " alt="" coords="360,95,420,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,319,103,345"/>
+<area shape="rect" id="node4" title=" " alt="" coords="127,319,210,345"/>
+<area shape="rect" id="node5" title=" " alt="" coords="531,169,601,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="453,319,535,345"/>
+<area shape="rect" id="node7" href="$system_8h.html" title=" " alt="" coords="346,319,429,345"/>
+<area shape="rect" id="node8" href="$hal_8h.html" title=" " alt="" coords="281,169,336,196"/>
+<area shape="rect" id="node9" href="$os_8h.html" title=" " alt="" coords="253,244,303,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="234,319,322,345"/>
 </map>

@@ -1,12 +1,13 @@
 <map id="driver/include/tps65381.h" name="driver/include/tps65381.h">
-<area shape="rect" id="node1" title=" " alt="" coords="62,5,229,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="80,304,176,331"/>
-<area shape="rect" id="node3" title=" " alt="" coords="23,155,89,181"/>
-<area shape="rect" id="node4" href="$spi_8h.html" title=" " alt="" coords="152,80,203,107"/>
-<area shape="rect" id="node10" href="$adc_8h.html" title=" " alt="" coords="302,80,357,107"/>
-<area shape="rect" id="node5" title=" " alt="" coords="416,304,491,331"/>
-<area shape="rect" id="node6" href="$system_8h.html" title=" " alt="" coords="567,304,643,331"/>
-<area shape="rect" id="node7" title=" " alt="" coords="267,304,343,331"/>
-<area shape="rect" id="node8" href="$hal_8h.html" title=" " alt="" coords="367,155,417,181"/>
-<area shape="rect" id="node9" href="$os_8h.html" title=" " alt="" coords="369,229,415,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="40,5,226,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="46,304,143,331"/>
+<area shape="rect" id="node3" title=" " alt="" coords="36,155,107,181"/>
+<area shape="rect" id="node4" href="$spi_8h.html" title=" " alt="" coords="154,80,208,107"/>
+<area shape="rect" id="node11" href="$adc_8h.html" title=" " alt="" coords="232,80,290,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="533,304,616,331"/>
+<area shape="rect" id="node6" href="$system_8h.html" title=" " alt="" coords="426,304,509,331"/>
+<area shape="rect" id="node7" title=" " alt="" coords="206,304,289,331"/>
+<area shape="rect" id="node8" href="$hal_8h.html" title=" " alt="" coords="284,155,339,181"/>
+<area shape="rect" id="node9" href="$os_8h.html" title=" " alt="" coords="335,229,384,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="314,304,402,331"/>
 </map>

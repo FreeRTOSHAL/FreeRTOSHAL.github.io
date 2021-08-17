@@ -1,17 +1,9 @@
 var searchData=
 [
-  ['rproc_5fdeinit_1467',['rproc_deinit',['../group__Remoteproc.html#ga6f733ea42a434e5cd9a4200ae53ebda4',1,'remoteproc.h']]],
-  ['rproc_5finit_1468',['rproc_init',['../group__Remoteproc.html#gabf554463053f376f5aa9274a7e7d9ddc',1,'remoteproc.h']]],
-  ['rproc_5fisr_1469',['rproc_isr',['../group__Remoteproc.html#ga797f4f9956e25cc6dcd966f43ba2d73b',1,'remoteproc.h']]],
-  ['rproc_5fnotify_1470',['rproc_notify',['../group__Remoteproc.html#ga5bbf08581fcb16169b9a95db6b0b27fe',1,'remoteproc.h']]],
-  ['rtc_5fadjust_1471',['rtc_adjust',['../group__rtc__driver.html#ga6994f3d690594438de4fab3720857699',1,'rtc.h']]],
-  ['rtc_5fadjustisr_1472',['rtc_adjustISR',['../group__rtc__driver.html#ga25b672a7683562179be30851ba8ce424',1,'rtc.h']]],
-  ['rtc_5fdeinit_1473',['rtc_deinit',['../group__rtc__driver.html#ga804fb089356e684edd1208ca23305581',1,'rtc.h']]],
-  ['rtc_5fgenericinit_1474',['rtc_genericInit',['../rtc__prv_8h.html#a9d97cf90ef583d570d7f155ff422adef',1,'rtc_prv.h']]],
-  ['rtc_5fgettime_1475',['rtc_getTime',['../group__rtc__driver.html#ga64cdbc579af74a479c116a54ac6827eb',1,'rtc.h']]],
-  ['rtc_5fgettimeisr_1476',['rtc_getTimeISR',['../group__rtc__driver.html#ga7d879f4506c58d1a55b2b989c8b1942d',1,'rtc.h']]],
-  ['rtc_5finit_1477',['rtc_init',['../group__rtc__driver.html#ga78b186890f8f1ffab5170ddf21b5dfd7',1,'rtc.h']]],
-  ['rtc_5fsettime_1478',['rtc_setTime',['../group__rtc__driver.html#gad521ed82154e47cd5d8affad655cdfd4',1,'rtc.h']]],
-  ['rtc_5fsettimeisr_1479',['rtc_setTimeISR',['../group__rtc__driver.html#ga29179522f7f1bb7d5fd1752fdcb049b5',1,'rtc.h']]],
-  ['rtc_5fsoftware_5fconnect_1480',['rtc_software_connect',['../rtc__software_8h.html#a5f4e0c47e92b296f4dbb8a5ca60c48cc',1,'rtc_software.h']]]
+  ['pwm_5fdeinit_1501',['pwm_deinit',['../group__PWM.html#ga43d20418960ab84bd280093b70c4116d',1,'pwm.h']]],
+  ['pwm_5fgeneric_5finit_1502',['pwm_generic_init',['../pwm__prv_8h.html#a91a4c08b5a23ac1208b79b48de3f8652',1,'pwm_prv.h']]],
+  ['pwm_5finit_1503',['pwm_init',['../group__PWM.html#ga30ce396b63ca426c096ee80ab276fa1c',1,'pwm.h']]],
+  ['pwm_5fsetdutycycle_1504',['pwm_setDutyCycle',['../group__PWM.html#gafa5a1611b37dfc95aa0503411ddd3288',1,'pwm.h']]],
+  ['pwm_5fsetperiod_1505',['pwm_setPeriod',['../group__PWM.html#ga8a9880e5036b2f3665b22265be52ffc4',1,'pwm.h']]],
+  ['pwm_5fsoftware_5fconnect_1506',['pwm_software_connect',['../pwm__software_8h.html#ab397bb741facc56477d579e5b939c7d7',1,'pwm_software.h']]]
 ];

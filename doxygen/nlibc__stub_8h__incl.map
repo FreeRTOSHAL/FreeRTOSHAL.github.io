@@ -1,11 +1,12 @@
 <map id="driver/include/nlibc_stub.h" name="driver/include/nlibc_stub.h">
-<area shape="rect" id="node1" title=" " alt="" coords="342,5,473,47"/>
-<area shape="rect" id="node2" href="$uart_8h.html" title=" " alt="" coords="348,95,403,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="464,169,529,196"/>
-<area shape="rect" id="node3" title=" " alt="" coords="106,319,202,345"/>
-<area shape="rect" id="node4" title=" " alt="" coords="232,319,308,345"/>
-<area shape="rect" id="node6" title=" " alt="" coords="333,319,407,345"/>
-<area shape="rect" id="node7" href="$system_8h.html" title=" " alt="" coords="5,319,81,345"/>
-<area shape="rect" id="node8" href="$hal_8h.html" title=" " alt="" coords="218,169,269,196"/>
-<area shape="rect" id="node9" href="$os_8h.html" title=" " alt="" coords="189,244,236,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="403,5,549,47"/>
+<area shape="rect" id="node2" href="$uart_8h.html" title=" " alt="" coords="413,95,473,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="531,169,602,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="113,319,210,345"/>
+<area shape="rect" id="node4" title=" " alt="" coords="347,319,429,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="453,319,536,345"/>
+<area shape="rect" id="node7" href="$system_8h.html" title=" " alt="" coords="5,319,88,345"/>
+<area shape="rect" id="node8" href="$hal_8h.html" title=" " alt="" coords="282,169,337,196"/>
+<area shape="rect" id="node9" href="$os_8h.html" title=" " alt="" coords="254,244,303,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="235,319,323,345"/>
 </map>

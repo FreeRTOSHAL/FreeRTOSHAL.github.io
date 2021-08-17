@@ -1,10 +1,11 @@
 <map id="driver/include/pwm.h" name="driver/include/pwm.h">
-<area shape="rect" id="node1" title=" " alt="" coords="153,5,295,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,229,101,256"/>
-<area shape="rect" id="node3" title=" " alt="" coords="425,80,490,107"/>
-<area shape="rect" id="node4" title=" " alt="" coords="125,229,200,256"/>
-<area shape="rect" id="node5" href="$system_8h.html" title=" " alt="" coords="325,229,401,256"/>
-<area shape="rect" id="node6" href="$hal_8h.html" title=" " alt="" coords="199,80,249,107"/>
-<area shape="rect" id="node7" title=" " alt="" coords="225,229,301,256"/>
-<area shape="rect" id="node8" href="$os_8h.html" title=" " alt="" coords="201,155,247,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="221,5,380,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,229,103,256"/>
+<area shape="rect" id="node3" title=" " alt="" coords="503,80,573,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="127,229,210,256"/>
+<area shape="rect" id="node5" href="$system_8h.html" title=" " alt="" coords="453,229,535,256"/>
+<area shape="rect" id="node6" href="$hal_8h.html" title=" " alt="" coords="273,80,328,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="346,229,429,256"/>
+<area shape="rect" id="node8" href="$os_8h.html" title=" " alt="" coords="276,155,325,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="234,229,322,256"/>
 </map>

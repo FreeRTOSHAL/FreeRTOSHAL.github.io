@@ -10,6 +10,7 @@ var annotated_dup =
     [ "capture_generic", "structcapture__generic.html", "structcapture__generic" ],
     [ "clock_generic", "structclock__generic.html", "structclock__generic" ],
     [ "counter_generic", "structcounter__generic.html", "structcounter__generic" ],
+    [ "dac_generic", "structdac__generic.html", "structdac__generic" ],
     [ "example_generic", "structexample__generic.html", "structexample__generic" ],
     [ "example_ops", "structexample__ops.html", "structexample__ops" ],
     [ "fw_rsc_carveout", "structfw__rsc__carveout.html", "structfw__rsc__carveout" ],

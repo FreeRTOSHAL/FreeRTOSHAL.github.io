@@ -1,9 +1,9 @@
 <map id="driver/include/spi.h" name="driver/include/spi.h">
-<area shape="rect" id="node1" title=" " alt="" coords="325,5,455,32"/>
-<area shape="rect" id="node2" href="$ltc6811_8h.html" title=" " alt="" coords="5,80,161,107"/>
-<area shape="rect" id="node4" href="$mpu9250_8h.html" title=" " alt="" coords="185,80,352,107"/>
-<area shape="rect" id="node5" href="$mpu9250__prv_8h.html" title=" " alt="" coords="251,155,407,196"/>
-<area shape="rect" id="node6" href="$tlc5947_8h.html" title=" " alt="" coords="428,80,584,107"/>
-<area shape="rect" id="node7" href="$tps65381_8h.html" title=" " alt="" coords="608,80,775,107"/>
-<area shape="rect" id="node3" href="$ltc6811__prv_8h.html" title=" " alt="" coords="11,155,156,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="357,5,503,32"/>
+<area shape="rect" id="node2" href="$ltc6811_8h.html" title=" " alt="" coords="5,80,180,107"/>
+<area shape="rect" id="node4" href="$mpu9250_8h.html" title=" " alt="" coords="204,80,392,107"/>
+<area shape="rect" id="node5" href="$mpu9250__prv_8h.html" title=" " alt="" coords="275,155,451,196"/>
+<area shape="rect" id="node6" href="$tlc5947_8h.html" title=" " alt="" coords="468,80,643,107"/>
+<area shape="rect" id="node7" href="$tps65381_8h.html" title=" " alt="" coords="667,80,854,107"/>
+<area shape="rect" id="node3" href="$ltc6811__prv_8h.html" title=" " alt="" coords="11,155,174,196"/>
 </map>

@@ -102,10 +102,10 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab1ad496ead95004b829d3ad29aae81fc"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mcp320x_8h.html#ab1ad496ead95004b829d3ad29aae81fc">mcp320x_contoller_init</a> (uint32_t index)</td></tr>
-<tr class="separator:ab1ad496ead95004b829d3ad29aae81fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae138f3cc02c0ad39e9dbdcde2a8e2280"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mcp320x_8h.html#ae138f3cc02c0ad39e9dbdcde2a8e2280">mcp320x_connect</a> (void *ac, struct spi *spi, uint8_t cs, uint16_t gpio)</td></tr>
-<tr class="separator:ae138f3cc02c0ad39e9dbdcde2a8e2280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20f6757707361b8cd132b87cb7c56065"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mcp320x_8h.html#a20f6757707361b8cd132b87cb7c56065">mcp320x_controller_init</a> (uint32_t index)</td></tr>
+<tr class="separator:a20f6757707361b8cd132b87cb7c56065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a460b3e373095754fb29d6e7d3cccb964"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mcp320x_8h.html#a460b3e373095754fb29d6e7d3cccb964">mcp320x_connect</a> (void *ac, struct spi *spi, uint8_t cs, uint16_t gpio, uint32_t baudrate)</td></tr>
+<tr class="separator:a460b3e373095754fb29d6e7d3cccb964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aa48393706f7173bf3ee83397e832dc2b"></a>
@@ -173,8 +173,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae138f3cc02c0ad39e9dbdcde2a8e2280"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae138f3cc02c0ad39e9dbdcde2a8e2280">&#9670;&nbsp;</a></span>mcp320x_connect()</h2>
+<a id="a460b3e373095754fb29d6e7d3cccb964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a460b3e373095754fb29d6e7d3cccb964">&#9670;&nbsp;</a></span>mcp320x_connect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +201,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>gpio</em>&#160;</td>
+          <td class="paramname"><em>gpio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>baudrate</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -213,14 +219,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab1ad496ead95004b829d3ad29aae81fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1ad496ead95004b829d3ad29aae81fc">&#9670;&nbsp;</a></span>mcp320x_contoller_init()</h2>
+<a id="a20f6757707361b8cd132b87cb7c56065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20f6757707361b8cd132b87cb7c56065">&#9670;&nbsp;</a></span>mcp320x_controller_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* mcp320x_contoller_init </td>
+          <td class="memname">void* mcp320x_controller_init </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -237,7 +243,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="mcp320x_8h.html">mcp320x.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

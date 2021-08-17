@@ -1,6 +1,6 @@
 var structspi__opt =
 [
-    [ "bautrate", "structspi__opt.html#a07d6a7002f64dcd9c05d9d414e323343", null ],
+    [ "baudrate", "structspi__opt.html#adb5a5fdfda74b2011f5fa571fe22af2a", null ],
     [ "cpha", "structspi__opt.html#acd5df17d0a076f76e66a51b5c53abdc5", null ],
     [ "cpol", "structspi__opt.html#afd6e09c40b088071e8f503182686deeb", null ],
     [ "cs", "structspi__opt.html#a2f0cadf6aa9beef0f3f4c63f62a8cfde", null ],

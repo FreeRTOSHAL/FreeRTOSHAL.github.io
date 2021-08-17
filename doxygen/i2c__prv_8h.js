@@ -12,8 +12,8 @@ var i2c__prv_8h =
     [ "I2C_RECV_ISR", "i2c__prv_8h.html#a08ba7807607da455de0a64f6f4531d2d", null ],
     [ "I2C_SEND", "i2c__prv_8h.html#a5290201968be821d5db29c50b67abc43", null ],
     [ "I2C_SEND_ISR", "i2c__prv_8h.html#a3f9616977e388d76f969ec3ec904d6c6", null ],
-    [ "I2C_TRANSVER", "i2c__prv_8h.html#acb1242673c4e2af47a5be24984941347", null ],
-    [ "I2C_TRANSVER_ISR", "i2c__prv_8h.html#ad2d28f8d32b8698e69b921a56d56187e", null ],
+    [ "I2C_TRANSFER", "i2c__prv_8h.html#a1d76f9a8d0655c2a6ccc7b152cded9a5", null ],
+    [ "I2C_TRANSFER_ISR", "i2c__prv_8h.html#aef44419cf46c8d413a2230002fe22f8d", null ],
     [ "i2c_unlock", "i2c__prv_8h.html#ae0f0a9673138437fe38fa0edbf86fde5", null ],
     [ "HAL_DEFINE_GLOBAL_ARRAY", "i2c__prv_8h.html#a2caadd6f96481b5dd631a774bf97ac87", null ],
     [ "i2c_genericInit", "i2c__prv_8h.html#a04d01422e5bbd492afc8b958bebdd1a8", null ]

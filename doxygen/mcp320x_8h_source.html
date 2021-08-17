@@ -94,8 +94,8 @@ $(document).ready(function(){initNavTree('mcp320x_8h_source.html',''); initResiz
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="spi_8h.html">spi.h</a>&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;FreeRTOS.h&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;task.h&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keyword">struct </span>adc_ops mcp320x_ops;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">struct </span>adc_mcp320x_contoller {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">extern</span> <span class="keyword">const</span> <span class="keyword">struct </span>adc_ops mcp320x_adc_ops;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">struct </span>adc_mcp320x_controller {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">struct </span><a class="code" href="structhal.html">hal</a> gen;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">struct </span>adc_mcp320x *channels[16];</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">struct </span>spi_slave *slave;</div>
@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('mcp320x_8h_source.html',''); initResiz
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;};</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">struct </span>adc_mcp320x {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">struct </span><a class="code" href="structadc__generic.html">adc_generic</a> gen;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">struct </span>adc_mcp320x_contoller *adcc;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">struct </span>adc_mcp320x_controller *adcc;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        uint32_t bits;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        uint32_t ticks;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        uint32_t channelID;</div>
@@ -122,11 +122,11 @@ $(document).ready(function(){initNavTree('mcp320x_8h_source.html',''); initResiz
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">        };\</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">        ADC_ADDDEV(mcp320x, mcp320x_##ID##_##_channelID)</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="mcp320x_8h.html#ab1ad496ead95004b829d3ad29aae81fc">   39</a></span>&#160;<span class="keywordtype">void</span> *<a class="code" href="mcp320x_8h.html#ab1ad496ead95004b829d3ad29aae81fc">mcp320x_contoller_init</a>(uint32_t index);</div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="mcp320x_8h.html#ae138f3cc02c0ad39e9dbdcde2a8e2280">   40</a></span>&#160;int32_t <a class="code" href="mcp320x_8h.html#ae138f3cc02c0ad39e9dbdcde2a8e2280">mcp320x_connect</a>(<span class="keywordtype">void</span> *ac, <span class="keyword">struct</span> spi *spi, uint8_t cs, uint16_t gpio);</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="mcp320x_8h.html#a20f6757707361b8cd132b87cb7c56065">   39</a></span>&#160;<span class="keywordtype">void</span> *<a class="code" href="mcp320x_8h.html#a20f6757707361b8cd132b87cb7c56065">mcp320x_controller_init</a>(uint32_t index);</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="mcp320x_8h.html#a460b3e373095754fb29d6e7d3cccb964">   40</a></span>&#160;int32_t <a class="code" href="mcp320x_8h.html#a460b3e373095754fb29d6e7d3cccb964">mcp320x_connect</a>(<span class="keywordtype">void</span> *ac, <span class="keyword">struct</span> spi *spi, uint8_t cs, uint16_t gpio, uint32_t baudrate);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="mcp320x_8h.html#aa48393706f7173bf3ee83397e832dc2b">   42</a></span>&#160;<span class="preprocessor">#define ADD_MCP320X(ID) \</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">        extern struct adc_mcp320x_contoller mcp320x_##ID;\</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">        extern struct adc_mcp320x_controller mcp320x_##ID;\</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">        ADD_MCP320X_CHANNEL(ID, 0); \</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">        ADD_MCP320X_CHANNEL(ID, 1); \</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">        ADD_MCP320X_CHANNEL(ID, 2); \</span></div>
@@ -143,7 +143,7 @@ $(document).ready(function(){initNavTree('mcp320x_8h_source.html',''); initResiz
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">        ADD_MCP320X_CHANNEL(ID, 13); \</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">        ADD_MCP320X_CHANNEL(ID, 14); \</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">        ADD_MCP320X_CHANNEL(ID, 15); \</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">        struct adc_mcp320x_contoller mcp320x_##ID = { \</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">        struct adc_mcp320x_controller mcp320x_##ID = { \</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">                HAL_NAME(&quot;TI MCP320x &quot; #ID) \</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">                .channels = { \</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">                        &amp;mcp320x_##ID##_0, \</span></div>
@@ -172,19 +172,19 @@ $(document).ready(function(){initNavTree('mcp320x_8h_source.html',''); initResiz
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="amcp320x_8h_html_ab1ad496ead95004b829d3ad29aae81fc"><div class="ttname"><a href="mcp320x_8h.html#ab1ad496ead95004b829d3ad29aae81fc">mcp320x_contoller_init</a></div><div class="ttdeci">void * mcp320x_contoller_init(uint32_t index)</div></div>
+<div class="ttc" id="amcp320x_8h_html_a460b3e373095754fb29d6e7d3cccb964"><div class="ttname"><a href="mcp320x_8h.html#a460b3e373095754fb29d6e7d3cccb964">mcp320x_connect</a></div><div class="ttdeci">int32_t mcp320x_connect(void *ac, struct spi *spi, uint8_t cs, uint16_t gpio, uint32_t baudrate)</div></div>
+<div class="ttc" id="amcp320x_8h_html_a20f6757707361b8cd132b87cb7c56065"><div class="ttname"><a href="mcp320x_8h.html#a20f6757707361b8cd132b87cb7c56065">mcp320x_controller_init</a></div><div class="ttdeci">void * mcp320x_controller_init(uint32_t index)</div></div>
 <div class="ttc" id="aspi_8h_html"><div class="ttname"><a href="spi_8h.html">spi.h</a></div></div>
 <div class="ttc" id="aadc_8h_html"><div class="ttname"><a href="adc_8h.html">adc.h</a></div></div>
-<div class="ttc" id="amcp320x_8h_html_ae138f3cc02c0ad39e9dbdcde2a8e2280"><div class="ttname"><a href="mcp320x_8h.html#ae138f3cc02c0ad39e9dbdcde2a8e2280">mcp320x_connect</a></div><div class="ttdeci">int32_t mcp320x_connect(void *ac, struct spi *spi, uint8_t cs, uint16_t gpio)</div></div>
-<div class="ttc" id="astructhal_html"><div class="ttname"><a href="structhal.html">hal</a></div><div class="ttdef"><b>Definition:</b> hal.h:44</div></div>
+<div class="ttc" id="astructhal_html"><div class="ttname"><a href="structhal.html">hal</a></div><div class="ttdef"><b>Definition:</b> hal.h:48</div></div>
 <div class="ttc" id="aadc__prv_8h_html"><div class="ttname"><a href="adc__prv_8h.html">adc_prv.h</a></div></div>
-<div class="ttc" id="agroup__OS_html_gaaa2280cc0fb7d4ee9b539b6b99c1ec46"><div class="ttname"><a href="group__OS.html#gaaa2280cc0fb7d4ee9b539b6b99c1ec46">OS_DEFINE_TASK</a></div><div class="ttdeci">#define OS_DEFINE_TASK(name, stackSize)</div><div class="ttdef"><b>Definition:</b> os.h:50</div></div>
+<div class="ttc" id="agroup__OS_html_gaaa2280cc0fb7d4ee9b539b6b99c1ec46"><div class="ttname"><a href="group__OS.html#gaaa2280cc0fb7d4ee9b539b6b99c1ec46">OS_DEFINE_TASK</a></div><div class="ttdeci">#define OS_DEFINE_TASK(name, stackSize)</div><div class="ttdef"><b>Definition:</b> os.h:52</div></div>
 <div class="ttc" id="astructadc__generic_html"><div class="ttname"><a href="structadc__generic.html">adc_generic</a></div><div class="ttdef"><b>Definition:</b> adc.h:45</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_1284b95147afa48b330f502c8bbc0529.html">driver</a></li><li class="navelem"><a class="el" href="dir_503d9bcc45879383b08c0a7ee967393c.html">include</a></li><li class="navelem"><a class="el" href="mcp320x_8h.html">mcp320x.h</a></li>
-    <li class="footer">Generated on Tue Nov 3 2020 12:39:31 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated on Tue Aug 17 2021 15:19:23 for Hardware Abstraction Layer for FreeRTOS by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>
